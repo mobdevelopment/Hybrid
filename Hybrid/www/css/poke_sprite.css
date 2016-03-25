@@ -1,0 +1,3705 @@
+/*
+
+	usage <span class="sprite {~spritename~}"></span>
+
+	replace {~spritename~} with the sprite you like to use
+
+*/
+
+.sprite {
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-image: url(pokemon_sprite_V2.png);
+}
+	/* ROW 1*/
+.Bulbasaur {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -0px
+}
+
+.Ivysaur {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -200px
+}
+
+.Venusaur {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -400px
+}
+.Charmander {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -800px
+}
+.Charmeleon {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -1000px
+}
+.Charizard {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -1200px
+}
+.Squirtle {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -1800px
+}
+.Wartortle {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -2000px
+}
+.Blastoise {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -2200px
+}
+.Caterpie {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -2600px
+}
+.Metapod {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -2800px
+}
+.Butterfree {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -3000px
+}
+.Weedle {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -3200px
+}
+.Kakuna {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -3400px
+}
+.Beedrill {
+	width: 200px;
+	height: 200px;
+	background-position: -0px -3600px
+}
+
+	/* ROW 2*/
+.Pidgey {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -0px
+}
+.Pidgeotto {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -200px
+}
+.Pidgeot
+ {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -400px
+}
+.Rattata
+ {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -800px
+}
+.Raticate
+ {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -1000px
+}
+.Spearow {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -1200px
+}
+.Fearow {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -1400px
+}
+.Ekans {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -1600px
+}
+.Arbok {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -1800px
+}
+.Pikachu {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -2000px
+}
+.Raichu {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -2200px
+}
+.Sandshrew {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -2400px
+}
+.Sandslash {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -2600px
+}
+.Nidoran-f {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -2800px
+}
+.Nidorina {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -3000px
+}
+.Nidoqueen {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -3200px
+}
+.Nidoran-m {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -3400px
+}
+.Nidorino {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -3600px
+}
+.Nidoking {
+	width: 200px;
+	height: 200px;
+	background-position: -200px -3800px
+}
+
+	/* ROW 3*/
+.Clefairy {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -0px
+}
+.Clefable {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -200px
+}
+.Vulpix {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -400px
+}
+.Ninetales {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -600px
+}
+.Jigglypuff {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -800px
+}
+.Wigglytuff {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -1000px
+}
+.Zubat {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -1200px
+}
+.Golbat {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -1400px
+}
+.Oddish {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -1600px
+}
+.Gloom {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -1800px
+}
+.Vileplume {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -2000px
+}
+.Paras {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -2200px
+}
+.Parasect {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -2400px
+}
+.Venonat {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -2600px
+}
+.Venomoth {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -2800px
+}
+.Diglett {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -3000px
+}
+.Dugtrio {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -3200px
+}
+.Meowth {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -3400px
+}
+.Persian {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -3600px
+}
+.Psyduck {
+	width: 200px;
+	height: 200px;
+	background-position: -400px -3800px
+}
+
+	/* ROW 4*/
+.Golduck {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -0px
+}
+.Mankey {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -200px
+}
+.Primeape {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -400px
+}
+.Growlithe {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -600px
+}
+.Arcanine {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -800px
+}
+.Poliwag {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -1000px
+}
+.Poliwhirl {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -1200px
+}
+.Poliwrath {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -1400px
+}
+.Abra {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -1600px
+}
+.Kadabra {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -1800px
+}
+.Alakazam {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -2000px
+}
+.Machop {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -2400px
+}
+.Machoke {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -2600px
+}
+.Machamp {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -2800px
+}
+.Bellsprout {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -3000px
+}
+.Weepinbell {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -3200px
+}
+.Victreebel {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -3400px
+}
+.Tentacool {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -3600px
+}
+.Tentacruel {
+	width: 200px;
+	height: 200px;
+	background-position: -600px -3800px
+}
+
+	/* ROW 5*/
+.Geodude {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -0px
+}
+.Graveler {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -200px
+}
+.Golem {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -400px
+}
+.Ponyta {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -600px
+}
+.Rapidash {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -800px
+}
+.Slowpoke {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -1000px
+}
+.Slowbro {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -1200px
+}
+.Magnemite {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -1600px
+}
+.Magneton {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -1800px
+}
+.Farfetchd {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -2000px
+}
+.Doduo {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -2200px
+}
+.Dodrio {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -2400px
+}
+.Seel {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -2600px
+}
+.Dewgong {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -2800px
+}
+.Grimer {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -3000px
+}
+.Muk {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -3200px
+}
+.Shellder {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -3400px
+}
+.Cloyster {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -3600px
+}
+.Gastly {
+	width: 200px;
+	height: 200px;
+	background-position: -800px -3800px
+}
+
+	/* ROW 6*/
+.Haunter {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -0px
+}
+.Gengar {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -200px
+}
+.Onix {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -600px
+}
+.Drowzee {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -800px
+}
+.Hypno {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -1000px
+}
+.Krabby {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -1200px
+}
+.Kingler {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -1400px
+}
+.Voltorb {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -1600px
+}
+.Electrode {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -1800px
+}
+.Exeggcute {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -2000px
+}
+.Exeggutor {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -2200px
+}
+.Cubone {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -2400px
+}
+.Marowak {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -2600px
+}
+.Hitmonlee {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -2800px
+}
+.Hitmonchan {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -3000px
+}
+.Lickitung {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -3200px
+}
+.Koffing {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -3400px
+}
+.Weezing {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -3600px
+}
+.Rhyhorn {
+	width: 200px;
+	height: 200px;
+	background-position: -1000px -3800px
+}
+
+	/* ROW 7*/
+.Rhydon {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -0px
+}
+.Chansey {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -200px
+}
+.Tangela {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -400px
+}
+.Kangaskhan {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -600px
+}
+.Horsea {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -1000px
+}
+.Seadra {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -1200px
+}
+.Goldeen {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -1400px
+}
+.Seaking {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -1600px
+}
+.Staryu {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -1800px
+}
+.Starmie {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -2000px
+}
+.Mr-Mime {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -2200px
+}
+.Scyther {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -2400px
+}
+.Jynx {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -2600px
+}
+.Electabuzz {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -2800px
+}
+.Magmar {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -3000px
+}
+.Pinsir {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -3200px
+}
+.Tauros {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -3600px
+}
+.Magikarp {
+	width: 200px;
+	height: 200px;
+	background-position: -1200px -3800px
+}
+
+	/* ROW 8*/
+.Gyarados {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -0px
+}
+.Lapras {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -400px
+}
+.Ditto {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -600px
+}
+.Eevee {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -800px
+}
+.Vaporeon {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -1000px
+}
+.Jolteon {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -1200px
+}
+.Flareon {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -1400px
+}
+.Porygon {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -1600px
+}
+.Omanyte {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -1800px
+}
+.Omastar {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -2000px
+}
+.Kabuto {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -2200px
+}
+.Kabutops {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -2400px
+}
+.Aerodactyl {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -2600px
+}
+.Snorlax {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -3000px
+}
+.Articuno {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -3200px
+}
+.Zapdos {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -3400px
+}
+.Moltres {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -3600px
+}
+.Dratini {
+	width: 200px;
+	height: 200px;
+	background-position: -1400px -3800px
+}
+
+	/* ROW 9*/
+.Dragonair {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -0px
+}
+.Dragonite {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -200px
+}
+.Mewtwo {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -400px
+}
+.Mew {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -1000px
+}
+.Chikorita {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -1200px
+}
+.Bayleef {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -1400px
+}
+.Meganium {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -1600px
+}
+.Cyndaquil {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -1800px
+}
+.Quilava {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -2000px
+}
+.Typhlosion {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -2200px
+}
+.Totodile {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -2400px
+}
+.Croconaw {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -2600px
+}
+.Feraligatr {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -2800px
+}
+.Sentret {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -3000px
+}
+.Furret {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -3200px
+}
+.Hoothoot {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -3400px
+}
+.Noctowl {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -3600px
+}
+.Ledyba {
+	width: 200px;
+	height: 200px;
+	background-position: -1600px -3800px
+}
+
+	/* ROW 10*/
+.Ledian {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -0px
+}
+.Spinarak {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -200px
+}
+.Ariados {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -400px
+}
+.Crobat {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -600px
+}
+.Chinchou {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -800px
+}
+.Lanturn {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -1000px
+}
+.Pichu {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -1200px
+}
+.Cleffa {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -1400px
+}
+.Igglybuff {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -1600px
+}
+.Togepi {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -1800px
+}
+.Togetic {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -2000px
+}
+.Natu {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -2200px
+}
+.Xatu {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -2400px
+}
+.Mareep {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -2600px
+}
+.Flaaffy {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -2800px
+}
+.Ampharos {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -3000px
+}
+.Bellossom {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -3400px
+}
+.Marill {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -3600px
+}
+.Azumarill {
+	width: 200px;
+	height: 200px;
+	background-position: -1800px -3800px
+}
+
+	/* ROW 11*/
+.Sudowoodo {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -0px
+}
+.Politoed {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -200px
+}
+.Hoppip {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -400px
+}
+.Skiploom {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -600px
+}
+.Jumpluff {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -800px
+}
+.Aipom {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -1000px
+}
+.Sunkern {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -1200px
+}
+.Sunflora {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -1400px
+}
+.Yanma {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -1600px
+}
+.Wooper {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -1800px
+}
+.Quagsire {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -2000px
+}
+.Espeon {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -2200px
+}
+.Umbreon {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -2400px
+}
+.Murkrow {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -2600px
+}
+.Slowking {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -2800px
+}
+.Misdreavus {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -3000px
+}
+.Unown {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -3200px
+}
+.Wobbuffet {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -3400px
+}
+.Girafarig {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -3600px
+}
+.Pineco {
+	width: 200px;
+	height: 200px;
+	background-position: -2000px -3800px
+}
+
+	/* ROW 12*/
+.Forretress {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -0px
+}
+.Dunsparce {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -200px
+}
+.Gligar {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -400px
+}
+.Steelix {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -600px
+}
+.Snubbull {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -1000px
+}
+.Granbull {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -1200px
+}
+.Qwilfish {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -1400px
+}
+.Scizor {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -1600px
+}
+.Shuckle {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -2000px
+}
+.Heracross {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -2200px
+}
+.Sneasel {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -2600px
+}
+.Teddiursa {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -2800px
+}
+.Ursaring {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -3000px
+}
+.Slugma {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -3200px
+}
+.Magcargo {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -3400px
+}
+.Swinub {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -3600px
+}
+.Piloswine {
+	width: 200px;
+	height: 200px;
+	background-position: -2200px -3800px
+}
+
+	/* ROW 13*/
+.Corsola {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -0px
+}
+.Remoraid {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -200px
+}
+.Octillery {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -400px
+}
+.Delibird {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -600px
+}
+.Mantine {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -800px
+}
+.Skarmory {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -1000px
+}
+.Houndour {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -1200px
+}
+.Houndoom {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -1400px
+}
+.Kingdra {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -1800px
+}
+.Phanpy {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -2000px
+}
+.Donphan {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -2200px
+}
+.Porygon2 {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -2400px
+}
+.Stantler {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -2600px
+}
+.Smeargle {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -2800px
+}
+.Tyrogue {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -3000px
+}
+.Hitmontop {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -3200px
+}
+.Smoochum {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -3400px
+}
+.Elekid {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -3600px
+}
+.Magby {
+	width: 200px;
+	height: 200px;
+	background-position: -2400px -3800px
+}
+
+	/* ROW 14*/
+.Miltank {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -0px
+}
+.Blissey {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -200px
+}
+.Raikou {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -400px
+}
+.Entei {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -600px
+}
+.Suicune {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -800px
+}
+.Larvitar {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -1000px
+}
+.Pupitar {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -1200px
+}
+.Tyranitar {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -1400px
+}
+.Lugia {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -1800px
+}
+.Ho-Oh {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -2000px
+}
+.Celebi {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -2200px
+}
+.Treecko {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -2400px
+}
+.Grovyle {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -2600px
+}
+.Sceptile {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -2800px
+}
+.Torchic {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -3200px
+}
+.Combusken {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -3400px
+}
+.Blaziken {
+	width: 200px;
+	height: 200px;
+	background-position: -2600px -3600px
+}
+
+	/* ROW 15*/
+.Mudkip {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -0px
+}
+.Marshtomp {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -200px
+}
+.Swampert {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -400px
+}
+.Poochyena {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -800px
+}
+.Mightyena {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -1000px
+}
+.Zigzagoon {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -1200px
+}
+.Linoone {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -1400px
+}
+.Wurmple {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -1600px
+}
+.Silcoon {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -1800px
+}
+.Beautifly {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -2000px
+}
+.Cascoon {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -2200px
+}
+.Dustox {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -2400px
+}
+.Lotad {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -2600px
+}
+.Lombre {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -2800px
+}
+.Ludicolo {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -3000px
+}
+.Seedot {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -3200px
+}
+.Nuzleaf {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -3400px
+}
+.Shiftry {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -3600px
+}
+.Taillow {
+	width: 200px;
+	height: 200px;
+	background-position: -2800px -3800px
+}
+
+	/* ROW 16*/
+.Swellow {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -0px
+}
+.Wingull {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -200px
+}
+.Pelipper {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -400px
+}
+.Ralts {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -600px
+}
+.Kirlia {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -800px
+}
+.Gardevoir {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -1000px
+}
+.Surskit {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -1400px
+}
+.Masquerain {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -1600px
+}
+.Shroomish {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -1800px
+}
+.Breloom {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -2000px
+}
+.Slakoth {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -2200px
+}
+.Vigoroth {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -2400px
+}
+.Slaking {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -2600px
+}
+.Nincada {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -2800px
+}
+.Ninjask {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -3000px
+}
+.Shedinja {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -3200px
+}
+.Whismur {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -3400px
+}
+.Loudred {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -3600px
+}
+.Exploud {
+	width: 200px;
+	height: 200px;
+	background-position: -3000px -3800px
+}
+
+	/* ROW 17*/
+.Makuhita {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -0px
+}
+.Hariyama {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -200px
+}
+.Azurill {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -400px
+}
+.Nosepass {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -600px
+}
+.Skitty {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -800px
+}
+.Delcatty {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -1000px
+}
+.Sableye {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -1200px
+}
+.Mawile {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -1600px
+}
+.Aron {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -2000px
+}
+.Lairon {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -2200px
+}
+.Aggron {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -2400px
+}
+.Meditite {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -2800px
+}
+.Medicham {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -3000px
+}
+.Electrike {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -3400px
+}
+.Manectric {
+	width: 200px;
+	height: 200px;
+	background-position: -3200px -3600px
+}
+
+	/* ROW 18*/
+.Plusle {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -0px
+}
+.Minun {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -200px
+}
+.Volbeat {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -400px
+}
+.Illumise {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -600px
+}
+.Roselia {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -800px
+}
+.Gulpin {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -1000px
+}
+.Swalot {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -1200px
+}
+.Carvanha {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -1400px
+}
+.Sharpedo {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -1600px
+}
+.Wailmer {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -2000px
+}
+.Wailord {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -2200px
+}
+.Numel {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -2400px
+}
+.Camerupt {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -2600px
+}
+.Torkoal {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -3000px
+}
+.Spoink {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -3200px
+}
+.Grumpig {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -3400px
+}
+.Spinda {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -3600px
+}
+.Trapinch {
+	width: 200px;
+	height: 200px;
+	background-position: -3400px -3800px
+}
+
+	/* ROW 19*/
+.Vibrava {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -0px
+}
+.Flygon {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -200px
+}
+.Cacnea {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -400px
+}
+.Cacturne {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -600px
+}
+.Swablu {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -800px
+}
+.Altaria {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -1000px
+}
+.Zangoose {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -1400px
+}
+.Seviper {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -1600px
+}
+.Lunatone {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -1800px
+}
+.Solrock {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -2000px
+}
+.Barboach {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -2200px
+}
+.Whiscash {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -2400px
+}
+.Corphish {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -2600px
+}
+.Crawdaunt {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -2800px
+}
+.Baltoy {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -3000px
+}
+.Claydol {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -3200px
+}
+.Lileep {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -3400px
+}
+.Cradily {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -3600px
+}
+.Anorith {
+	width: 200px;
+	height: 200px;
+	background-position: -3600px -3800px
+}
+
+	/* ROW 20*/
+.Armaldo {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -0px
+}
+.Feebas {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -200px
+}
+.Milotic {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -400px
+}
+.Castform {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -600px
+}
+.Kecleon {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -800px
+}
+.Shuppet {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -1000px
+}
+.Banette {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -1200px
+}
+.Duskull {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -1600px
+}
+.Dusclops {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -1800px
+}
+.Tropius {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -2000px
+}
+.Chimecho {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -2200px
+}
+.Absol {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -2400px
+}
+.Wynaut {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -2800px
+}
+.Snorunt {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -3000px
+}
+.Glalie {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -3200px
+}
+.Spheal {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -3600px
+}
+.Sealeo {
+	width: 200px;
+	height: 200px;
+	background-position: -3800px -3800px
+}
+
+	/* ROW 21*/
+.Walrein {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -0px
+}
+.Clamperl {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -200px
+}
+.Huntail {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -400px
+}
+.Gorebyss {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -600px
+}
+.Relicanth {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -800px
+}
+.Luvdisc {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -1000px
+}
+.Bagon {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -1200px
+}
+.Shelgon {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -1400px
+}
+.Salamence {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -1600px
+}
+.Beldum {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -2000px
+}
+.Metang {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -2200px
+}
+.Metagross {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -2400px
+}
+.Regirock {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -2800px
+}
+.Regice {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -3000px
+}
+.Registeel {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -3200px
+}
+.Latias {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -3400px
+}
+.Latios {
+	width: 200px;
+	height: 200px;
+	background-position: -4000px -3800px
+}
+
+	/* ROW 22*/
+.Kyogre {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -200px
+}
+.Groudon {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -600px
+}
+.Rayquaza {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -1000px
+}
+.Jirachi {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -1400px
+}
+.Deoxys {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -1600px
+}
+.Turtwig {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -2400px
+}
+.Grotle {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -2600px
+}
+.Torterra {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -2800px
+}
+.Chimchar {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -3000px
+}
+.Monferno {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -3200px
+}
+.Infernape {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -3400px
+}
+.Piplup {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -3600px
+}
+.Prinplup {
+	width: 200px;
+	height: 200px;
+	background-position: -4200px -3800px
+}
+
+	/* ROW 23*/
+.Empoleon {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -0px
+}
+.Starly {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -200px
+}
+.Staravia {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -400px
+}
+.Staraptor {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -600px
+}
+.Bidoof {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -800px
+}
+.Bibarel {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -1000px
+}
+.Kricketot {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -1200px
+}
+.Kricketune {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -1400px
+}
+.Shinx {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -1600px
+}
+.Luxio {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -1800px
+}
+.Luxray {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -2000px
+}
+.Budew {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -2200px
+}
+.Roserade {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -2400px
+}
+.Cranidos {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -2600px
+}
+.Rampardos {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -2800px
+}
+.Shieldon {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -3000px
+}
+.Bastiodon {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -3200px
+}
+.Burmy {
+	width: 200px;
+	height: 200px;
+	background-position: -4400px -3400px
+}
+
+	/* ROW 24*/
+.Wormadam {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -0px
+}
+.Mothim {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -600px
+}
+.Combee {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -800px
+}
+.Vespiquen {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -1000px
+}
+.Pachirisu {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -1200px
+}
+.Buizel {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -1400px
+}
+.Floatzel {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -1600px
+}
+.Cherubi {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -1800px
+}
+.Cherrim {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -2200px
+}
+.Shellos {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -2400px
+}
+.Gastrodon {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -2800px
+}
+.Ambipom {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -3200px
+}
+.Drifloon {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -3400px
+}
+.Drifblim {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -3600px
+}
+.Buneary {
+	width: 200px;
+	height: 200px;
+	background-position: -4600px -3800px
+}
+
+	/* ROW 25*/
+.Lopunny {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -0px
+}
+.Mismagius {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -400px
+}
+.Honchkrow {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -600px
+}
+.Glameow {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -800px
+}
+.Purugly {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -1000px
+}
+.Chingling {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -1200px
+}
+.Stunky {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -1400px
+}
+.Skuntank {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -1600px
+}
+.Bronzor {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -1800px
+}
+.Bronzong {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -2000px
+}
+.Bonsly {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -2200px
+}
+.Mime-Jr {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -2400px
+}
+.Happiny {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -2600px
+}
+.Chatot {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -2800px
+}
+.Spiritomb {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -3000px
+}
+.Gible {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -3200px
+}
+.Gabite {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -3400px
+}
+.Garchomp {
+	width: 200px;
+	height: 200px;
+	background-position: -4800px -3600px
+}
+
+	/* ROW 26*/
+.Munchlax {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -0px
+}
+.Riolu {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -200px
+}
+.Lucario {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -400px
+}
+.Hippopotas {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -800px
+}
+.Hippowdon {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -1000px
+}
+.Skorupi {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -1200px
+}
+.Drapion {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -1400px
+}
+.Croagunk {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -1600px
+}
+.Toxicroak {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -1800px
+}
+.Carnivine {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -2000px
+}
+.Finneon {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -2200px
+}
+.Lumineon {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -2400px
+}
+.Mantyke {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -2600px
+}
+.Snover {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -2800px
+}
+.Abomasnow {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -3000px
+}
+.Weavile {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -3400px
+}
+.Magnezone {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -3600px
+}
+.Lickilicky {
+	width: 200px;
+	height: 200px;
+	background-position: -5000px -3800px
+}
+
+	/* ROW 27*/
+.Rhyperior {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -0px
+}
+.Tangrowth {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -200px
+}
+.Electivire {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -400px
+}
+.Magmortar {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -600px
+}
+.Togekiss {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -800px
+}
+.Yanmega {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -1000px
+}
+.Leafeon {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -1200px
+}
+.Glaceon {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -1400px
+}
+.Gliscor {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -1600px
+}
+.Mamoswine {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -1800px
+}
+.Porygon-Z {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -2000px
+}
+.Gallade {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -2200px
+}
+.Probopass {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -2600px
+}
+.Dusknoir {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -2800px
+}
+.Froslass {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -3000px
+}
+.Rotom {
+	width: 200px;
+	height: 200px;
+	background-position: -5200px -3200px
+}
+
+	/* ROW 28*/
+.Uxie {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -400px
+}
+.Mesprit {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -600px
+}
+.Azelf {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -800px
+}
+.Dialga {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -1000px
+}
+.Palkia {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -1200px
+}
+.Heatran {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -1400px
+}
+.Regigigas {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -1600px
+}
+.Giratina {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -1800px
+}
+.Cresselia {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -2200px
+}
+.Phione {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -2400px
+}
+.Manaphy {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -2600px
+}
+.Darkrai {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -2800px
+}
+.Shaymin {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -3000px
+}
+.Arceus {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -3400px
+}
+.Victini {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -3600px
+}
+.Snivy {
+	width: 200px;
+	height: 200px;
+	background-position: -5400px -3800px
+}
+
+	/* ROW 29*/
+.Servine {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -0px
+}
+.Serperior {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -200px
+}
+.Tepig {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -400px
+}
+.Pignite {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -600px
+}
+.Emboar {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -800px
+}
+.Oshawott {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -1000px
+}
+.Dewott {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -1200px
+}
+.Samurott {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -1400px
+}
+.Patrat {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -1600px
+}
+.Watchog {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -1800px
+}
+.Lillipup {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -2000px
+}
+.Herdier {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -2200px
+}
+.Stoutland {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -2400px
+}
+.Purrloin {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -2600px
+}
+.Liepard {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -2800px
+}
+.Pansage {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -3000px
+}
+.Simisage {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -3200px
+}
+.Pansear {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -3400px
+}
+.Simisear {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -3600px
+}
+.Panpour {
+	width: 200px;
+	height: 200px;
+	background-position: -5600px -3800px
+}
+
+	/* ROW 30*/
+.Simipour {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -0px
+}
+.Munna {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -200px
+}
+.Musharna {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -400px
+}
+.Pidove {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -600px
+}
+.Tranquill {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -800px
+}
+.Unfezant {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -1000px
+}
+.Blitzle {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -1200px
+}
+.Zebstrika {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -1400px
+}
+.Roggenrola {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -1600px
+}
+.Boldore {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -1800px
+}
+.Gigalith {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -2000px
+}
+.Woobat {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -2200px
+}
+.Swoobat {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -2400px
+}
+.Drilbur {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -2600px
+}
+.Excadrill {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -2800px
+}
+.Audino {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -3000px
+}
+.Timburr {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -3400px
+}
+.Gurdurr {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -3600px
+}
+.Conkeldurr {
+	width: 200px;
+	height: 200px;
+	background-position: -5800px -3800px
+}
+
+	/* ROW 31*/
+.Tympole {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -0px
+}
+.Palpitoad {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -200px
+}
+.Seismitoad {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -400px
+}
+.Throh {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -600px
+}
+.Sawk {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -800px
+}
+.Sewaddle {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -1000px
+}
+.Swadloon {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -1200px
+}
+.Leavanny {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -1400px
+}
+.Venipede {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -1600px
+}
+.Whirlipede {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -1800px
+}
+.Scolipede {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -2000px
+}
+.Cottonee {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -2200px
+}
+.Whimsicott {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -2400px
+}
+.Petilil {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -2600px
+}
+.Lilligant {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -2800px
+}
+.Basculin {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -3000px
+}
+.Sandile {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -3400px
+}
+.Krokorok {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -3600px
+}
+.Krookodile {
+	width: 200px;
+	height: 200px;
+	background-position: -6000px -3800px
+}
+
+	/* ROW 32*/
+.Darumaka {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -0px
+}
+.Darmanitan {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -200px
+}
+.Maractus {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -400px
+}
+.Dwebble {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -600px
+}
+.Crustle {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -800px
+}
+.Scraggy {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -1000px
+}
+.Scrafty {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -1200px
+}
+.Sigilyph {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -1400px
+}
+.Yamask {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -1600px
+}
+.Cofagrigus {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -1800px
+}
+.Tirtouga {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -2000px
+}
+.Carracosta {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -2200px
+}
+.Archen {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -2400px
+}
+.Archeops {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -2600px
+}
+.Trubbish {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -2800px
+}
+.Garbodor {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -3000px
+}
+.Zorua {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -3200px
+}
+.Zoroark {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -3400px
+}
+.Minccino {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -3600px
+}
+.Cinccino {
+	width: 200px;
+	height: 200px;
+	background-position: -6200px -3800px
+}
+
+	/* ROW 33*/
+.Gothita {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -0px
+}
+.Gothorita {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -200px
+}
+.Gothitelle {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -400px
+}
+.Solosis {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -600px
+}
+.Duosion {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -800px
+}
+.Reuniclus {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -1000px
+}
+.Ducklett {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -1200px
+}
+.Swanna {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -1400px
+}
+.Vanillite {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -1600px
+}
+.Vanillish {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -1800px
+}
+.Vanilluxe {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -2000px
+}
+.Deerling {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -2200px
+}
+.Sawsbuck {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -3000px
+}
+.Emolga {
+	width: 200px;
+	height: 200px;
+	background-position: -6400px -3800px
+}
+
+	/* ROW 34*/
+.Karrablast {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -0px
+}
+.Escavalier {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -200px
+}
+.Foongus {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -400px
+}
+.Amoonguss {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -600px
+}
+.Frillish {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -800px
+}
+.Jellicent {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -1000px
+}
+.Alomomola {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -1200px
+}
+.Joltik {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -1400px
+}
+.Galvantula {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -1600px
+}
+.Ferroseed {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -1800px
+}
+.Ferrothorn {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -2000px
+}
+.Klink {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -2200px
+}
+.Klang {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -2400px
+}
+.Klinklang {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -2600px
+}
+.Tynamo {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -2800px
+}
+.Eelektrik {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -3000px
+}
+.Eelektross {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -3200px
+}
+.Elgyem {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -3400px
+}
+.Beheeyem {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -3600px
+}
+.Litwick {
+	width: 200px;
+	height: 200px;
+	background-position: -6600px -3800px
+}
+
+	/* ROW 35*/
+.Lampent {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -0px
+}
+.Chandelure {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -200px
+}
+.Axew {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -400px
+}
+.Fraxure {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -600px
+}
+.Haxorus {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -800px
+}
+.Cubchoo {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -1000px
+}
+.Beartic {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -1200px
+}
+.Cryogonal {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -1400px
+}
+.Shelmet {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -1600px
+}
+.Accelgor {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -1800px
+}
+.Stunfisk {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -2000px
+}
+.Mienfoo {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -2200px
+}
+.Mienshao {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -2400px
+}
+.Druddigon {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -2600px
+}
+.Golett {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -2800px
+}
+.Golurk {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -3000px
+}
+.Pawniard {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -3200px
+}
+.Bisharp {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -3400px
+}
+.Bouffalant {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -3600px
+}
+.Rufflet {
+	width: 200px;
+	height: 200px;
+	background-position: -6800px -3800px
+}
+
+	/* ROW 36*/
+.Braviary {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -0px
+}
+.Vullaby {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -200px
+}
+.Mandibuzz {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -400px
+}
+.Heatmor {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -600px
+}
+.Durant {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -800px
+}
+.Deino {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -1000px
+}
+.Zweilous {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -1200px
+}
+.Hydreigon {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -1400px
+}
+.Larvesta {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -1600px
+}
+.Volcarona {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -1800px
+}
+.Cobalion {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -2000px
+}
+.Terrakion {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -2200px
+}
+.Virizion {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -2400px
+}
+.Tornadus {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -2600px
+}
+.Thundurus {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -3000px
+}
+.Reshiram {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -3400px
+}
+.Zekrom {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -3600px
+}
+.Landorus {
+	width: 200px;
+	height: 200px;
+	background-position: -7000px -3800px
+}
+
+	/* ROW 37*/
+.Kyurem {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -200px
+} 
+.Keldeo {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -800px
+} 
+.Meloetta {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -1200px
+} 
+.Genesect {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -1600px
+} 
+.Chespin {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -1800px
+} 
+.Quilladin {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -2000px
+} 
+.Chesnaught {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -2200px
+} 
+.Fennekin {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -2400px
+} 
+.Braixen {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -2600px
+} 
+.Delphox {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -2800px
+} 
+.Froakie {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -3000px
+} 
+.Frogadier {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -3200px
+} 
+.Greninja {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -3400px
+} 
+.Bunnelby {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -3600px
+} 
+.Diggersby {
+	width: 200px;
+	height: 200px;
+	background-position: -7200px -3800px
+} 
+
+	/* ROW 38*/
+.Fletchling {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -0px
+}
+.Fletchinder {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -200px
+}
+.Talonflame {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -400px
+}
+.Scatterbug {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -600px
+}
+.Spewpa {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -800px
+}
+.Vivillon {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -1000px
+}
+.Litleo {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -1200px
+}
+.Pyroar {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -1400px
+}
+.Flabebe {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -1800px
+}
+.Floette {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -2000px
+}
+.Florges {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -2200px
+}
+.Skiddo {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -2400px
+}
+.Gogoat {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -2600px
+}
+.Pancham {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -2800px
+}
+.Pangoro {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -3000px
+}
+.Furfrou {
+	width: 200px;
+	height: 200px;
+	background-position: -7400px -3200px
+}
+
+	/* ROW 39*/
+.Espurr {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -0px
+}
+.Meowstic {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -200px
+}
+.Honedge {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -600px
+}
+.Doublade {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -800px
+}
+.Aegislash {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -1000px
+}
+.Spritzee {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -1400px
+}
+.Aromatisse {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -1600px
+}
+.Swirlix {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -1800px
+}
+.Slurpuff {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -2000px
+}
+.Inkay {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -2200px
+}
+.Malamar {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -2400px
+}
+.Binacle {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -2600px
+}
+.Barbaracle {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -2800px
+}
+.Skrelp {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -3000px
+}
+.Dragalge {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -3200px
+}
+.Clauncher {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -3400px
+}
+.Clawitzer {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -3600px
+}
+.Helioptile {
+	width: 200px;
+	height: 200px;
+	background-position: -7600px -3800px
+}
+
+	/* ROW 40*/
+.Heliolisk {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -0px
+}
+.Tyrunt {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -200px
+}
+.Tyrantrum {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -400px
+}
+.Amaura {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -600px
+}
+.Aurorus {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -800px
+}
+.Sylveon {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -1000px
+}
+.Hawlucha {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -1200px
+}
+.Dedenne {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -1400px
+}
+.Carbink {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -1600px
+}
+.Goomy {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -1800px
+}
+.Sliggoo {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -2000px
+}
+.Goodra {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -2200px
+}
+.Klefki {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -2400px
+}
+.Phantump {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -2600px
+}
+.Trevenant {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -2800px
+}
+.Pumpkaboo {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -3000px
+}
+.Gourgeist {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -3200px
+}
+.Bergmite {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -3400px
+}
+.Avalugg {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -3600px
+}
+.Noibat {
+	width: 200px;
+	height: 200px;
+	background-position: -7800px -3800px
+}
+
+	/* ROW 41*/
+.Noivern {
+	width: 200px;
+	height: 200px;
+	background-position: -8000px -0px
+}
+.Xerneas {
+	width: 200px;
+	height: 200px;
+	background-position: -8000px -200px
+}
+.Yveltal {
+	width: 200px;
+	height: 200px;
+	background-position: -8000px -400px
+}
+.Zygarde {
+	width: 200px;
+	height: 200px;
+	background-position: -8000px -600px
+}
+.Diancie {
+	width: 200px;
+	height: 200px;
+	background-position: -8000px -800px
+}
+.Hoopa {
+	width: 200px;
+	height: 200px;
+	background-position: -8000px -1200px
+}
+/*.Volcanion {
+	width: 200px;
+	height: 200px;
+	background-position: -8000px -1600px
+}*/

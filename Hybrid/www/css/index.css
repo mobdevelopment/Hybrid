@@ -114,6 +114,10 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
+
 .ui-loader .ui-icon-loading {
    background-color: transparent;
  }
