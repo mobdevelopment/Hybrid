@@ -47,7 +47,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    background:url(../img/empty.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
@@ -114,9 +114,66 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
+
 .ui-loader .ui-icon-loading {
    background-color: transparent;
  }
  .ui-icon-loading {
-   background: url("load_.gif");
+   background: url(../img/load_.gif);
   }
+
+/* Header */
+.ui-page .ui-header{
+    /*background: #FAA767 !important;
+    color: #FFFFFF;
+*/}
+
+/* Content */
+.ui-page .ui-content{
+    /*background: #000000;
+    color: #FFFFFF;*/
+}
+
+/* Footer */
+.ui-page .ui-footer{
+    /*background: #FAA767 !important;
+    color: #FFFFFF;*/
+}
+
+/* Pokedex */
+.pokedexList { 
+    padding: 0 !important;
+    list-style-type: none;
+    width: 92%;
+    margin: auto;
+}
+
+.pokedexList > li {
+    /*background: #FAA767 ;*/
+    max-width: 24%;
+    float: left;
+    margin: 1px;
+    border: 1px solid black;
+    /*border-color: #FFFFFF;*/
+}
+
+.pokedexList > li > a {
+    /*width:  100px;*/
+    /*height: 180px;*/
+}
+
+.pokedexList > li > a > img {
+    width: 100%;
+    float: left;
+}
+
+.pokedexList > li > a > h1{
+    width: 100px;
+    float: left;
+    font-size: 10px;
+    color: #000000;
+    text-align: center;
+}
