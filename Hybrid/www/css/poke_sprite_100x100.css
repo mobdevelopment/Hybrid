@@ -1,12 +1,12 @@
 /*
 
-	usage <span class="sprite {~spritename~}"></span>
+	usage <span class="pokedexsprite {~spritename~}"></span>
 
 	replace {~spritename~} with the sprite you like to use
 
 */
 
-.sprite {
+.pokedexsprite {
 	display: inline-block;
 	overflow: hidden;
 	background-repeat: no-repeat;
