@@ -177,3 +177,19 @@ h1 {
     color: #000000;
     text-align: center;
 }
+
+
+/* PokeFetch page*/
+
+#pokefetchContent {
+    padding: 0;
+    position: absolute !important;
+    top: 40px !important;
+    right: 0;
+    bottom: 0px !important;
+    left: 0 !important;
+}
+
+#pokefetchMap {
+    height: 100%;
+}

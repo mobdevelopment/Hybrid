@@ -7,21 +7,26 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" type="text/css" href="css/poke_sprite.css" />
+        <link rel="stylesheet" type="text/css" href="css/poke_sprite_100x100.css" />
 
         <!-- JQuety mobile -->
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
         <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script async defer src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+        <!-- Google maps API -->
+        <script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDik8sdp8gfOOTB2iVzhGDAo_3e9FYQh2E"></script>
+        
     </head>
     <body>
+
         <div data-role="page" id="home" data-title="Main">
 
             <div id="settings" data-role="panel">
                 <ul data-role="listview">
-                    <li><a href="login.html">Hier zou je</a></li>
-                    <li><a href="#">ook wat navigatie</a></li>
-                    <li><a href="#">kwijt kunnen.</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="settings.html">Caching</a></li>
+                    <li><a data-rel="external" data-ajax="false" href="http://www.pokeapi.co" target="_blank">PokeApi Site</a></li>
                 </ul>
             </div>
 
@@ -31,15 +36,17 @@
             <div date-role="main" class="ui-content">
                 <a href="pokedex_master.html" class="ui-btn ui-corner-all" data-transition="slidefade">Pokedex</a>
                 <a href="pokeFetch.html" class="ui-btn ui-corner-all" data-transition="slidefade">Gotta fetch 'em all</a>
-                <a href="#settings" class="ui-btn ui-corner-all" data-transition="slidefade">Instellingen</a>
+                <a href="#settings" class="ui-btn ui-corner-all" data-transition="slidefade">Side settings</a>
             </div>
             <div data-role="footer" data-position="fixed">
                 <h1>Made by:</h1>
             </div>
         </div>
 
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/pokeFetch.js"></script>
         <script type="text/javascript">
             // app.initialize();
             $(document).on("swiperight",function(){
