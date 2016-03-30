@@ -109,6 +109,38 @@ h1 {
     to { opacity: 1.0; }
 }
  
+
+
+
+
+/*::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 5x;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;  
+    background-color: #ffffff; 
+}*/
+
+
+
+
+
+
+
+
+
+
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
@@ -147,13 +179,17 @@ h1 {
 .pokedexList { 
     padding: 0 !important;
     list-style-type: none;
-    width: 92%;
+    width: 100%;
     margin: auto;
+    float: left;
+    text-align: center;
 }
 
 .pokedexList > li {
     /*background: #FAA767 ;*/
-    max-width: 24%;
+    max-width: 120px;
+    min-height: 100px;
+    height: 125px;
     float: left;
     margin: 1px;
     border: 1px solid black;
@@ -165,17 +201,26 @@ h1 {
     /*height: 180px;*/
 }
 
-.pokedexList > li > a > img {
+/*.pokedexList > li > a > img {
     width: 100%;
     float: left;
+}*/
+
+.pokedexList > li > a > span {
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center
 }
 
 .pokedexList > li > a > h1{
     width: 100px;
+    height: 25px
     float: left;
     font-size: 10px;
     color: #000000;
     text-align: center;
+    vertical-align: middle;
 }
 
 

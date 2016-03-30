@@ -45,6 +45,16 @@
 	height: 100px;
 	background-position: -600px -0px
 }
+.charizard-mega-x {
+	width: 100px;
+	height: 100px;
+	background-position: -700px -0px
+}
+.charizard-mega-y {
+	width: 100px;
+	height: 100px;
+	background-position: -800px -0px
+}
 .squirtle {
 	width: 100px;
 	height: 100px;
@@ -59,6 +69,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1100px -0px
+}
+.blastoise-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1200px -0px
 }
 .caterpie {
 	width: 100px;
@@ -90,6 +105,11 @@
 	height: 100px;
 	background-position: -1800px -0px
 }
+.beedrill-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1900px -0px
+}
 
 	/* ROW 2*/
 .pidgey {
@@ -106,6 +126,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -200px -100px
+}
+.pidgeot-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -300px -100px
 }
 .rattata {
 	width: 100px;
@@ -346,6 +371,11 @@
 	height: 100px;
 	background-position: -1000px -300px
 }
+.alakazam-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1100px -300px
+}
 .machop {
 	width: 100px;
 	height: 100px;
@@ -423,6 +453,11 @@
 	height: 100px;
 	background-position: -600px -400px
 }
+.slowbro-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -700px -400px
+}
 .magnemite {
 	width: 100px;
 	height: 100px;
@@ -494,6 +529,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -100px -500px
+}
+.gengar-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -200px -500px
 }
 .onix {
 	width: 100px;
@@ -602,6 +642,11 @@
 	height: 100px;
 	background-position: -300px -600px
 }
+.kangaskhan-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -400px -600px
+}
 .horsea {
 	width: 100px;
 	height: 100px;
@@ -632,7 +677,7 @@
 	height: 100px;
 	background-position: -1000px -600px
 }
-.mr-Mime {
+.mr-mime {
 	width: 100px;
 	height: 100px;
 	background-position: -1100px -600px
@@ -662,6 +707,11 @@
 	height: 100px;
 	background-position: -1600px -600px
 }
+.pinsir-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1700px -600px
+}
 .tauros {
 	width: 100px;
 	height: 100px;
@@ -678,6 +728,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -0px -700px
+}
+.gyarados-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -100px -700px
 }
 .lapras {
 	width: 100px;
@@ -739,6 +794,11 @@
 	height: 100px;
 	background-position: -1300px -700px
 }
+.aerodactyl-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1400px -700px
+}
 .snorlax {
 	width: 100px;
 	height: 100px;
@@ -780,6 +840,16 @@
 	width: 100px;
 	height: 100px;
 	background-position: -200px -800px
+}
+.mewtwo-mega-x {
+	width: 100px;
+	height: 100px;
+	background-position: -300px -800px
+}
+.mewtwo-mega-y {
+	width: 100px;
+	height: 100px;
+	background-position: -400px -800px
 }
 .mew {
 	width: 100px;
@@ -938,6 +1008,11 @@
 	height: 100px;
 	background-position: -1500px -900px
 }
+.ampharos-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -900px
+}
 .bellossom {
 	width: 100px;
 	height: 100px;
@@ -1077,6 +1152,11 @@
 	height: 100px;
 	background-position: -300px -1100px
 }
+.steelix-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -400px -1100px
+}
 .snubbull {
 	width: 100px;
 	height: 100px;
@@ -1097,6 +1177,11 @@
 	height: 100px;
 	background-position: -800px -1100px
 }
+.scizor-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -900px -1100px
+}
 .shuckle {
 	width: 100px;
 	height: 100px;
@@ -1106,6 +1191,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1100px -1100px
+}
+.heracross-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1200px -1100px
 }
 .sneasel {
 	width: 100px;
@@ -1183,6 +1273,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -700px -1200px
+}
+.houndoom-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -800px -1200px
 }
 .kingdra {
 	width: 100px;
@@ -1281,12 +1376,17 @@
 	height: 100px;
 	background-position: -700px -1300px
 }
+.tyranitar-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -800px -1300px
+}
 .lugia {
 	width: 100px;
 	height: 100px;
 	background-position: -900px -1300px
 }
-.ho-Oh {
+.ho-oh {
 	width: 100px;
 	height: 100px;
 	background-position: -1000px -1300px
@@ -1311,6 +1411,11 @@
 	height: 100px;
 	background-position: -1400px -1300px
 }
+.sceptile-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1400px -1300px
+}
 .torchic {
 	width: 100px;
 	height: 100px;
@@ -1325,6 +1430,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1800px -1300px
+}
+.blaziken-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1900px -1300px
 }
 
 	/* ROW 15*/
@@ -1342,6 +1452,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -200px -1400px
+}
+.swampert-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -300px -1400px
 }
 .poochyena {
 	width: 100px;
@@ -1455,6 +1570,11 @@
 	height: 100px;
 	background-position: -500px -1500px
 }
+.gardevoir-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -600px -1500px
+}
 .surskit {
 	width: 100px;
 	height: 100px;
@@ -1557,10 +1677,20 @@
 	height: 100px;
 	background-position: -600px -1600px
 }
+.sableye-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -700px -1600px
+}
 .mawile {
 	width: 100px;
 	height: 100px;
 	background-position: -800px -1600px
+}
+.mawile-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -900px -1600px
 }
 .aron {
 	width: 100px;
@@ -1577,6 +1707,11 @@
 	height: 100px;
 	background-position: -1200px -1600px
 }
+.aggron-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1300px -1600px
+}
 .meditite {
 	width: 100px;
 	height: 100px;
@@ -1587,6 +1722,11 @@
 	height: 100px;
 	background-position: -1500px -1600px
 }
+.medicham-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -1600px
+}
 .electrike {
 	width: 100px;
 	height: 100px;
@@ -1596,6 +1736,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1800px -1600px
+}
+.manectric-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1900px -1600px
 }
 
 	/* ROW 18*/
@@ -1644,6 +1789,11 @@
 	height: 100px;
 	background-position: -800px -1700px
 }
+.sharpedo-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -900px -1700px
+}
 .wailmer {
 	width: 100px;
 	height: 100px;
@@ -1663,6 +1813,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1300px -1700px
+}
+.camerupt-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1400px -1700px
 }
 .torkoal {
 	width: 100px;
@@ -1720,6 +1875,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -500px -1800px
+}
+.altaria-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -600px -1800px
 }
 .zangoose {
 	width: 100px;
@@ -1808,6 +1968,21 @@
 	height: 100px;
 	background-position: -300px -1900px
 }
+.castform-rain {
+	width: 100px;
+	height: 100px;
+	background-position: -300px -1900px
+}
+.castform-snowy {
+	width: 100px;
+	height: 100px;
+	background-position: -300px -1900px
+}
+.castform-sunny {
+	width: 100px;
+	height: 100px;
+	background-position: -300px -1900px
+}
 .kecleon {
 	width: 100px;
 	height: 100px;
@@ -1822,6 +1997,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -600px -1900px
+}
+.banette-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -700px -1900px
 }
 .duskull {
 	width: 100px;
@@ -1848,6 +2028,11 @@
 	height: 100px;
 	background-position: -1200px -1900px
 }
+.absol-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1300px -1900px
+}
 .wynaut {
 	width: 100px;
 	height: 100px;
@@ -1862,6 +2047,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1600px -1900px
+}
+.glalie-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1700px -1900px
 }
 .spheal {
 	width: 100px;
@@ -1920,6 +2110,11 @@
 	height: 100px;
 	background-position: -800px -2000px
 }
+.salamence-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -900px -2000px
+}
 .beldum {
 	width: 100px;
 	height: 100px;
@@ -1934,6 +2129,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1200px -2000px
+}
+.metagross-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1300px -2000px
 }
 .regirock {
 	width: 100px;
@@ -1955,6 +2155,11 @@
 	height: 100px;
 	background-position: -1700px -2000px
 }
+.latias-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1800px -2000px
+}
 .latios {
 	width: 100px;
 	height: 100px;
@@ -1962,17 +2167,37 @@
 }
 
 	/* ROW 22*/
+.latios-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -0px -2100px
+}
 .kyogre {
 	width: 100px;
 	height: 100px;
 	background-position: -100px -2100px
+}
+.kyogre-primal {
+	width: 100px;
+	height: 100px;
+	background-position: -200px -2100px
 }
 .groudon {
 	width: 100px;
 	height: 100px;
 	background-position: -300px -2100px
 }
+.groudon-primal {
+	width: 100px;
+	height: 100px;
+	background-position: -400px -2100px
+}
 .rayquaza {
+	width: 100px;
+	height: 100px;
+	background-position: -500px -2100px
+}
+.rayquaza-mega {
 	width: 100px;
 	height: 100px;
 	background-position: -500px -2100px
@@ -1986,6 +2211,26 @@
 	width: 100px;
 	height: 100px;
 	background-position: -800px -2100px
+}
+.deoxys-normal {
+	width: 100px;
+	width: 100px;
+	background-position: -800px -2100px
+}
+.deoxys-attack {
+	width: 100px;
+	width: 100px;
+	background-position: -900px -2100px
+}
+.deoxys-defense {
+	width: 100px;
+	width: 100px;
+	background-position: -1000px -2100px
+}
+.deoxys-speed {
+	width: 100px;
+	width: 100px;
+	background-position: -1100px -2100px
 }
 .turtwig {
 	width: 100px;
@@ -2126,6 +2371,21 @@
 	height: 100px;
 	background-position: -0px -2300px
 }
+.wormadam-plant {
+	width: 100px;
+	height: 100px;
+	background-position: -0px -2300px
+}
+.wormadam-sandy {
+	width: 100px;
+	height: 100px;
+	background-position: -100px -2300px
+}
+.wormadam-trash {
+	width: 100px;
+	height: 100px;
+	background-position: -200px -2300px
+}
 .mothim {
 	width: 100px;
 	height: 100px;
@@ -2203,6 +2463,11 @@
 	height: 100px;
 	background-position: -0px -2400px
 }
+.lopunny-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -0px -2400px
+}
 .mismagius {
 	width: 100px;
 	height: 100px;
@@ -2253,7 +2518,7 @@
 	height: 100px;
 	background-position: -1100px -2400px
 }
-.mime-Jr {
+.mime-jr {
 	width: 100px;
 	height: 100px;
 	background-position: -1200px -2400px
@@ -2288,6 +2553,11 @@
 	height: 100px;
 	background-position: -1800px -2400px
 }
+.garchomp-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1900px -2400px
+}
 
 	/* ROW 26*/
 .munchlax {
@@ -2304,6 +2574,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -200px -2500px
+}
+.lucario-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -300px -2500px
 }
 .hippopotas {
 	width: 100px;
@@ -2364,6 +2639,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1500px -2500px
+}
+.abomasnow-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -2500px
 }
 .weavile {
 	width: 100px;
@@ -2432,7 +2712,7 @@
 	height: 100px;
 	background-position: -900px -2600px
 }
-.porygon-Z {
+.porygon-z {
 	width: 100px;
 	height: 100px;
 	background-position: -1000px -2600px
@@ -2441,6 +2721,11 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1100px -2600px
+}
+.gallade-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1200px -2600px
 }
 .probopass {
 	width: 100px;
@@ -2462,8 +2747,33 @@
 	height: 100px;
 	background-position: -1600px -2600px
 }
+.rotom-heat {
+	width: 100px;
+	height: 100px;
+	background-position: -1700px -2600px
+}
+.rotom-wash {
+	width: 100px;
+	height: 100px;
+	background-position: -1800px -2600px
+}
+.rotom-frost {
+	width: 100px;
+	height: 100px;
+	background-position: -1900px -2600px
+}
 
 	/* ROW 28*/
+.rotom-fan {
+	width: 100px;
+	height: 100px;
+	background-position: -0px -2700px
+}
+.rotom-mow {
+	width: 100px;
+	height: 100px;
+	background-position: -100px -2700px
+}
 .uxie {
 	width: 100px;
 	height: 100px;
@@ -2504,6 +2814,16 @@
 	height: 100px;
 	background-position: -900px -2700px
 }
+.giratina-altered {
+	width: 100px;
+	height: 100px;
+	background-position: -900px -2700px
+}
+.giratina-origin {
+	width: 100px;
+	height: 100px;
+	background-position: -1000px -2700px
+}
 .cresselia {
 	width: 100px;
 	height: 100px;
@@ -2528,6 +2848,16 @@
 	width: 100px;
 	height: 100px;
 	background-position: -1500px -2700px
+}
+.shaymin-land {
+	width: 100px;
+	height: 100px;
+	background-position: -1500px -2700px
+}
+.shaymin-sky {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -2700px
 }
 .arceus {
 	width: 100px;
@@ -2728,6 +3058,11 @@
 	height: 100px;
 	background-position: -1500px -2900px
 }
+.audino-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -2900px
+}
 .timburr {
 	width: 100px;
 	height: 100px;
@@ -2825,6 +3160,16 @@
 	height: 100px;
 	background-position: -1500px -3000px
 }
+.basculin-red-striped {
+	width: 100px;
+	height: 100px;
+	background-position: -1500px -3000px
+}
+.basculin-blue-striped {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -3000px
+}
 .sandile {
 	width: 100px;
 	height: 100px;
@@ -2851,6 +3196,16 @@
 	width: 100px;
 	height: 100px;
 	background-position: -100px -3100px
+}
+.darmanitan-standard {
+	width: 100px;
+	height: 100px;
+	background-position: -100px -3100px
+}
+.darmanitan-zen {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -660px
 }
 .maractus {
 	width: 100px;
@@ -3290,10 +3645,30 @@
 	height: 100px;
 	background-position: -1300px -3500px
 }
+.tornadus-incarnate {
+	width: 100px;
+	height: 100px;
+	background-position: -1300px -3500px
+}
+.tornadus-therian {
+	width: 100px;
+	height: 100px;
+	background-position: -1400px -3500px
+}
 .thundurus {
 	width: 100px;
 	height: 100px;
 	background-position: -1500px -3500px
+}
+.thundurus-incarnate {
+	width: 100px;
+	height: 100px;
+	background-position: -1500px -3500px
+}
+.thundurus-therian {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -3500px
 }
 .reshiram {
 	width: 100px;
@@ -3310,23 +3685,63 @@
 	height: 100px;
 	background-position: -1900px -3500px
 }
+.landorus-incarnate {
+	width: 100px;
+	height: 100px;
+	background-position: -1900px -3500px
+}
 
 	/* ROW 37*/
+.landorus-therian {
+	width: 100px;
+	height: 100px;
+	background-position: -0px -3600px
+}
 .kyurem {
 	width: 100px;
 	height: 100px;
 	background-position: -100px -3600px
 } 
+.kyurem-white {
+	width: 100px;
+	height: 100px;
+	background-position: -200px -3600px
+}
+.kyurem-black {
+	width: 100px;
+	height: 100px;
+	background-position: -300px -3600px
+}
 .keldeo {
 	width: 100px;
 	height: 100px;
 	background-position: -400px -3600px
+} 
+.keldeo-ordinary {
+	width: 100px;
+	height: 100px;
+	background-position: -400px -3600px
+} 
+.keldeo-resolute {
+	width: 100px;
+	height: 100px;
+	background-position: -500px -3600px
 } 
 .meloetta {
 	width: 100px;
 	height: 100px;
 	background-position: -600px -3600px
 } 
+.meloetta-aria {
+	width: 100px;
+	height: 100px;
+	background-position: -600px -3600px
+}
+.meloetta-pirouette {
+	width: 100px;
+	height: 100px;
+	background-position: -700px -3600px
+}
 .genesect {
 	width: 100px;
 	height: 100px;
@@ -3481,6 +3896,16 @@
 	height: 100px;
 	background-position: -100px -3800px
 }
+.meowstic-male {
+	width: 100px;
+	height: 100px;
+	background-position: -100px -3800px
+}
+.meowstic-female {
+	width: 100px;
+	height: 100px;
+	background-position: -200px -3800px
+}
 .honedge {
 	width: 100px;
 	height: 100px;
@@ -3495,6 +3920,16 @@
 	width: 100px;
 	height: 100px;
 	background-position: -500px -3800px
+}
+.aegislash-shield {
+	width: 100px;
+	height: 100px;
+	background-position: -500px -3800px
+}
+.aegislash-blade {
+	width: 100px;
+	height: 100px;
+	background-position: -600px -3800px
 }
 .spritzee {
 	width: 100px;
@@ -3643,7 +4078,47 @@
 	height: 100px;
 	background-position: -1500px -3900px
 }
+.pumpkaboo-small {
+	width: 100px;
+	height: 100px;
+	background-position: -1500px -3900px
+}
+.pumpkaboo-average {
+	width: 100px;
+	height: 100px;
+	background-position: -1500px -3900px
+}
+.pumpkaboo-large {
+	width: 100px;
+	height: 100px;
+	background-position: -1500px -3900px
+}
+.pumpkaboo-super {
+	width: 100px;
+	height: 100px;
+	background-position: -1500px -3900px
+}
 .gourgeist {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -3900px
+}
+.gourgeist-small {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -3900px
+}
+.gourgeist-average {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -3900px
+}
+.gourgeist-large {
+	width: 100px;
+	height: 100px;
+	background-position: -1600px -3900px
+}
+.gourgeist-super {
 	width: 100px;
 	height: 100px;
 	background-position: -1600px -3900px
@@ -3690,10 +4165,20 @@
 	height: 100px;
 	background-position: -400px -4000px
 }
+.diancie-mega {
+	width: 100px;
+	height: 100px;
+	background-position: -500px -4000px
+}
 .hoopa {
 	width: 100px;
 	height: 100px;
 	background-position: -600px -4000px
+}
+.hoopa-unbound {
+	width: 100px;
+	height: 100px;
+	background-position: -700px -4000px
 }
 /*.volcanion {
 	width: 100px;

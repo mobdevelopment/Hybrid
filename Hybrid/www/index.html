@@ -34,7 +34,7 @@
                 <h1>Pokedex Main</h1>
             </div>
             <div date-role="main" class="ui-content">
-                <a href="pokedex_master.html" class="ui-btn ui-corner-all" data-transition="slidefade">Pokedex</a>
+                <a href="pokedex_master.html" class="ui-btn ui-corner-all" data-transition="slidefade" data-prefetch>Pokedex</a>
                 <a href="pokeFetch.html" class="ui-btn ui-corner-all" data-transition="slidefade">Gotta fetch 'em all</a>
                 <a href="#settings" class="ui-btn ui-corner-all" data-transition="slidefade">Side settings</a>
             </div>
@@ -45,13 +45,31 @@
 
 
         <script type="text/javascript" src="cordova.js"></script>
+
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/pokeFetch.js"></script>
+        <script type="text/javascript" src="js/pokedex.js"></script>
+
+        <script type="text/javascript" src="js/api.js"></script>
+
         <script type="text/javascript">
             // app.initialize();
             $(document).on("swiperight",function(){
                 $("#settings").panel("open");
             });
+
+            $(document).ready(function() {
+                // $.mobile.loadPage("pokedex_master.html", {
+                //     type: false,
+                //     reloadPage: false,
+                //     type: 'get'
+                // });
+                //work around
+                // $.mobile.loadPage("pokedex_master.html", {prefetch:"true"});                
+            });
+
+            // $.mobile.page.prototype.options.domCache = true;
+
         </script>
     </body>
 </html>
