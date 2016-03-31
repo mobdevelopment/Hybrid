@@ -16,7 +16,7 @@ var getPokedexData = function(url) {
 	var list = Api.GetData(url);
 	list.success(function (request) {
 		$.each(request.results, function(index, value) {
-			// console.log(value.name);
+			console.log(value.name);
 			fillPokedex(value);
 		});
 		pokedex_next = request.next;
@@ -33,6 +33,14 @@ var fillPokedex = function(data) {
 			// "<a href='pokedex_detail.html' data-id='" + data.name + "' class='pokemonItem'>" +
 			"<a href='pokedex_detail.html?id=" + data.name + "' class='pokemonItem'>" +
 				"<span class='pokedexsprite " + data.name + "'></span>" +
+				"<h1>" + data.name + "</h1>" +
+			"</a>" +
+		"</li>"
+	);
+	$("#pokedexSprite").append(
+		"<li id='"+ data.name + "'>" +
+			"<a href='pokedex_detail.html?id=" + data.name + "' class='pokemonItem'>" +
+				"<span class='pokemapsprite tiny" + data.name + "'></span>" +
 				"<h1>" + data.name + "</h1>" +
 			"</a>" +
 		"</li>"
