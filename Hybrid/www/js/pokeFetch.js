@@ -37,11 +37,16 @@ $(document).on("pageshow", "#pokefetch", function() {
 			});
 			// $('.bulbasaur').height();
 			// console.log($('.bulbasaur').height());
-			var pos = [$('.bulbasaur').css("background-position-x"),
-                		$('.bulbasaur').css("background-position-y")];
-			// var pos = $('.tinybulbasaur').attr('backround-position');
-			
+			var pos = $('.tinycelebi').css('backgroundPosition').split(" ");
 			console.log(pos);
+			console.log(pos[0]);
+			console.log(pos[1]);
+			// $('.bulbasaur').height();
+			// console.log($('.bulbasaur').height());
+			// var pos = [$('.bulbasaur').css("background-position-x"),
+                		// $('.bulbasaur').css("background-position-y")];
+			// var pos = $('.tinybulbasaur').attr('backround-position');
+			// console.log(pos);
 			// console.log(pos[0]);
 			// console.log(pos[1]);
 		} else {
