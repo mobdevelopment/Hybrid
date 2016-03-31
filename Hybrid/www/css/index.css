@@ -175,7 +175,7 @@ h1 {
     color: #FFFFFF;*/
 }
 
-/* Pokedex */
+/* Pokedex Master Page */
 .pokedexList { 
     padding: 0 !important;
     list-style-type: none;
@@ -223,6 +223,32 @@ h1 {
     vertical-align: middle;
 }
 
+/* Pokedex Detail page*/
+
+.pokeDetailTop {
+    width: 100%;
+    text-align: center;
+}
+
+.pokeDetailLeft {
+    min-width: 100px;
+    width: 50%;
+    float: left;
+}
+
+.pokeDetailImage > span {
+    zoom:1.5;
+}
+
+
+.pokeDetailRight {
+    width: 50%;
+    float: right;
+}
+
+.pokeDetailBottom {
+    width: 100%;
+}
 
 /* PokeFetch page*/
 

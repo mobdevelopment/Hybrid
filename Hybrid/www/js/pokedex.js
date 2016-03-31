@@ -55,29 +55,14 @@ var getPokemonData = function(url) {
 }
 
 var fillPokemonDetail = function(data) {
-	// console.log(data);
-	console.log(data.abilities);
-	abil = abilities(data.abilities);
-	type = types(data.types);
-	var info ="<div class='pokeDetailName'>" +
-			"<h1>" + data.name + "</h1>" +
-			"<h1>#" + data.id + "</h1>" +
-		"</div>" +
-		"<div class='pokeDetailImage'>" +
-			"<span class='pokedexsprite'" + data.name + "></span>" +
-		"</div>" +
-		"<div class='pokeDetailInfo'>" +
-			"<ul class='pokeDetailInfoList'>" +
-				"<li>Height: " + data.height + "</li>" +
-				"<li>Weight: " + data.weight + "</li>" +
-				"<li>" +
-					"<ul class='pokeDetailInfoAbilityList'><p>Abilities:</p>" +
-					abil +
-					"</ul>" +
-				"</li>" +
-			"</ul>" +
-		"</div>"
-	$("#pokemon_detail").append(info);
+
+	$("#pokeDetailTitle").append("<h1>" + data.name + "</h1>" + "<h1>#" + data.id + "</h1>");
+	$("#pokeDetailImage").append("<span class='pokedexsprite " + data.name + "'></span>");
+	$("#pokeDetailType").append(types(data.types));
+	$("#pokeDetailInfoListGeneral").append("<li>Height: " + data.height + "</li>" +	"<li>Weight: " + data.weight + "</li>");
+	$("#pokeDetailInfoListAbility").append(abilities(data.abilities));
+	// $("#pokeDetailMoves").append(moves(data.moves));
+	console.log("append done");
 }
 
 var abilities = function(data) {
@@ -87,18 +72,26 @@ var abilities = function(data) {
 		b = "<li>" + value.ability.name + "</li>";
 		a = a + b;
 	});
-	console.log(a);
 	return a;
 }
 var types = function(data) {
-	var a;
-	var b;
+	var a = "";
+	var b = "";
 	data.forEach(function(value) {
 		b = "<span class='typesprite " + value.type.name + "'></span>";
-		a = a + b;
+		a = b + a;
 	});
-	return a;
+	return a
 }
+// var moves = function(data) {
+// 	var a = "";
+// 	var b = "";
+// 	data.forEach(function(value) {
+
+// 	});
+// }
+
+
 // (pokeFetch)
 // save caught pokemon by id
 // required: (url + pokemon_id)
