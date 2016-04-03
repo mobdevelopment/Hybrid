@@ -50,27 +50,72 @@ var fillPokedex = function(data) {
 // (pokedex_detail)
 // get single pokemon by id
 // required: (url + pokemon_id)
-var getPokemonData = function(url) {
-	console.log("retrieving data");
-	var pokemon = Api.GetData(url);
-	pokemon.success(function (request) {
-		// console.log(request);
-		fillPokemonDetail(request);
-	});
-	pokemon.error(function (request, error) {
-		console.log(request + "\n" + error + "\n");
-	});
+var getPokemonData = function(url, id) {
+	// console.log(window.localStorage.getItem(id + "Details"));
+	console.log(id);
+	console.log(window.localStorage.getItem(id + "Details"));
+	if(window.localStorage.getItem(id + "Details") == null) {
+
+		console.log("retrieving data");
+		url = url + id;
+		var pokemon = Api.GetData(url);
+		pokemon.success(function (request) {
+			// console.log(request);
+			fillPokemonDetail(request);
+		});
+		pokemon.error(function (request, error) {
+			console.log(request + "\n" + error + "\n");
+		});
+	} else {
+		console.log("hallo ik ben gecached");
+		$("#pokemon_detail").append(window.localStorage.getItem(id + "Details"));
+	}
 }
 
 var fillPokemonDetail = function(data) {
+	console.log("filling pokemon detail");
+	var type = types(data.types);
+	var abil = abilities(data.abilities);
+	
+	var detail ="<div class='pokeDetailTop' id='pokeDetailTop'>" +
+					"<div class='pokeDetailTitle' id='pokeDetailTitle'>" +
+						"<h1>" + data.name + "</h1>" + "<h1>#" + data.id + "</h1>" +
+					"</div>" +
+				"</div>" +
+				"<div class='pokeDetailLeft' id='pokeDetailLeft'>" +
+					"<div class='pokeDetailImage' id='pokeDetailImage'>" +
+						"<span class='pokedexsprite " + data.name + "'></span>" +
+					"</div>" +
+					"<div class='pokeDetailType' id='pokeDetailType'>" +
+						type +
+					"</div>" +
+				"</div>" +
+				"<div class='pokeDetailRight' id='pokeDetailRight'>" +
+					"<div class='pokeDetailInfo' id='pokeDetailInfo'>" +
+						"<ul id='pokeDetailInfoListGeneral'>" +
+							"<li>Height: " + data.height + "</li>" + "<li>Weight: " + data.weight + "</li>" +
+						"</ul>" +
+						"<p>Abilities:</p>" +
+						"<ul id='pokeDetailInfoListAbility'>" +
+							abil +
+						"</ul>" +
+					"</div>" +
+				"</div>" +
+				"<div class='pokeDetailBottom' id='pokeDetailBottom'>" +
+				"</div>";
+	$("#pokemon_detail").append(detail);
 
-	$("#pokeDetailTitle").append("<h1>" + data.name + "</h1>" + "<h1>#" + data.id + "</h1>");
-	$("#pokeDetailImage").append("<span class='pokedexsprite " + data.name + "'></span>");
-	$("#pokeDetailType").append(types(data.types));
-	$("#pokeDetailInfoListGeneral").append("<li>Height: " + data.height + "</li>" +	"<li>Weight: " + data.weight + "</li>");
-	$("#pokeDetailInfoListAbility").append(abilities(data.abilities));
-	// $("#pokeDetailMoves").append(moves(data.moves));
+	// $("#pokeDetailTitle").append("<h1>" + data.name + "</h1>" + "<h1>#" + data.id + "</h1>");
+	// $("#pokeDetailImage").append("<span class='pokedexsprite " + data.name + "'></span>");
+	// $("#pokeDetailType").append(types(data.types));
+	// $("#pokeDetailInfoListGeneral").append("<li>Height: " + data.height + "</li>" +	"<li>Weight: " + data.weight + "</li>");
+	// $("#pokeDetailInfoListAbility").append(abilities(data.abilities));
+	//  // $("#pokeDetailMoves").append(moves(data.moves));
 	console.log("append done");
+
+	if (window.localStorage.getItem(data.name + "Details") == null) {
+		window.localStorage.setItem(data.name + "Details", detail);
+	}
 }
 
 var abilities = function(data) {
@@ -116,8 +161,8 @@ var types = function(data) {
 $(document).on('pageshow', '#pokedexdetail', function() {
 	// PokeApi url = "http://pokeapi.co/api/v2/pokemon/"
 	// own api url = ""
-	var api_url = "http://pokeapi.co/api/v2/pokemon/" + getParameterByName("id");
-	getPokemonData(api_url);
+	var api_url = "http://pokeapi.co/api/v2/pokemon/";
+	getPokemonData(api_url, getParameterByName("id"));
 });
 
 function getParameterByName(name) {
