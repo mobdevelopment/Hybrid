@@ -6,3667 +6,4163 @@
 }
 
 	/* ROW 1*/
-.bulbasaur {
+.tinybulbasaur {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -0px
+	background-position: -0px -0px;
 }
-.ivysaur {
+.tinyivysaur {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -0px
+	background-position: -40px -0px;
 }
-.venusaur {
+.tinyvenusaur {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -0px
+	background-position: -80px -0px;
 }
-.charmander {
+.tinyvenusaur-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -0px
+	background-position: -120px -0px;
 }
-.charmeleon {
+.tinycharmander {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -0px
+	background-position: -160px -0px;
 }
-.charizard {
+.tinycharmeleon {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -0px
+	background-position: -200px -0px;
 }
-.squirtle {
+.tinycharizard {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -0px
+	background-position: -240px -0px;
 }
-.wartortle {
+.tinycharizard-mega-x {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -0px
+	background-position: -280px -0px;
 }
-.blastoise {
+.tinycharizard-mega-y {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -0px
+	background-position: -320px -0px;
 }
-.caterpie {
+.tinysquirtle {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -0px
+	background-position: -360px -0px;
 }
-.metapod {
+.tinywartortle {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -0px
+	background-position: -400px -0px;
 }
-.butterfree {
+.tinyblastoise {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -0px
+	background-position: -440px -0px;
 }
-.weedle {
+.tinyblastoise-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -0px
+	background-position: -480px -0px;
 }
-.kakuna {
+.tinycaterpie {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -0px
+	background-position: -520px -0px;
 }
-.beedrill {
+.tinymetapod {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -0px
+	background-position: -560px -0px;
 }
-.pidgey {
+.tinybutterfree {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -0px
+	background-position: -600px -0px;
 }
-.pidgeotto {
+.tinyweedle {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -0px
+	background-position: -640px -0px;
 }
-.pidgeot {
+.tinykakuna {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -0px
+	background-position: -680px -0px;
 }
-.rattata {
+.tinybeedrill {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -0px
+	background-position: -720px -0px;
 }
-.raticate {
+.tinybeedrill-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -0px
+	background-position: -760px -0px;
 }
-.spearow {
+.tinypidgey {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -0px
+	background-position: -800px -0px;
 }
-.fearow {
+.tinypidgeotto {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -0px
+	background-position: -840px -0px;
 }
-.ekans {
+.tinypidgeot {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -0px
+	background-position: -880px -0px;
 }
-.arbok {
+.tinypidgeot-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -0px
+	background-position: -920px -0px;
 }
-.pikachu {
+.tinyrattata {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -0px
+	background-position: -960px -0px;
+}
+.tinyraticate {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -0px;
+}
+.tinyspearow {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -0px;
+}
+.tinyfearow {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -0px;
+}
+.tinyekans {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -0px;
+}
+.tinyarbok {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -0px;
+}
+.tinypikachu {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -0px;
 }
 
 	/* ROW 2*/	
-.raichu {
+.tinyraichu {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -30px
+	background-position: -280px -30px;
 }
-.sandshrew {
+.tinysandshrew {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -30px
+	background-position: -320px -30px;
 }
-.sandslash {
+.tinysandslash {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -30px
+	background-position: -360px -30px;
 }
-.nidoran-f {
+.tinynidoran-f {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -30px
+	background-position: -400px -30px;
 }
-.nidorina {
+.tinynidorina {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -30px
+	background-position: -440px -30px;
 }
-.nidoqueen {
+.tinynidoqueen {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -30px
+	background-position: -480px -30px;
 }
-.nidoran-m {
+.tinynidoran-m {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -30px
+	background-position: -520px -30px;
 }
-.nidorino {
+.tinynidorino {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -30px
+	background-position: -560px -30px;
 }
-.nidoking {
+.tinynidoking {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -30px
+	background-position: -600px -30px;
 }
-.clefairy {
+.tinyclefairy {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -30px
+	background-position: -640px -30px;
 }
-.clefable {
+.tinyclefable {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -30px
+	background-position: -720px -30px;
 }
-.vulpix {
+.tinyvulpix {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -30px
+	background-position: -800px -30px;
 }
-.ninetales {
+.tinyninetales {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -30px
+	background-position: -840px -30px;
 }
-.jigglypuff {
+.tinyjigglypuff {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -30px
+	background-position: -880px -30px;
 }
-.wigglytuff {
+.tinywigglytuff {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -30px
+	background-position: -960px -30px;
 }
-.zubat {
+.tinyzubat {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -30px
+	background-position: -1040px -30px;
 }
-.golbat {
+.tinygolbat {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -30px
+	background-position: -1080px -30px;
 }
-.oddish {
+.tinyoddish {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -30px
+	background-position: -1120px -30px;
 }
-.gloom {
+.tinygloom {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -30px
+	background-position: -1160px -30px;
 }
-.vileplume {
+.tinyvileplume {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -30px
+	background-position: -1200px -30px;
 }
-.paras {
+.tinyparas {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -30px
+	background-position: -1240px -30px;
 }
 
 	/* ROW 3*/
-.parasect {
+.tinyparasect {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -60px
+	background-position: -0px -60px;
 }
-.venonat {
+.tinyvenonat {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -60px
+	background-position: -40px -60px;
 }
-.venomoth {
+.tinyvenomoth {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -60px
+	background-position: -80px -60px;
 }
-.diglett {
+.tinydiglett {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -60px
+	background-position: -120px -60px;
 }
-.dugtrio {
+.tinydugtrio {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -60px
+	background-position: -160px -60px;
 }
-.meowth {
+.tinymeowth {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -60px
+	background-position: -200px -60px;
 }
-.persian {
+.tinypersian {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -60px
+	background-position: -240px -60px;
 }
-.psyduck {
+.tinypsyduck {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -60px
+	background-position: -280px -60px;
 }
-.golduck {
+.tinygolduck {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -60px
+	background-position: -320px -60px;
 }
-.mankey {
+.tinymankey {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -60px
+	background-position: -360px -60px;
 }
-.primeape {
+.tinyprimeape {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -60px
+	background-position: -400px -60px;
 }
-.growlithe {
+.tinygrowlithe {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -60px
+	background-position: -440px -60px;
 }
-.arcanine {
+.tinyarcanine {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -60px
+	background-position: -480px -60px;
 }
-.poliwag {
+.tinypoliwag {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -60px
+	background-position: -520px -60px;
 }
-.poliwhirl {
+.tinypoliwhirl {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -60px
+	background-position: -560px -60px;
 }
-.poliwrath {
+.tinypoliwrath {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -60px
+	background-position: -640px -60px;
 }
-.abra {
+.tinyabra {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -60px
+	background-position: -720px -60px;
 }
-.kadabra {
+.tinykadabra {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -60px
+	background-position: -760px -60px;
 }
-.alakazam {
+.tinyalakazam {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -60px
+	background-position: -800px -60px;
 }
-.machop {
+.tinyalakazam-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -60px
+	background-position: -840px -60px;
 }
-.machoke {
+.tinymachop {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -60px
+	background-position: -880px -60px;
 }
-.machamp {
+.tinymachoke {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -60px
+	background-position: -920px -60px;
 }
-.bellsprout {
+.tinymachamp {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -60px
+	background-position: -960px -60px;
 }
-.weepinbell {
+.tinybellsprout {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -60px
+	background-position: -1000px -60px;
 }
-.victreebel {
+.tinyweepinbell {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -60px
+	background-position: -1040px -60px;
 }
-.tentacool {
+.tinyvictreebel {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -60px
+	background-position: -1080px -60px;
 }
-.tentacruel {
+.tinytentacool {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -60px
+	background-position: -1120px -60px;
 }
-.geodude {
+.tinytentacruel {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -60px
+	background-position: -1160px -60px;
 }
-.graveler {
+.tinygeodude {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -60px
+	background-position: -1200px -60px;
+}
+.tinygraveler {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -60px;
 }
 
 	/* ROW 4*/
-.golem {
+.tinygolem {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -90px
+	background-position: -0px -90px;
 }
-.ponyta {
+.tinyponyta {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -90px
+	background-position: -40px -90px;
 }
-.rapidash {
+.tinyrapidash {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -90px
+	background-position: -80px -90px;
 }
-.slowpoke {
+.tinyslowpoke {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -90px
+	background-position: -120px -90px;
 }
-.slowbro {
+.tinyslowbro {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -90px
+	background-position: -160px -90px;
 }
-.magnemite {
+.tinyslowbro-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -90px
+	background-position: -200px -90px;
 }
-.magneton {
+.tinymagnemite {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -90px
+	background-position: -240px -90px;
 }
-.farfetchd {
+.tinymagneton {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -90px
+	background-position: -280px -90px;
 }
-.doduo {
+.tinyfarfetchd {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -90px
+	background-position: -320px -90px;
 }
-.dodrio {
+.tinydoduo {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -90px
+	background-position: -360px -90px;
 }
-.seel {
+.tinydodrio {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -90px
+	background-position: -400px -90px;
 }
-.dewgong {
+.tinyseel {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -90px
+	background-position: -440px -90px;
 }
-.grimer {
+.tinydewgong {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -90px
+	background-position: -480px -90px;
 }
-.muk {
+.tinygrimer {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -90px
+	background-position: -520px -90px;
 }
-.shellder {
+.tinymuk {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -90px
+	background-position: -560px -90px;
 }
-.cloyster {
+.tinyshellder {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -90px
+	background-position: -600px -90px;
 }
-.gastly {
+.tinycloyster {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -90px
+	background-position: -640px -90px;
 }
-.haunter {
+.tinygastly {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -90px
+	background-position: -680px -90px;
 }
-.gengar {
+.tinyhaunter {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -90px
+	background-position: -720px -90px;
 }
-.onix {
+.tinygengar {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -90px
+	background-position: -760px -90px;
 }
-.drowzee {
+.tinygengar-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -90px
+	background-position: -800px -90px;
 }
-.hypno {
+.tinyonix {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -90px
+	background-position: -840px -90px;
 }
-.krabby {
+.tinydrowzee {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -90px
+	background-position: -880px -90px;
 }
-.kingler {
+.tinyhypno {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -90px
+	background-position: -920px -90px;
 }
-.voltorb {
+.tinykrabby {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -90px
+	background-position: -960px -90px;
 }
-.electrode {
+.tinykingler {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -90px
+	background-position: -1000px -90px;
 }
-.exeggcute {
+.tinyvoltorb {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -90px
+	background-position: -1080px -90px;
 }
-.exeggutor {
+.tinyelectrode {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -90px
+	background-position: -1120px -90px;
 }
-.cubone {
+.tinyexeggcute {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -90px
+	background-position: -1160px -90px;
+}
+.tinyexeggutor {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -90px;
+}
+.tinycubone {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -90px;
 }
 
 	/* ROW 5*/
-.marowak {
+.tinymarowak {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -120px
+	background-position: -0px -120px;
 }
-.hitmonlee {
+.tinyhitmonlee {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -120px
+	background-position: -40px -120px;
 }
-.hitmonchan {
+.tinyhitmonchan {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -120px
+	background-position: -80px -120px;
 }
-.lickitung {
+.tinylickitung {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -120px
+	background-position: -120px -120px;
 }
-.koffing {
+.tinykoffing {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -120px
+	background-position: -160px -120px;
 }
-.weezing {
+.tinyweezing {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -120px
+	background-position: -200px -120px;
 }
-.rhyhorn {
+.tinyrhyhorn {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -120px
+	background-position: -240px -120px;
 }
-.rhydon {
+.tinyrhydon {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -120px
+	background-position: -280px -120px;
 }
-.chansey {
+.tinychansey {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -120px
+	background-position: -320px -120px;
 }
-.tangela {
+.tinytangela {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -120px
+	background-position: -360px -120px;
 }
-.kangaskhan {
+.tinykangaskhan {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -120px
+	background-position: -400px -120px;
 }
-.horsea {
+.tinykangaskhan-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -120px
+	background-position: -440px -120px;
 }
-.seadra {
+.tinyhorsea {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -120px
+	background-position: -480px -120px;
 }
-.goldeen {
+.tinyseadra {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -120px
+	background-position: -520px -120px;
 }
-.seaking {
+.tinygoldeen {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -120px
+	background-position: -560px -120px;
 }
-.staryu {
+.tinyseaking {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -120px
+	background-position: -600px -120px;
 }
-.starmie {
+.tinystaryu {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -120px
+	background-position: -640px -120px;
 }
-.mr-Mime {
+.tinystarmie {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -120px
+	background-position: -680px -120px;
 }
-.scyther {
+.tinymr-mime {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -120px
+	background-position: -720px -120px;
 }
-.jynx {
+.tinyscyther {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -120px
+	background-position: -760px -120px;
 }
-.electabuzz {
+.tinyjynx {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -120px
+	background-position: -800px -120px;
 }
-.magmar {
+.tinyelectabuzz {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -120px
+	background-position: -840px -120px;
 }
-.pinsir {
+.tinymagmar {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -120px
+	background-position: -880px -120px;
 }
-.tauros {
+.tinypinsir {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -120px
+	background-position: -920px -120px;
 }
-.magikarp {
+.tinypinsir-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -120px
+	background-position: -960px -120px;
 }
-.gyarados {
+.tinytauros {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -120px
+	background-position: -1000px -120px;
 }
-.lapras {
+.tinymagikarp {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -120px
+	background-position: -1040px -120px;
 }
-.ditto {
+.tinygyarados {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -120px
+	background-position: -1080px -120px;
 }
-.eevee {
+.tinygyarados-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -120px
+	background-position: -1120px -120px;
+}
+.tinylapras {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -120px;
+}
+.tinyditto {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -120px;
+}
+.tinyeevee {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -120px;
 }
 
 	/* ROW 6*/
-.vaporeon {
+.tinyvaporeon {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -150px
+	background-position: -0px -150px;
 }
-.jolteon {
+.tinyjolteon {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -150px
+	background-position: -40px -150px;
 }
-.flareon {
+.tinyflareon {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -150px
+	background-position: -80px -150px;
 }
-.porygon {
+.tinyporygon {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -150px
+	background-position: -120px -150px;
 }
-.omanyte {
+.tinyomanyte {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -150px
+	background-position: -160px -150px;
 }
-.omastar {
+.tinyomastar {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -150px
+	background-position: -200px -150px;
 }
-.kabuto {
+.tinykabuto {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -150px
+	background-position: -240px -150px;
 }
-.kabutops {
+.tinykabutops {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -150px
+	background-position: -280px -150px;
 }
-.aerodactyl {
+.tinyaerodactyl {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -150px
+	background-position: -320px -150px;
 }
-.snorlax {
+.tinyaerodactyl-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -150px
+	background-position: -360px -150px;
 }
-.articuno {
+.tinysnorlax {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -150px
+	background-position: -400px -150px;
 }
-.zapdos {
+.tinyarticuno {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -150px
+	background-position: -440px -150px;
 }
-.moltres {
+.tinyzapdos {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -150px
+	background-position: -480px -150px;
 }
-.dratini {
+.tinymoltres {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -150px
+	background-position: -520px -150px;
 }
-.dragonair {
+.tinydratini {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -150px
+	background-position: -560px -150px;
 }
-.dragonite {
+.tinydragonair {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -150px
+	background-position: -600px -150px;
 }
-.mewtwo {
+.tinydragonite {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -150px
+	background-position: -640px -150px;
 }
-.mew {
+.tinymewtwo {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -150px
+	background-position: -680px -150px;
 }
-.chikorita {
+.tinymewtwo-mega-x {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -150px
+	background-position: -720px -150px;
 }
-.bayleef {
+.tinymewtwo-mega-y {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -150px
+	background-position: -760px -150px;
 }
-.meganium {
+.tinymew {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -150px
+	background-position: -800px -150px;
 }
-.cyndaquil {
+.tinychikorita {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -150px
+	background-position: -840px -150px;
 }
-.quilava {
+.tinybayleef {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -150px
+	background-position: -880px -150px;
 }
-.typhlosion {
+.tinymeganium {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -150px
+	background-position: -920px -150px;
 }
-.totodile {
+.tinycyndaquil {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -150px
+	background-position: -960px -150px;
 }
-.croconaw {
+.tinyquilava {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -150px
+	background-position: -1000px -150px;
 }
-.feraligatr {
+.tinytyphlosion {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -150px
+	background-position: -1040px -150px;
 }
-.sentret {
+.tinytotodile {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -150px
+	background-position: -1080px -150px;
+}
+.tinycroconaw {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -150px;
+}
+.tinyferaligatr {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -150px;
+}
+.tinysentret {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -150px;
 }
 
 	/* ROW 7*/
-.furret {
+.tinyfurret {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -180px
+	background-position: -0px -180px;
 }
-.hoothoot {
+.tinyhoothoot {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -180px
+	background-position: -40px -180px;
 }
-.noctowl {
+.tinynoctowl {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -180px
+	background-position: -80px -180px;
 }
-.ledyba {
+.tinyledyba {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -180px
+	background-position: -120px -180px;
 }
-.ledian {
+.tinyledian {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -180px
+	background-position: -160px -180px;
 }
-.spinarak {
+.tinyspinarak {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -180px
+	background-position: -200px -180px;
 }
-.ariados {
+.tinyariados {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -180px
+	background-position: -240px -180px;
 }
-.crobat {
+.tinycrobat {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -180px
+	background-position: -280px -180px;
 }
-.chinchou {
+.tinychinchou {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -180px
+	background-position: -320px -180px;
 }
-.lanturn {
+.tinylanturn {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -180px
+	background-position: -360px -180px;
 }
-.pichu {
+.tinypichu {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -180px
+	background-position: -400px -180px;
 }
-.cleffa {
+.tinycleffa {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -180px
+	background-position: -440px -180px;
 }
-.igglybuff {
+.tinyigglybuff {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -180px
+	background-position: -520px -180px;
 }
-.togepi {
+.tinytogepi {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -180px
+	background-position: -600px -180px;
 }
-.togetic {
+.tinytogetic {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -180px
+	background-position: -640px -180px;
 }
-.natu {
+.tinynatu {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -180px
+	background-position: -680px -180px;
 }
-.xatu {
+.tinyxatu {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -180px
+	background-position: -720px -180px;
 }
-.mareep {
+.tinymareep {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -180px
+	background-position: -760px -180px;
 }
-.flaaffy {
+.tinyflaaffy {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -180px
+	background-position: -800px -180px;
 }
-.ampharos {
+.tinyampharos {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -180px
+	background-position: -840px -180px;
 }
-.bellossom {
+.tinyampharos-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -180px
+	background-position: -880px -180px;
 }
-.marill {
+.tinybellossom {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -180px
+	background-position: -920px -180px;
 }
-.azumarill {
+.tinymarill {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -180px
+	background-position: -960px -180px;
 }
-.sudowoodo {
+.tinyazumarill {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -180px
+	background-position: -1000px -180px;
 }
-.politoed {
+.tinysudowoodo {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -180px
+	background-position: -1040px -180px;
 }
-.hoppip {
+.tinypolitoed {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -180px
+	background-position: -1080px -180px;
 }
-.skiploom {
+.tinyhoppip {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -180px
+	background-position: -1160px -180px;
 }
-.jumpluff {
+.tinyskiploom {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -180px
+	background-position: -1200px -180px;
+}
+.tinyjumpluff {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -180px;
 }
 
 	/* ROW 8*/
-.aipom {
+.tinyaipom {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -210px
+	background-position: -0px -210px;
 }
-.sunkern {
+.tinysunkern {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -210px
+	background-position: -40px -210px;
 }
-.sunflora {
+.tinysunflora {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -210px
+	background-position: -80px -210px;
 }
-.yanma {
+.tinyyanma {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -210px
+	background-position: -120px -210px;
 }
-.wooper {
+.tinywooper {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -210px
+	background-position: -160px -210px;
 }
-.quagsire {
+.tinyquagsire {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -210px
+	background-position: -200px -210px;
 }
-.espeon {
+.tinyespeon {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -210px
+	background-position: -240px -210px;
 }
-.umbreon {
+.tinyumbreon {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -210px
+	background-position: -280px -210px;
 }
-.murkrow {
+.tinymurkrow {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -210px
+	background-position: -320px -210px;
 }
-.slowking {
+.tinyslowking {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -210px
+	background-position: -360px -210px;
 }
-.misdreavus {
+.tinymisdreavus {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -210px
+	background-position: -400px -210px;
 }
-.unown {
+.tinyunown {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -210px
+	background-position: -480px -210px;
 }
 
 	/* ROW 9*/
-.wobbuffet {
+.tinywobbuffet {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -240px
+	background-position: -1080px -240px;
 }
-.girafarig {
+.tinygirafarig {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -240px
+	background-position: -1120px -240px;
 }
-.pineco {
+.tinypineco {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -240px
+	background-position: -1160px -240px;
 }
-.forretress {
+.tinyforretress {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -240px
+	background-position: -1200px -240px;
 }
-.dunsparce {
+.tinydunsparce {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -240px
+	background-position: -1240px -240px;
 }
 
 	/* ROW 10*/
-.gligar {
+.tinygligar {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -270px
+	background-position: -0px -270px;
 }
-.steelix {
+.tinysteelix {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -270px
+	background-position: -40px -270px;
 }
-.snubbull {
+.tinysteelix-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -270px
+	background-position: -80px -270px;
 }
-.granbull {
+.tinysnubbull {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -270px
+	background-position: -120px -270px;
 }
-.qwilfish {
+.tinygranbull {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -270px
+	background-position: -160px -270px;
 }
-.scizor {
+.tinyqwilfish {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -270px
+	background-position: -200px -270px;
 }
-.shuckle {
+.tinyscizor {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -270px
+	background-position: -240px -270px;
 }
-.heracross {
+.tinyscizor-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -270px
+	background-position: -280px -270px;
 }
-.sneasel {
+.tinyshuckle {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -270px
+	background-position: -320px -270px;
 }
-.teddiursa {
+.tinyheracross {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -270px
+	background-position: -360px -270px;
 }
-.ursaring {
+.tinyheracross-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -270px
+	background-position: -400px -270px;
 }
-.slugma {
+.tinysneasel {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -270px
+	background-position: -440px -270px;
 }
-.magcargo {
+.tinyteddiursa {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -270px
+	background-position: -520px -270px;
 }
-.swinub {
+.tinyursaring {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -270px
+	background-position: -600px -270px;
 }
-.piloswine {
+.tinyslugma {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -270px
+	background-position: -640px -270px;
 }
-.corsola {
+.tinymagcargo {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -270px
+	background-position: -680px -270px;
 }
-.remoraid {
+.tinyswinub {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -270px
+	background-position: -720px -270px;
 }
-.octillery {
+.tinypiloswine {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -270px
+	background-position: -760px -270px;
 }
-.delibird {
+.tinycorsola {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -270px
+	background-position: -800px -270px;
 }
-.mantine {
+.tinyremoraid {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -270px
+	background-position: -840px -270px;
 }
-.skarmory {
+.tinyoctillery {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -270px
+	background-position: -880px -270px;
 }
-.houndour {
+.tinydelibird {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -270px
+	background-position: -920px -270px;
 }
-.houndoom {
+.tinymantine {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -270px
+	background-position: -960px -270px;
 }
-.kingdra {
+.tinyskarmory {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -270px
+	background-position: -1000px -270px;
 }
-.phanpy {
+.tinyhoundour {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -270px
+	background-position: -1040px -270px;
 }
-.donphan {
+.tinyhoundoom {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -270px
+	background-position: -1080px -270px;
+}
+.tinyhoundoom-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -270px;
+}
+.tinykingdra {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -270px;
+}
+.tinyphanpy {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -270px;
+}
+.tinydonphan {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -270px;
 }
 
 	/* ROW 11*/
-.porygon2 {
+.tinyporygon2 {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -300px
+	background-position: -0px -300px;
 }
-.stantler {
+.tinystantler {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -300px
+	background-position: -40px -300px;
 }
-.smeargle {
+.tinysmeargle {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -300px
+	background-position: -80px -300px;
 }
-.tyrogue {
+.tinytyrogue {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -300px
+	background-position: -120px -300px;
 }
-.hitmontop {
+.tinyhitmontop {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -300px
+	background-position: -160px -300px;
 }
-.smoochum {
+.tinysmoochum {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -300px
+	background-position: -200px -300px;
 }
-.elekid {
+.tinyelekid {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -300px
+	background-position: -240px -300px;
 }
-.magby {
+.tinymagby {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -300px
+	background-position: -280px -300px;
 }
-.miltank {
+.tinymiltank {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -300px
+	background-position: -320px -300px;
 }
-.blissey {
+.tinyblissey {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -300px
+	background-position: -360px -300px;
 }
-.raikou {
+.tinyraikou {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -300px
+	background-position: -400px -300px;
 }
-.entei {
+.tinyentei {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -300px
+	background-position: -440px -300px;
 }
-.suicune {
+.tinysuicune {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -300px
+	background-position: -480px -300px;
 }
-.larvitar {
+.tinylarvitar {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -300px
+	background-position: -520px -300px;
 }
-.pupitar {
+.tinypupitar {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -300px
+	background-position: -560px -300px;
 }
-.tyranitar {
+.tinytyranitar {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -300px
+	background-position: -600px -300px;
 }
-.lugia {
+.tinytyranitar-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -300px
+	background-position: -640px -300px;
 }
-.ho-Oh {
+.tinylugia {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -300px
+	background-position: -680px -300px;
 }
-.celebi {
+.tinyho-oh {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -300px
+	background-position: -720px -300px;
 }
-.treecko {
+.tinycelebi {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -300px
+	background-position: -760px -300px;
 }
-.grovyle {
+.tinytreecko {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -300px
+	background-position: -800px -300px;
 }
-.sceptile {
+.tinygrovyle {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -300px
+	background-position: -840px -300px;
 }
-.torchic {
+.tinysceptile {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -300px
+	background-position: -880px -300px;
 }
-.combusken {
+.tinysceptile-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -300px
+	background-position: -880px -300px;
 }
-.blaziken {
+.tinytorchic {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -300px
+	background-position: -960px -300px;
 }
-.mudkip {
+.tinycombusken {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -300px
+	background-position: -1000px -300px;
 }
-.marshtomp {
+.tinyblaziken {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -300px
+	background-position: -1040px -300px;
 }
-.swampert {
+.tinyblaziken-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -300px
+	background-position: -1080px -300px;
+}
+.tinymudkip {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -300px;
+}
+.tinymarshtomp {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -300px;
+}
+.tinyswampert {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -300px;
+}
+.tinyswampert-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -300px;
 }
 
 	/* ROW 12*/
-.poochyena {
+.tinypoochyena {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -330px
+	background-position: -0px -330px;
 }
-.mightyena {
+.tinymightyena {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -330px
+	background-position: -40px -330px;
 }
-.zigzagoon {
+.tinyzigzagoon {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -330px
+	background-position: -80px -330px;
 }
-.linoone {
+.tinylinoone {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -330px
+	background-position: -120px -330px;
 }
-.wurmple {
+.tinywurmple {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -330px
+	background-position: -160px -330px;
 }
-.silcoon {
+.tinysilcoon {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -330px
+	background-position: -200px -330px;
 }
-.beautifly {
+.tinybeautifly {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -330px
+	background-position: -240px -330px;
 }
-.cascoon {
+.tinycascoon {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -330px
+	background-position: -280px -330px;
 }
-.dustox {
+.tinydustox {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -330px
+	background-position: -320px -330px;
 }
-.lotad {
+.tinylotad {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -330px
+	background-position: -360px -330px;
 }
-.lombre {
+.tinylombre {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -330px
+	background-position: -400px -330px;
 }
-.ludicolo {
+.tinyludicolo {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -330px
+	background-position: -440px -330px;
 }
-.seedot {
+.tinyseedot {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -330px
+	background-position: -480px -330px;
 }
-.nuzleaf {
+.tinynuzleaf {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -330px
+	background-position: -520px -330px;
 }
-.shiftry {
+.tinyshiftry {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -330px
+	background-position: -560px -330px;
 }
-.taillow {
+.tinytaillow {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -330px
+	background-position: -600px -330px;
 }
-.swellow {
+.tinyswellow {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -330px
+	background-position: -640px -330px;
 }
-.wingull {
+.tinywingull {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -330px
+	background-position: -680px -330px;
 }
-.pelipper {
+.tinypelipper {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -330px
+	background-position: -720px -330px;
 }
-.ralts {
+.tinyralts {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -330px
+	background-position: -760px -330px;
 }
-.kirlia {
+.tinykirlia {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -330px
+	background-position: -800px -330px;
 }
-.gardevoir {
+.tinygardevoir {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -330px
+	background-position: -840px -330px;
 }
-.surskit {
+.tinygardevoir-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -330px
+	background-position: -880px -330px;
 }
-.masquerain {
+.tinysurskit {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -330px
+	background-position: -920px -330px;
 }
-.shroomish {
+.tinymasquerain {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -330px
+	background-position: -960px -330px;
 }
-.breloom {
+.tinyshroomish {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -330px
+	background-position: -1000px -330px;
 }
-.slakoth {
+.tinybreloom {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -330px
+	background-position: -1040px -330px;
 }
-.vigoroth {
+.tinyslakoth {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -330px
+	background-position: -1080px -330px;
 }
-.slaking {
+.tinyvigoroth {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -330px
+	background-position: -1120px -330px;
 }
-.nincada {
+.tinyslaking {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -330px
+	background-position: -1160px -330px;
 }
-.ninjask {
+.tinynincada {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -330px
+	background-position: -1200px -330px;
+}
+.tinyninjask {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -330px;
 }
 
 	/* ROW 13*/
-.shedinja {
+.tinyshedinja {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -360px
+	background-position: -0px -360px;
 }
-.whismur {
+.tinywhismur {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -360px
+	background-position: -40px -360px;
 }
-.loudred {
+.tinyloudred {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -360px
+	background-position: -80px -360px;
 }
-.exploud {
+.tinyexploud {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -360px
+	background-position: -120px -360px;
 }
-.makuhita {
+.tinymakuhita {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -360px
+	background-position: -160px -360px;
 }
-.hariyama {
+.tinyhariyama {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -360px
+	background-position: -200px -360px;
 }
-.azurill {
+.tinyazurill {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -360px
+	background-position: -240px -360px;
 }
-.nosepass {
+.tinynosepass {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -360px
+	background-position: -280px -360px;
 }
-.skitty {
+.tinyskitty {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -360px
+	background-position: -320px -360px;
 }
-.delcatty {
+.tinydelcatty {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -360px
+	background-position: -360px -360px;
 }
-.sableye {
+.tinysableye {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -360px
+	background-position: -400px -360px;
 }
-.mawile {
+.tinysableye {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -360px
+	background-position: -440px -360px;
 }
-.aron {
+.tinymawile {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -360px
+	background-position: -480px -360px;
 }
-.lairon {
+.tinymawile-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -360px
+	background-position: -520px -360px;
 }
-.aggron {
+.tinyaron {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -360px
+	background-position: -560px -360px;
 }
-.meditite {
+.tinylairon {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -360px
+	background-position: -600px -360px;
 }
-.medicham {
+.tinyaggron {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -360px
+	background-position: -640px -360px;
 }
-.electrike {
+.tinyaggron-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -360px
+	background-position: -680px -360px;
 }
-.manectric {
+.tinymeditite {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -360px
+	background-position: -720px -360px;
 }
-.plusle {
+.tinymedicham {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -360px
+	background-position: -760px -360px;
 }
-.minun {
+.tinymedicham-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -360px
+	background-position: -800px -360px;
 }
-.volbeat {
+.tinyelectrike {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -360px
+	background-position: -840px -360px;
 }
-.illumise {
+.tinymanectric {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -360px
+	background-position: -880px -360px;
 }
-.roselia {
+.tinymanectric-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -360px
+	background-position: -920px -360px;
 }
-.gulpin {
+.tinyplusle {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -360px
+	background-position: -960px -360px;
 }
-.swalot {
+.tinyminun {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -360px
+	background-position: -1000px -360px;
+}
+.tinyvolbeat {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -360px;
+}
+.tinyillumise {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -360px;
+}
+.tinyroselia {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -360px;
+}
+.tinygulpin {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -360px;
+}
+.tinyswalot {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -360px;
 }
 
 	/* ROW 14*/
-.carvanha {
+.tinycarvanha {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -390px
+	background-position: -0px -390px;
 }
-.sharpedo {
+.tinysharpedo {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -390px
+	background-position: -40px -390px;
 }
-.wailmer {
+.tinysharpedo-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -120px 390px
+	background-position: -80px -390px;
 }
-.wailord {
+.tinywailmer {
 	width: 40px;
 	height: 30px;
-	background-position: -160px 390px
+	background-position: -120px -390px;
 }
-.numel {
+.tinywailord {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -390px
+	background-position: -160px -390px;
 }
-.camerupt {
+.tinynumel {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -390px
+	background-position: -200px -390px;
 }
-.torkoal {
+.tinycamerupt {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -390px
+	background-position: -240px -390px;
 }
-.spoink {
+.tinycamerupt-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -390px
+	background-position: -280px -390px;
 }
-.grumpig {
+.tinytorkoal {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -390px
+	background-position: -320px -390px;
 }
-.spinda {
+.tinyspoink {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -390px
+	background-position: -360px -390px;
 }
-.trapinch {
+.tinygrumpig {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -390px
+	background-position: -400px -390px;
 }
-.vibrava {
+.tinyspinda {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -390px
+	background-position: -440px -390px;
 }
-.flygon {
+.tinytrapinch {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -390px
+	background-position: -480px -390px;
 }
-.cacnea {
+.tinyvibrava {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -390px
+	background-position: -520px -390px;
 }
-.cacturne {
+.tinyflygon {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -390px
+	background-position: -560px -390px;
 }
-.swablu {
+.tinycacnea {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -390px
+	background-position: -600px -390px;
 }
-.altaria {
+.tinycacturne {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -390px
+	background-position: -640px -390px;
 }
-.zangoose {
+.tinyswablu {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -390px
+	background-position: -680px -390px;
 }
-.seviper {
+.tinyaltaria {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -390px
+	background-position: -720px -390px;
 }
-.lunatone {
+.tinyaltaria-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -390px
+	background-position: -760px -390px;
 }
-.solrock {
+.tinyzangoose {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -390px
+	background-position: -800px -390px;
 }
-.barboach {
+.tinyseviper {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -390px
+	background-position: -880px -390px;
 }
-.whiscash {
+.tinylunatone {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -390px
+	background-position: -960px -390px;
 }
-.corphish {
+.tinysolrock {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -390px
+	background-position: -1000px -390px;
 }
-.crawdaunt {
+.tinybarboach {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -390px
+	background-position: -1040px -390px;
 }
-.baltoy {
+.tinywhiscash {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -390px
+	background-position: -1080px -390px;
 }
-.claydol {
+.tinycorphish {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -390px
+	background-position: -1120px -390px;
+}
+.tinycrawdaunt {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -390px;
+}
+.tinybaltoy {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -390px;
+}
+.tinyclaydol {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -390px;
 }
 
 	/* ROW 15*/
-.lileep {
+.tinylileep {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -420px
+	background-position: -0px -420px;
 }
-.cradily {
+.tinycradily {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -420px
+	background-position: -40px -420px;
 }
-.anorith {
+.tinyanorith {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -420px
+	background-position: -80px -420px;
 }
-.armaldo {
+.tinyarmaldo {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -420px
+	background-position: -120px -420px;
 }
-.feebas {
+.tinyfeebas {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -420px
+	background-position: -160px -420px;
 }
-.milotic {
+.tinymilotic {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -420px
+	background-position: -200px -420px;
 }
-.castform {
+.tinycastform {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -420px
+	background-position: -240px -420px;
 }
-.kecleon {
+.tinycastform-rain {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -420px
+	background-position: -280px -420px;
 }
-.shuppet {
+.tinycastform-snowy {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -420px
+	background-position: -320px -420px;
 }
-.banette {
+.tinycastform-sunny {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -420px
+	background-position: -400px -420px;
 }
-.duskull {
+.tinykecleon {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -420px
+	background-position: -440px -420px;
 }
-.dusclops {
+.tinyshuppet {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -420px
+	background-position: -480px -420px;
 }
-.tropius {
+.tinybanette {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -420px
+	background-position: -520px -420px;
 }
-.chimecho {
+.tinybanette-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -420px
+	background-position: -560px -420px;
 }
-.absol {
+.tinyduskull {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -420px
+	background-position: -600px -420px;
 }
-.wynaut {
+.tinydusclops {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -420px
+	background-position: -640px -420px;
 }
-.snorunt {
+.tinytropius {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -420px
+	background-position: -680px -420px;
 }
-.glalie {
+.tinychimecho {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -420px
+	background-position: -720px -420px;
 }
-.spheal {
+.tinyabsol {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -420px
+	background-position: -760px -420px;
 }
-.sealeo {
+.tinyabsol-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -420px
+	background-position: -840px -420px;
 }
-.walrein {
+.tinywynaut {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -420px
+	background-position: -920px -420px;
 }
-.clamperl {
+.tinysnorunt {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -420px
+	background-position: -960px -420px;
 }
-.huntail {
+.tinyglalie {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -420px
+	background-position: -1000px -420px;
+}
+.tinyglalie-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -420px;
+}
+.tinyspheal {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -420px;
+}
+.tinysealeo {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -420px;
+}
+.tinywalrein {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -420px;
+}
+.tinyclamperl {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -420px;
+}
+.tinyhuntail {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -420px;
 }
 
 	/* ROW 16*/
-.gorebyss {
+.tinygorebyss {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -450px
+	background-position: -0px -450px;
 }
-.relicanth {
+.tinyrelicanth {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -450px
+	background-position: -40px -450px;
 }
-.luvdisc {
+.tinyluvdisc {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -450px
+	background-position: -80px -450px;
 }
-.bagon {
+.tinybagon {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -450px
+	background-position: -120px -450px;
 }
-.shelgon {
+.tinyshelgon {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -450px
+	background-position: -160px -450px;
 }
-.salamence {
+.tinysalamence {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -450px
+	background-position: -200px -450px;
 }
-.beldum {
+.tinysalamence-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -450px
+	background-position: -240px -450px;
 }
-.metang {
+.tinybeldum {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -450px
+	background-position: -280px -450px;
 }
-.metagross {
+.tinymetang {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -450px
+	background-position: -320px -450px;
 }
-.regirock {
+.tinymetagross {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -450px
+	background-position: -360px -450px;
 }
-.regice {
+.tinymetagross-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -450px
+	background-position: -400px -450px;
 }
-.registeel {
+.tinyregirock {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -450px
+	background-position: -440px -450px;
 }
-.latias {
+.tinyregice {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -450px
+	background-position: -520px -450px;
 }
-.latios {
+.tinyregisteel {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -450px
-}.kyogre {
-	width: 40px;
-	height: 30px;
-	background-position: -760px -450px
+	background-position: -560px -450px;
 }
-.groudon {
+.tinylatias {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -450px
+	background-position: -600px -450px;
 }
-.rayquaza {
+.tinylatias-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -450px
+	background-position: -640px -450px;
 }
-.jirachi {
+.tinylatios {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -450px
+	background-position: -680px -450px;
 }
-.deoxys {
+.tinylatios-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -450px
+	background-position: -720px -450px;
 }
-.turtwig {
+.tinykyogre {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -450px
+	background-position: -760px -450px;
 }
-.grotle {
+.tinykyogre-primal {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -450px
+	background-position: -800px -450px;
+}
+.tinygroudon {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -450px;
+}
+.tinygroudon-primal {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -450px;
+}
+.tinyrayquaza {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -450px;
+}
+.tinyrayquaza-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -450px;
+}
+.tinyjirachi {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -450px;
+}
+.tinydeoxys {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -450px;
+}
+.tinydeoxys-normal {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -450px;
+}
+.tinydeoxys-attack {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -450px;
+}
+.tinydeoxys-defense {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -450px;
+}
+.tinydeoxys-speed {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -450px;
+}
+.tinyturtwig {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -450px;
+}
+.tinygrotle {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -450px;
 }
 
 	/* ROW 17*/
-.torterra {
+.tinytorterra {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -480px
+	background-position: -0px -480px;
 }
-.chimchar {
+.tinychimchar {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -480px
+	background-position: -80px -480px;
 }
-.monferno {
+.tinymonferno {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -480px
+	background-position: -120px -480px;
 }
-.infernape {
+.tinyinfernape {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -480px
+	background-position: -160px -480px;
 }
-.piplup {
+.tinypiplup {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -480px
+	background-position: -200px -480px;
 }
-.prinplup {
+.tinyprinplup {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -480px
+	background-position: -240px -480px;
 }
-.empoleon {
+.tinyempoleon {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -480px
+	background-position: -280px -480px;
 }
-.starly {
+.tinystarly {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -480px
+	background-position: -320px -480px;
 }
-.staravia {
+.tinystaravia {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -480px
+	background-position: -360px -480px;
 }
-.staraptor {
+.tinystaraptor {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -480px
+	background-position: -400px -480px;
 }
-.bidoof {
+.tinybidoof {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -480px
+	background-position: -440px -480px;
 }
-.bibarel {
+.tinybibarel {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -480px
+	background-position: -480px -480px;
 }
-.kricketot {
+.tinykricketot {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -480px
+	background-position: -520px -480px;
 }
-.kricketune {
+.tinykricketune {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -480px
+	background-position: -560px -480px;
 }
-.shinx {
+.tinyshinx {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -480px
+	background-position: -600px -480px;
 }
-.luxio {
+.tinyluxio {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -480px
+	background-position: -640px -480px;
 }
-.luxray {
+.tinyluxray {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -480px
+	background-position: -680px -480px;
 }
-.budew {
+.tinybudew {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -480px
+	background-position: -720px -480px;
 }
-.roserade {
+.tinyroserade {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -480px
+	background-position: -800px -480px;
 }
-.cranidos {
+.tinycranidos {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -480px
+	background-position: -880px -480px;
 }
-.rampardos {
+.tinyrampardos {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -480px
+	background-position: -920px -480px;
 }
-.shieldon {
+.tinyshieldon {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -480px
+	background-position: -960px -480px;
 }
-.bastiodon {
+.tinybastiodon {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -480px
+	background-position: -1000px -480px;
 }
-.burmy {
+.tinyburmy {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -480px
+	background-position: -1040px -480px;
 }
-.wormadam {
+.tinywormadam {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -480px
+	background-position: -1160px -480px;
+}
+.tinywormadam-plant {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -480px;
+}
+.tinywormadam-sandy {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -480px;
+}
+.tinywormadam-trash {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -480px;
 }
 
 	/* ROW 18*/
-.mothim {
+.tinymothim {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -510px
+	background-position: -0px -510px;
 }
-.combee {
+.tinycombee {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -510px
+	background-position: -40px -510px;
 }
-.vespiquen {
+.tinyvespiquen {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -510px
+	background-position: -80px -510px;
 }
-.pachirisu {
+.tinypachirisu {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -510px
+	background-position: -120px -510px;
 }
-.buizel {
+.tinybuizel {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -510px
+	background-position: -160px -510px;
 }
-.floatzel {
+.tinyfloatzel {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -510px
+	background-position: -200px -510px;
 }
-.cherubi {
+.tinycherubi {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -510px
+	background-position: -240px -510px;
 }
-.cherrim {
+.tinycherrim {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -510px
+	background-position: -320px -510px;
 }
-.shellos {
+.tinyshellos {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -510px
+	background-position: -360px -510px;
 }
-.gastrodon {
+.tinygastrodon {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -510px
+	background-position: -440px -510px;
 }
-.ambipom {
+.tinyambipom {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -510px
+	background-position: -520px -510px;
 }
-.drifloon {
+.tinydrifloon {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -510px
+	background-position: -560px -510px;
 }
-.drifblim {
+.tinydrifblim {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -510px
+	background-position: -600px -510px;
 }
-.buneary {
+.tinybuneary {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -510px
+	background-position: -640px -510px;
 }
-.lopunny {
+.tinylopunny {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -510px
+	background-position: -680px -510px;
 }
-.mismagius {
+.tinylopunny-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -510px
+	background-position: -720px -510px;
 }
-.honchkrow {
+.tinymismagius {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -510px
+	background-position: -760px -510px;
 }
-.glameow {
+.tinyhonchkrow {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -510px
+	background-position: -800px -510px;
 }
-.purugly {
+.tinyglameow {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -510px
+	background-position: -840px -510px;
 }
-.chingling {
+.tinypurugly {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -510px
+	background-position: -880px -510px;
 }
-.stunky {
+.tinychingling {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -510px
+	background-position: -920px -510px;
 }
-.skuntank {
+.tinystunky {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -510px
+	background-position: -960px -510px;
 }
-.bronzor {
+.tinyskuntank {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -510px
+	background-position: -1000px -510px;
 }
-.bronzong {
+.tinybronzor {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -510px
+	background-position: -1040px -510px;
 }
-.bonsly {
+.tinybronzong {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -510px
+	background-position: -1080px -510px;
 }
-.mime-Jr {
+.tinybonsly {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -510px
+	background-position: -1120px -510px;
 }
-.happiny {
+.tinymime-jr {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -510px
+	background-position: -1160px -510px;
 }
-.chatot {
+.tinyhappiny {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -510px
+	background-position: -1200px -510px;
+}
+.tinychatot {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -510px;
 }
 
 	/* ROW 19*/
-.spiritomb {
+.tinyspiritomb {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -540px
+	background-position: -0px -540px;
 }
-.gible {
+.tinygible {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -540px
+	background-position: -40px -540px;
 }
-.gabite {
+.tinygabite {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -540px
+	background-position: -80px -540px;
 }
-.garchomp {
+.tinygarchomp {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -540px
+	background-position: -120px -540px;
 }
-.munchlax {
+.tinygarchomp-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -540px
+	background-position: -160px -540px;
 }
-.riolu {
+.tinymunchlax {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -540px
+	background-position: -200px -540px;
 }
-.lucario {
+.tinyriolu {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -540px
+	background-position: -240px -540px;
 }
-.hippopotas {
+.tinylucario {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -540px
+	background-position: -280px -540px;
 }
-.hippowdon {
+.tinylucario-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -540px
+	background-position: -320px -540px;
 }
-.skorupi {
+.tinyhippopotas {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -540px
+	background-position: -360px -540px;
 }
-.drapion {
+.tinyhippowdon {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -540px
+	background-position: -400px -540px;
 }
-.croagunk {
+.tinyskorupi {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -540px
+	background-position: -440px -540px;
 }
-.toxicroak {
+.tinydrapion {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -540px
+	background-position: -480px -540px;
 }
-.carnivine {
+.tinycroagunk {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -540px
+	background-position: -520px -540px;
 }
-.finneon {
+.tinytoxicroak {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -540px
+	background-position: -560px -540px;
 }
-.lumineon {
+.tinycarnivine {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -540px
+	background-position: -600px -540px;
 }
-.mantyke {
+.tinyfinneon {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -540px
+	background-position: -640px -540px;
 }
-.snover {
+.tinylumineon {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -540px
+	background-position: -680px -540px;
 }
-.abomasnow {
+.tinymantyke {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -540px
+	background-position: -720px -540px;
 }
-.weavile {
+.tinysnover {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -540px
+	background-position: -760px -540px;
 }
-.magnezone {
+.tinyabomasnow {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -540px
+	background-position: -800px -540px;
 }
-.lickilicky {
+.tinyabomasnow-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -540px
+	background-position: -840px -540px;
 }
-.rhyperior {
+.tinyweavile {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -540px
+	background-position: -880px -540px;
 }
-.tangrowth {
+.tinymagnezone {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -540px
+	background-position: -920px -540px;
 }
-.electivire {
+.tinylickilicky {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -540px
+	background-position: -960px -540px;
 }
-.magmortar {
+.tinyrhyperior {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -540px
+	background-position: -1000px -540px;
 }
-.togekiss {
+.tinytangrowth {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -540px
+	background-position: -1040px -540px;
+}
+.tinyelectivire {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -540px;
+}
+.tinymagmortar {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -540px;
+}
+.tinytogekiss {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -540px;
 }
 
 	/* ROW 20*/
-.yanmega {
+.tinyyanmega {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -570px
+	background-position: -0px -570px;
 }
-.leafeon {
+.tinyleafeon {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -570px
+	background-position: -40px -570px;
 }
-.glaceon {
+.tinyglaceon {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -570px
+	background-position: -80px -570px;
 }
-.gliscor {
+.tinygliscor {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -570px
+	background-position: -120px -570px;
 }
-.mamoswine {
+.tinymamoswine {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -570px
+	background-position: -160px -570px;
 }
-.porygon-Z {
+.tinyporygon-z {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -570px
+	background-position: -200px -570px;
 }
-.gallade {
+.tinygallade {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -570px
+	background-position: -240px -570px;
 }
-.probopass {
+.tinygallade-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -570px
+	background-position: -280px -570px;
 }
-.dusknoir {
+.tinyprobopass {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -570px
+	background-position: -320px -570px;
 }
-.froslass {
+.tinydusknoir {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -570px
+	background-position: -360px -570px;
 }
-.rotom {
+.tinyfroslass {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -570px
+	background-position: -400px -570px;
 }
-.uxie {
+.tinyrotom {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -570px
+	background-position: -440px -570px;
 }
-.mesprit {
+.tinyrotom-fan {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -570px
+	background-position: -480px -570px;
 }
-.azelf {
+.tinyrotom-frost {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -570px
+	background-position: -520px -570px;
 }
-.dialga {
+.tinyrotom-heat {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -570px
+	background-position: -560px -570px;
 }
-.palkia {
+.tinyrotom-mow {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -570px
+	background-position: -600px -570px;
 }
-.heatran {
+.tinyrotom-wash {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -570px
+	background-position: -640px -570px;
 }
-.regigigas {
+.tinyuxie {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -570px
+	background-position: -720px -570px;
 }
-.giratina {
+.tinymesprit {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -570px
+	background-position: -760px -570px;
 }
-.cresselia {
+.tinyazelf {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -570px
+	background-position: -800px -570px;
 }
-.phione {
+.tinydialga {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -570px
+	background-position: -840px -570px;
 }
-.manaphy {
+.tinypalkia {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -570px
+	background-position: -880px -570px;
 }
-.darkrai {
+.tinyheatran {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -570px
+	background-position: -920px -570px;
 }
-.shaymin {
+.tinyregigigas {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -570px
+	background-position: -960px -570px;
+}
+.tinygiratina {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -570px;
+}
+.tinygiratina-altered {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -570px;
+}
+.tinygiratina-origin {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -570px;
+}
+.tinycresselia {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -570px;
+}
+.tinyphione {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -570px;
+}
+.tinymanaphy {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -570px;
+}
+.tinydarkrai {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -570px;
+}
+.tinyshaymin {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -570px;
+}
+.tinyshaymin-land {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -570px;
 }
 
 	/* ROW 21*/
-.arceus {
+.tinyshaymin-sky {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -600px
+	background-position: -0px -600px;
 }
-.victini {
+.tinyarceus {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -600px
+	background-position: -80px -600px;
 }
-.snivy {
+.tinyvictini {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -600px
+	background-position: -120px -600px;
 }
-.servine {
+.tinysnivy {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -600px
+	background-position: -160px -600px;
 }
-.serperior {
+.tinyservine {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -600px
+	background-position: -200px -600px;
 }
-.tepig {
+.tinyserperior {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -600px
+	background-position: -240px -600px;
 }
-.pignite {
+.tinytepig {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -600px
+	background-position: -280px -600px;
 }
-.emboar {
+.tinypignite {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -600px
+	background-position: -320px -600px;
 }
-.oshawott {
+.tinyemboar {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -600px
+	background-position: -360px -600px;
 }
-.dewott {
+.tinyoshawott {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -600px
+	background-position: -440px -600px;
 }
-.samurott {
+.tinydewott {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -600px
+	background-position: -480px -600px;
 }
-.patrat {
+.tinysamurott {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -600px
+	background-position: -520px -600px;
 }
-.watchog {
+.tinypatrat {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -600px
+	background-position: -560px -600px;
 }
-.lillipup {
+.tinywatchog {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -600px
+	background-position: -600px -600px;
 }
-.herdier {
+.tinylillipup {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -600px
+	background-position: -640px -600px;
 }
-.stoutland {
+.tinyherdier {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -600px
+	background-position: -680px -600px;
 }
-.purrloin {
+.tinystoutland {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -600px
+	background-position: -720px -600px;
 }
-.liepard {
+.tinypurrloin {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -600px
+	background-position: -760px -600px;
 }
-.pansage {
+.tinyliepard {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -600px
+	background-position: -800px -600px;
 }
-.simisage {
+.tinypansage {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -600px
+	background-position: -840px -600px;
 }
-.pansear {
+.tinysimisage {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -600px
+	background-position: -880px -600px;
 }
-.simisear {
+.tinypansear {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -600px
+	background-position: -920px -600px;
 }
-.panpour {
+.tinysimisear {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -600px
+	background-position: -1000px -600px;
 }
-.simipour {
+.tinypanpour {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -600px
+	background-position: -1080px -600px;
 }
-.munna {
+.tinysimipour {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -600px
+	background-position: -1120px -600px;
 }
-.musharna {
+.tinymunna {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -600px
+	background-position: -1160px -600px;
 }
-.pidove {
+.tinymusharna {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -600px
+	background-position: -1200px -600px;
+}
+.tinypidove {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -600px;
 }
 
 	/* ROW 22*/
-.tranquill {
+.tinytranquill {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -630px
+	background-position: -0px -630px;
 }
-.unfezant {
+.tinyunfezant {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -630px
+	background-position: -40px -630px;
 }
-.blitzle {
+.tinyblitzle {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -630px
+	background-position: -120px -630px;
 }
-.zebstrika {
+.tinyzebstrika {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -630px
+	background-position: -160px -630px;
 }
-.roggenrola {
+.tinyroggenrola {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -630px
+	background-position: -200px -630px;
 }
-.boldore {
+.tinyboldore {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -630px
+	background-position: -240px -630px;
 }
-.gigalith {
+.tinygigalith {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -630px
+	background-position: -280px -630px;
 }
-.woobat {
+.tinywoobat {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -630px
+	background-position: -320px -630px;
 }
-.swoobat {
+.tinyswoobat {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -630px
+	background-position: -360px -630px;
 }
-.drilbur {
+.tinydrilbur {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -630px
+	background-position: -400px -630px;
 }
-.excadrill {
+.tinyexcadrill {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -630px
+	background-position: -480px -630px;
 }
-.audino {
+.tinyaudino {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -630px
+	background-position: -560px -630px;
 }
-.timburr {
+.tinyaudino-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -630px
+	background-position: -600px -630px;
 }
-.gurdurr {
+.tinytimburr {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -630px
+	background-position: -640px -630px;
 }
-.conkeldurr {
+.tinygurdurr {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -630px
+	background-position: -680px -630px;
 }
-.tympole {
+.tinyconkeldurr {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -630px
+	background-position: -720px -630px;
 }
-.palpitoad {
+.tinytympole {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -630px
+	background-position: -760px -630px;
 }
-.seismitoad {
+.tinypalpitoad {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -630px
+	background-position: -800px -630px;
 }
-.throh {
+.tinyseismitoad {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -630px
+	background-position: -840px -630px;
 }
-.sawk {
+.tinythroh {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -630px
+	background-position: -880px -630px;
 }
-.sewaddle {
+.tinysawk {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -630px
+	background-position: -920px -630px;
 }
-.swadloon {
+.tinysewaddle {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -630px
+	background-position: -1000px -630px;
 }
-.leavanny {
+.tinyswadloon {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -630px
+	background-position: -1040px -630px;
 }
-.venipede {
+.tinyleavanny {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -630px
+	background-position: -1080px -630px;
 }
-.whirlipede {
+.tinyvenipede {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -630px
+	background-position: -1120px -630px;
 }
-.scolipede {
+.tinywhirlipede {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -630px
+	background-position: -1160px -630px;
 }
-.cottonee {
+.tinyscolipede {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -630px
+	background-position: -1200px -630px;
+}
+.tinycottonee {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -630px;
 }
 
 	/* ROW 23*/
-.whimsicott {
+.tinywhimsicott {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -660px
+	background-position: -0px -660px;
 }
-.petilil {
+.tinypetilil {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -660px
+	background-position: -40px -660px;
 }
-.lilligant {
+.tinylilligant {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -660px
+	background-position: -80px -660px;
 }
-.basculin {
+.tinybasculin {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -660px
+	background-position: -160px -660px;
 }
-.sandile {
+.tinybasculin-red-striped {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -660px
+	background-position: -160px -660px;
 }
-.krokorok {
+.tinybasculin-blue-striped {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -660px
+	background-position: -200px -660px;
 }
-.krookodile {
+.tinysandile {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -660px
+	background-position: -240px -660px;
 }
-.darumaka {
+.tinykrokorok {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -660px
+	background-position: -280px -660px;
 }
-.darmanitan {
+.tinykrookodile {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -660px
+	background-position: -320px -660px;
 }
-.maractus {
+.tinydarumaka {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -660px
+	background-position: -360px -660px;
 }
-.dwebble {
+.tinydarmanitan {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -660px
+	background-position: -400px -660px;
 }
-.crustle {
+.tinydarmanitan-standard {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -660px
+	background-position: -400px -660px;
 }
-.scraggy {
+.tinydarmanitan-zen {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -660px
+	background-position: -440px -660px;
 }
-.scrafty {
+.tinymaractus {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -660px
+	background-position: -480px -660px;
 }
-.sigilyph {
+.tinydwebble {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -660px
+	background-position: -520px -660px;
 }
-.yamask {
+.tinycrustle {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -660px
+	background-position: -560px -660px;
 }
-.cofagrigus {
+.tinyscraggy {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -660px
+	background-position: -600px -660px;
 }
-.tirtouga {
+.tinyscrafty {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -660px
+	background-position: -640px -660px;
 }
-.carracosta {
+.tinysigilyph {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -660px
+	background-position: -680px -660px;
 }
-.archen {
+.tinyyamask {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -660px
+	background-position: -720px -660px;
 }
-.archeops {
+.tinycofagrigus {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -660px
+	background-position: -760px -660px;
 }
-.trubbish {
+.tinytirtouga {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -660px
+	background-position: -800px -660px;
 }
-.garbodor {
+.tinycarracosta {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -660px
+	background-position: -840px -660px;
 }
-.zorua {
+.tinyarchen {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -660px
+	background-position: -880px -660px;
 }
-.zoroark {
+.tinyarcheops {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -660px
+	background-position: -920px -660px;
 }
-.minccino {
+.tinytrubbish {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -660px
+	background-position: -960px -660px;
 }
-.cinccino {
+.tinygarbodor {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -660px
+	background-position: -1000px -660px;
 }
-.gothita {
+.tinyzorua {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -660px
+	background-position: -1080px -660px;
+}
+.tinyzoroark {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -660px;
+}
+.tinyminccino {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -660px;
+}
+.tinycinccino {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -660px;
+}
+.tinygothita {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -660px;
 }
 
 	/* ROW 24*/
-.gothorita {
+.tinygothorita {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -690px
+	background-position: -0px -690px;
 }
-.gothitelle {
+.tinygothitelle {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -690px
+	background-position: -40px -690px;
 }
-.solosis {
+.tinysolosis {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -690px
+	background-position: -80px -690px;
 }
-.duosion {
+.tinyduosion {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -690px
+	background-position: -160px -690px;
 }
-.reuniclus {
+.tinyreuniclus {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -690px
+	background-position: -200px -690px;
 }
-.ducklett {
+.tinyducklett {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -690px
+	background-position: -240px -690px;
 }
-.swanna {
+.tinyswanna {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -690px
+	background-position: -280px -690px;
 }
-.vanillite {
+.tinyvanillite {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -690px
+	background-position: -320px -690px;
 }
-.vanillish {
+.tinyvanillish {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -690px
+	background-position: -360px -690px;
 }
-.vanilluxe {
+.tinyvanilluxe {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -690px
+	background-position: -400px -690px;
 }
-.deerling {
+.tinydeerling {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -690px
+	background-position: -480px -690px;
 }
-.sawsbuck {
+.tinysawsbuck {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -690px
+	background-position: -640px -690px;
 }
-.emolga {
+.tinyemolga {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -690px
+	background-position: -800px -690px;
 }
-.karrablast {
+.tinykarrablast {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -6900px
+	background-position: -840px -690px;
 }
-.escavalier {
+.tinyescavalier {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -690px
+	background-position: -880px -690px;
 }
-.foongus {
+.tinyfoongus {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -690px
+	background-position: -920px -690px;
 }
-.amoonguss {
+.tinyamoonguss {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -690px
+	background-position: -960px -690px;
 }
-.frillish {
+.tinyfrillish {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -690px
+	background-position: -1040px -690px;
 }
-.jellicent {
+.tinyjellicent {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -690px
+	background-position: -1120px -690px;
 }
-.alomomola {
+.tinyalomomola {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -690px
+	background-position: -1200px -690px;
 }
-.joltik {
+.tinyjoltik {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -690px
+	background-position: -1240px -690px;
 }
 
 	/* ROW 25*/
-.galvantula {
+.tinygalvantula {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -720px
+	background-position: -0px -720px;
 }
-.ferroseed {
+.tinyferroseed {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -720px
+	background-position: -40px -720px;
 }
-.ferrothorn {
+.tinyferrothorn {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -720px
+	background-position: -80px -720px;
 }
-.klink {
+.tinyklink {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -720px
+	background-position: -120px -720px;
 }
-.klang {
+.tinyklang {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -720px
+	background-position: -200px -720px;
 }
-.klinklang {
+.tinyklinklang {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -720px
+	background-position: -280px -720px;
 }
-.tynamo {
+.tinytynamo {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -720px
+	background-position: -360px -720px;
 }
-.eelektrik {
+.tinyeelektrik {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -720px
+	background-position: -400px -720px;
 }
-.eelektross {
+.tinyeelektross {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -720px
+	background-position: -440px -720px;
 }
-.elgyem {
+.tinyelgyem {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -720px
+	background-position: -480px -720px;
 }
-.beheeyem {
+.tinybeheeyem {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -720px
+	background-position: -520px -720px;
 }
-.litwick {
+.tinylitwick {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -720px
+	background-position: -560px -720px;
 }
-.lampent {
+.tinylampent {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -720px
+	background-position: -640px -720px;
 }
-.chandelure {
+.tinychandelure {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -720px
+	background-position: -680px -720px;
 }
-.axew {
+.tinyaxew {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -720px
+	background-position: -720px -720px;
 }
-.fraxure {
+.tinyfraxure {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -720px
+	background-position: -760px -720px;
 }
-.haxorus {
+.tinyhaxorus {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -720px
+	background-position: -800px -720px;
 }
-.cubchoo {
+.tinycubchoo {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -720px
+	background-position: -840px -720px;
 }
-.beartic {
+.tinybeartic {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -720px
+	background-position: -880px -720px;
 }
-.cryogonal {
+.tinycryogonal {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -720px
+	background-position: -920px -720px;
 }
-.shelmet {
+.tinyshelmet {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -720px
+	background-position: -960px -720px;
 }
-.accelgor {
+.tinyaccelgor {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -720px
+	background-position: -1000px -720px;
 }
-.stunfisk {
+.tinystunfisk {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -720px
+	background-position: -1040px -720px;
 }
-.mienfoo {
+.tinymienfoo {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -720px
+	background-position: -1080px -720px;
 }
-.mienshao {
+.tinymienshao {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -720px
+	background-position: -1120px -720px;
 }
-.druddigon {
+.tinydruddigon {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -720px
+	background-position: -1160px -720px;
 }
-.golett {
+.tinygolett {
 	width: 40px;
 	height: 30px;
-	background-position: -1200px -720px
+	background-position: -1200px -720px;
 }
 
 	/* ROW 26*/
-.golurk {
+.tinygolurk {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -750px
+	background-position: -0px -750px;
 }
-.pawniard {
+.tinypawniard {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -750px
+	background-position: -80px -750px;
 }
-.bisharp {
+.tinybisharp {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -750px
+	background-position: -120px -750px;
 }
-.bouffalant {
+.tinybouffalant {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -750px
+	background-position: -160px -750px;
 }
-.rufflet {
+.tinyrufflet {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -750px
+	background-position: -200px -750px;
 }
-.braviary {
+.tinybraviary {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -750px
+	background-position: -240px -750px;
 }
-.vullaby {
+.tinyvullaby {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -750px
+	background-position: -280px -750px;
 }
-.mandibuzz {
+.tinymandibuzz {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -750px
+	background-position: -320px -750px;
 }
-.heatmor {
+.tinyheatmor {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -750px
+	background-position: -360px -750px;
 }
-.durant {
+.tinydurant {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -750px
+	background-position: -400px -750px;
 }
-.deino {
+.tinydeino {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -750px
+	background-position: -440px -750px;
 }
-.zweilous {
+.tinyzweilous {
 	width: 40px;
 	height: 30px;
-	background-position: -480px -750px
+	background-position: -480px -750px;
 }
-.hydreigon {
+.tinyhydreigon {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -750px
+	background-position: -520px -750px;
 }
-.larvesta {
+.tinylarvesta {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -750px
+	background-position: -560px -750px;
 }
-.volcarona {
+.tinyvolcarona {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -750px
+	background-position: -600px -750px;
 }
-.cobalion {
+.tinycobalion {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -750px
+	background-position: -640px -750px;
 }
-.terrakion {
+.tinyterrakion {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -750px
+	background-position: -680px -750px;
 }
-.virizion {
+.tinyvirizion {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -750px
+	background-position: -720px -750px;
 }
-.tornadus {
+.tinytornadus {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -750px
+	background-position: -760px -750px;
 }
-.thundurus {
+.tinytornadus-incarnate {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -750px
+	background-position: -760px -750px;
 }
-.reshiram {
+.tinytornadus-therian {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -750px
+	background-position: -800px -750px;
 }
-.zekrom {
+.tinythundurus {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -750px
+	background-position: -840px -750px;
 }
-.landorus {
+.tinythundurus-incarnate {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -750px
+	background-position: -840px -750px;
 }
-.kyurem {
+.tinythundurus-therian {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -750px
+	background-position: -880px -750px;
+}
+.tinyreshiram {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -750px;
+}
+.tinyzekrom {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -750px;
+}
+.tinylandorus {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -750px;
+}
+.tinylandorus-incarnate {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -750px;
+}
+.tinylandorus-therian {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -750px;
+}
+.tinykyurem {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -750px;
 } 
+.tinykyurem-black {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -750px;
+}
+.tinykyurem-white {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -750px;
+}
 
 	/* ROW 27*/
-.keldeo {
+.tinykeldeo {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -780px
-} 
-.meloetta {
-	width: 40px;
-	height: 30px;
-	background-position: -160px -780px
-} 
-.genesect {
-	width: 40px;
-	height: 30px;
-	background-position: -280px -780px
-} 
-.chespin {
-	width: 40px;
-	height: 30px;
-	background-position: -320px -780px
-} 
-.quilladin {
-	width: 40px;
-	height: 30px;
-	background-position: -360px -780px
-} 
-.chesnaught {
-	width: 40px;
-	height: 30px;
-	background-position: -400px -780px
-} 
-.fennekin {
-	width: 40px;
-	height: 30px;
-	background-position: -440px -780px
-} 
-.braixen {
-	width: 40px;
-	height: 30px;
-	background-position: -480px -780px
-} 
-.delphox {
-	width: 40px;
-	height: 30px;
-	background-position: -520px -780px
-} 
-.froakie {
-	width: 40px;
-	height: 30px;
-	background-position: -560px -780px
-} 
-.frogadier {
-	width: 40px;
-	height: 30px;
-	background-position: -600px -780px
-} 
-.greninja {
-	width: 40px;
-	height: 30px;
-	background-position: -640px -780px
-} 
-.bunnelby {
-	width: 40px;
-	height: 30px;
-	background-position: -720px -780px
-} 
-.diggersby {
-	width: 40px;
-	height: 30px;
-	background-position: -760px -780px
+	background-position: -40px -780px;
 }
-.fletchling {
+.tinykeldeo-ordinary {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -780px
+	background-position: -40px -780px;
 }
-.fletchinder {
+.tinykeldeo-resolute {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -780px
+	background-position: -80px -780px;
 }
-.talonflame {
+.tinymeloetta {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -780px
+	background-position: -160px -780px;
+} 
+.tinymeloetta-aria {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -780px;
+} 
+.tinymeloetta-pirouette {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -780px;
+} 
+.tinygenesect {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -780px;
+} 
+.tinychespin {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -780px;
+} 
+.tinyquilladin {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -780px;
+} 
+.tinychesnaught {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -780px;
+} 
+.tinyfennekin {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -780px;
+} 
+.tinybraixen {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -780px;
+} 
+.tinydelphox {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -780px;
+} 
+.tinyfroakie {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -780px;
+} 
+.tinyfrogadier {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -780px;
+} 
+.tinygreninja {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -780px;
+} 
+.tinybunnelby {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -780px;
+} 
+.tinydiggersby {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -780px;
 }
-.scatterbug {
+.tinyfletchling {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -780px
+	background-position: -800px -780px;
 }
-.spewpa {
+.tinyfletchinder {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -780px
+	background-position: -840px -780px;
 }
-.vivillon {
+.tinytalonflame {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -780px
+	background-position: -880px -780px;
+}
+.tinyscatterbug {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -780px;
+}
+.tinyspewpa {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -780px;
+}
+.tinyvivillon {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -780px;
 }
 
 	/* ROW 28*/
-.litleo {
+.tinylitleo {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -810px
+	background-position: -520px -810px;
 }
-.pyroar {
+.tinypyroar {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -810px
+	background-position: -560px -810px;
 }
-.flabebe {
+.tinyflabebe {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -810px
+	background-position: -640px -810px;
 }
-.floette {
+.tinyfloette {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -810px
+	background-position: -840px -810px;
 }
-.florges {
+.tinyfloette-eternal {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -810px
+	background-position: -920px -810px;
+}
+.tinyflorges {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -810px;
 }
 
 	/* ROW 29*/
-.skiddo {
+.tinyskiddo {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -840px
+	background-position: -0px -840px;
 }
-.gogoat {
+.tinygogoat {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -840px
+	background-position: -40px -840px;
 }
-.pancham {
+.tinypancham {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -840px
+	background-position: -80px -840px;
 }
-.pangoro {
+.tinypangoro {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -840px
+	background-position: -120px -840px;
 }
-.furfrou {
+.tinyfurfrou {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -840px
+	background-position: -160px -840px;
 }
-.espurr {
+.tinyespurr {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -840px
+	background-position: -600px -840px;
 }
-.meowstic {
+.tinymeowstic {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -840px
+	background-position: -640px -840px;
 }
-.honedge {
+.tinymeowstic-male {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -840px
+	background-position: -640px -840px;
 }
-.doublade {
+.tinymeowstic-female {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -840px
+	background-position: -680px -840px;
 }
-.aegislash {
+.tinyhonedge {
 	width: 40px;
 	height: 30px;
-	background-position: -800px -840px
+	background-position: -720px -840px;
 }
-.spritzee {
+.tinydoublade {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -840px
+	background-position: -760px -840px;
 }
-.aromatisse {
+.tinyaegislash {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -840px
+	background-position: -800px -840px;
 }
-.swirlix {
+.tinyaegislash-shield {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -840px
+	background-position: -800px -840px;
 }
-.slurpuff {
+.tinyaegislash-blade {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -840px
+	background-position: -840px -840px;
 }
-.inkay {
+.tinyspritzee {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -840px
+	background-position: -880px -840px;
 }
-.malamar {
+.tinyaromatisse {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -840px
+	background-position: -920px -840px;
 }
-.binacle {
+.tinyswirlix {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -840px
+	background-position: -960px -840px;
 }
-.barbaracle {
+.tinyslurpuff {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -840px
+	background-position: -1000px -840px;
 }
-.skrelp {
+.tinyinkay {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -840px
+	background-position: -1040px -840px;
+}
+.tinymalamar {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -840px;
+}
+.tinybinacle {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -840px;
+}
+.tinybarbaracle {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -840px;
+}
+.tinyskrelp {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -840px;
 }
 
 	/* ROW 30*/	
-.dragalge {
+.tinydragalge {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -870px
+	background-position: -0px -870px;
 }
-.clauncher {
+.tinyclauncher {
 	width: 40px;
 	height: 30px;
-	background-position: -40px -870px
+	background-position: -40px -870px;
 }
-.clawitzer {
+.tinyclawitzer {
 	width: 40px;
 	height: 30px;
-	background-position: -120px -870px
+	background-position: -120px -870px;
 }
-.helioptile {
+.tinyhelioptile {
 	width: 40px;
 	height: 30px;
-	background-position: -200px -870px
+	background-position: -200px -870px;
 }
-.heliolisk {
+.tinyheliolisk {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -870px
+	background-position: -240px -870px;
 }
-.tyrunt {
+.tinytyrunt {
 	width: 40px;
 	height: 30px;
-	background-position: -280px -870px
+	background-position: -280px -870px;
 }
-.tyrantrum {
+.tinytyrantrum {
 	width: 40px;
 	height: 30px;
-	background-position: -320px -870px
+	background-position: -320px -870px;
 }
-.amaura {
+.tinyamaura {
 	width: 40px;
 	height: 30px;
-	background-position: -360px -870px
+	background-position: -360px -870px;
 }
-.aurorus {
+.tinyaurorus {
 	width: 40px;
 	height: 30px;
-	background-position: -400px -870px
+	background-position: -400px -870px;
 }
-.sylveon {
+.tinysylveon {
 	width: 40px;
 	height: 30px;
-	background-position: -440px -870px
+	background-position: -440px -870px;
 }
-.hawlucha {
+.tinyhawlucha {
 	width: 40px;
 	height: 30px;
-	background-position: -520px -870px
+	background-position: -520px -870px;
 }
-.dedenne {
+.tinydedenne {
 	width: 40px;
 	height: 30px;
-	background-position: -560px -870px
+	background-position: -560px -870px;
 }
-.carbink {
+.tinycarbink {
 	width: 40px;
 	height: 30px;
-	background-position: -600px -870px
+	background-position: -600px -870px;
 }
-.goomy {
+.tinygoomy {
 	width: 40px;
 	height: 30px;
-	background-position: -640px -870px
+	background-position: -640px -870px;
 }
-.sliggoo {
+.tinysliggoo {
 	width: 40px;
 	height: 30px;
-	background-position: -680px -870px
+	background-position: -680px -870px;
 }
-.goodra {
+.tinygoodra {
 	width: 40px;
 	height: 30px;
-	background-position: -720px -870px
+	background-position: -720px -870px;
 }
-.klefki {
+.tinyklefki {
 	width: 40px;
 	height: 30px;
-	background-position: -760px -870px
+	background-position: -760px -870px;
 }
-.phantump {
+.tinyphantump {
 	width: 40px;
 	height: 30px;
-	background-position: -840px -870px
+	background-position: -840px -870px;
 }
-.trevenant {
+.tinytrevenant {
 	width: 40px;
 	height: 30px;
-	background-position: -880px -870px
+	background-position: -880px -870px;
 }
-.pumpkaboo {
+.tinypumpkaboo {
 	width: 40px;
 	height: 30px;
-	background-position: -920px -870px
+	background-position: -920px -870px;
 }
-.gourgeist {
+.tinypumpkaboo-small {
 	width: 40px;
 	height: 30px;
-	background-position: -960px -870px
+	background-position: -920px -870px;
 }
-.bergmite {
+.tinypumpkaboo-average {
 	width: 40px;
 	height: 30px;
-	background-position: -1000px -870px
+	background-position: -920px -870px;
 }
-.avalugg {
+.tinypumpkaboo-large {
 	width: 40px;
 	height: 30px;
-	background-position: -1040px -870px
+	background-position: -920px -870px;
 }
-.noibat {
+.tinypumpkaboo-super {
 	width: 40px;
 	height: 30px;
-	background-position: -1080px -870px
+	background-position: -920px -870px;
 }
-.noivern {
+.tinygourgeist {
 	width: 40px;
 	height: 30px;
-	background-position: -1120px -870px
+	background-position: -960px -870px;
 }
-.xerneas {
+.tinygourgeist-small {
 	width: 40px;
 	height: 30px;
-	background-position: -1160px -870px
+	background-position: -960px -870px;
 }
-.yveltal {
+.tinygourgeist-average {
 	width: 40px;
 	height: 30px;
-	background-position: -1240px -870px
+	background-position: -960px -870px;
+}
+.tinygourgeist-large {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -870px;
+}
+.tinygourgeist-super {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -870px;
+}
+.tinybergmite {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -870px;
+}
+.tinyavalugg {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -870px;
+}
+.tinynoibat {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -870px;
+}
+.tinynoivern {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -870px;
+}
+.tinyxerneas {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -870px;
+}
+.tinyyveltal {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -870px;
 }
 
 	/* ROW 31*/
-.zygarde {
+.tinyzygarde {
 	width: 40px;
 	height: 30px;
-	background-position: -0px -900px
+	background-position: -0px -900px;
 }
-.diancie {
+.tinydiancie {
 	width: 40px;
 	height: 30px;
-	background-position: -80px -900px
+	background-position: -80px -900px;
 }
-.hoopa {
+.tinydiancie-mega {
 	width: 40px;
 	height: 30px;
-	background-position: -160px -900px
+	background-position: -120px -900px;
 }
-/*.volcanion {
+.tinyhoopa {
 	width: 40px;
 	height: 30px;
-	background-position: -240px -900px
+	background-position: -160px -900px;
+}
+.tinyhoopa-unbound {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -900px;
+}
+/*.tinyvolcanion {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -900px;
 }*/

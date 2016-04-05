@@ -20,12 +20,12 @@
 }
 .grass {
 	height: 20px;
-	width: 50px;
+	width: 75px;
 	background-position: -0px -25px
 }
 .fire {
 	height: 20px;
-	width: 50px;
+	width: 75px;
 	background-position: -0px -50px
 }
 .water {

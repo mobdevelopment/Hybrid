@@ -1,7 +1,9 @@
 var Pos = (function() {
 	var pos = {};
 	// will generate a random location in a area around the users current position
-	pos.RandomLocation = function(callback) {
+	// pos.RandomLocation = function(callback) {
+	pos.RandomLocation = function() {
+
 		// get current position
 		navigator.geolocation.getCurrentPosition(function(position) {
 			// onSucces
@@ -17,16 +19,16 @@ var Pos = (function() {
 
 			var w = radius * Math.sqrt(u);
 			var t = 2 * Math.PI * v;
-			var x = w = Math.cos(t);
+			var x = w * Math.cos(t);
 			var y1 = w * Math.sin(t);
-			var x1 = x / Math.cos(y0);
+			var x1 = x / Math.cos(userLat);
 			// new generated random location
 			var randLoc = {
 				latitude: (userLat + y1),
 				longitude: (userLng + x1),
 			}
 			// return random location
-
+			return randLoc;
 		}, function(error) {
 			// onError
 			console.log("code: " + error.code + "\n" +
