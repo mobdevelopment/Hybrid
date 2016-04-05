@@ -1,7 +1,6 @@
 // variables
 var pokedex_next = "";
 var pokedex_all = [];
-var wild_pokemon = [];
 var battle_Rapport = [];
 
 // (pokedex_master)
@@ -9,25 +8,27 @@ var battle_Rapport = [];
 // required: url
 $(document).on('pageinit', '#pokedexmaster', function() {
 	// PokeApi url = "http://pokeapi.co/api/v2/pokemon/?limit=20&offset=0"
-	// own api url = ""
-	var api_url = "http://pokeapi.co/api/v2/pokemon/?limit=720&offset=0";
+	// own api url = "http://mobdevelopment.herokuapp.com/pokemon"
+	var api_url = "http://mobdevelopment.herokuapp.com/pokemon";
 	getPokedexData(api_url);
 });
 
 var getPokedexData = function(url) {
-
+	var i = 1;
 	var list = Api.GetData(url);
 	list.success(function (request) {
 		$.each(request.results, function(index, value) {
-			console.log(value.name);
-			pokedex_all.push(value.name);
+			console.log(i + " " + value.name);
+			// pokedex_all.push(value.name);
 			fillPokedex(value);
+			i++;
 		});
 		pokedex_next = request.next;
-		console.log(pokedex_next);
+		// console.log(pokedex_next);
 	});
 	list.error(function (request, error) {
-		console.log(request + "\n" + error + "\n");
+		console.log(request);
+		console.log(error);
 	});
 }
 
@@ -37,7 +38,7 @@ var fillPokedex = function(data) {
 			// "<a class='pokemonItem' data-link='" + data.name + "'>" +
 			// "<a href='pokedex_detail.html' data-id='" + data.name + "' class='pokemonItem'>" +
 			"<a href='pokedex_detail.html?id=" + data.name + "' class='pokemonItem'>" +
-				"<span id='big" + data.name + "' class='pokedexsprite " + data.name + " isCatchedFalse'></span>" +
+				"<span id='big" + data.name + "' class='pokedexsprite " + data.name + " isCatched" + data.isCatched + "'></span>" +
 				"<h1>" + data.name + "</h1>" +
 			"</a>" +
 		"</li>"
@@ -45,7 +46,7 @@ var fillPokedex = function(data) {
 	$("#pokedexSprite").append(
 		"<li id='"+ data.name + "'>" +
 			"<a href='pokedex_detail.html?id=" + data.name + "' class='pokemonItem'>" +
-				"<span id='tiny" + data.name + "' class='pokemapsprite tiny" + data.name + " isCatchedFalse'></span>" +
+				"<span id='tiny" + data.name + "' class='pokemapsprite tiny" + data.name + " isCatched" + data.isCatched + "'></span>" +
 				"<h1>" + data.name + "</h1>" +
 			"</a>" +
 		"</li>"
@@ -156,7 +157,7 @@ function wildAftermath(wildPokemon, caughtFled) {
 			$("#tiny" + wildPokemon.name).removeClass("isCatchedFalse").addClass("isCatchedTrue");
 		}
 		$.each(someArray, function(i){
-    		if(wild_pokemon[i].lat === wildPokemon.lat && wild_pokemon[i].lng === wildPokemon.lng) {
+    		if(wild_pokemon[i]._id === wildPokemon._id) {
         		someArray.splice(i,1);
         		break;
     		}
@@ -169,18 +170,7 @@ function wildAftermath(wildPokemon, caughtFled) {
 	Api.PostData(url, battle_Rapport);
 }
 
-// (pokeFetch)
-// generate random pokemon and assign a location
-// required: list of wild pokemon
-function getWildPokemon() {
-	url = '';
-	var wpl = Api.GetData(url);
-	wpl.succes(function (request) {
-		$.each(request, function(index, value) {
-			wild_pokemon.push(value);
-		});
-	});
-}
+
 
 /* could be removed */
 // (pokeFetch)

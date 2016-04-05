@@ -205,11 +205,11 @@ h1 {
     /*border-color: #FFFFFF;*/
 }
 
-.isCatchedTrue {
+.isCatchedtrue {
     opacity: 1;
 }
 
-.isCatchedFalse {
+.isCatchedfalse {
     opacity: 0.3;
 }
 

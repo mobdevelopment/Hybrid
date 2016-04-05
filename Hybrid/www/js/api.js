@@ -4,7 +4,7 @@ var Api = (function() {
 	api.GetData = function(url) {
 		return $.ajax({
 			url: url,
-			// type: "GET",
+			type: "GET",
 			dataType: "json",
 			async: true,
 			// succes: function(data) {
@@ -17,15 +17,15 @@ var Api = (function() {
 	}
 	
 	api.PostData = function(url, data) {
-		$.ajax({
+		return $.ajax({
 			url: url,
 			type: 'POST',
 			dataType: 'json',
 			data: data,
 			// succes: succes,
-			error: function (msg) {
-				console.log(msg);
-			}
+			// error: function (msg) {
+			// 	console.log(msg);
+			// }
 		});
 	}
 	return api;
