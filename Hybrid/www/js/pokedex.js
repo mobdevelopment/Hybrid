@@ -18,7 +18,7 @@ var getPokedexData = function(url) {
 	var list = Api.GetData(url);
 	list.success(function (request) {
 		$.each(request.results, function(index, value) {
-			console.log(i + " " + value.name);
+			console.log(value.name);
 			// pokedex_all.push(value.name);
 			fillPokedex(value);
 			i++;

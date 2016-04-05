@@ -47,7 +47,7 @@ var Pos = (function() {
 		var phi1 = userLat.toRad();
 		var phi2 = monLat.toRad();
 
-		var deltaPhi = (monlat - userLat).toRad();
+		var deltaPhi = (monLat - userLat).toRad();
 		var deltaLambda = (monLng - userLng).toRad();
 
 		var a = Math.sin(deltaPhi/2) * Math.sin(deltaPhi/2) +
@@ -65,5 +65,5 @@ var Pos = (function() {
 			return this * Math.PI / 180;
 		}
 	}
-
+	return pos;
 })();

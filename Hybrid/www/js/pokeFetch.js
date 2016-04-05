@@ -1,10 +1,10 @@
 var mapInit = false,
 	encounter = false,
 	map = null,
-	marker = null,
+	myMarker = null,
 	myLocation = null,
 	wild_pokemon = [];
-
+	pokeMarker = [];
 
 $(document).on("pageshow", "#pokefetch", function() {
 	navigator.geolocation.getCurrentPosition(function(position) {
@@ -19,7 +19,7 @@ $(document).on("pageshow", "#pokefetch", function() {
 					mapTypeId: google.maps.MapTypeId.ROADMAP
 				});
 				// player marker
-				marker = new google.maps.Marker({
+				myMarker = new google.maps.Marker({
 					position: {
 						lat: position.coords.latitude,
 						lng: position.coords.longitude
@@ -28,17 +28,18 @@ $(document).on("pageshow", "#pokefetch", function() {
 					icon: "./img/mapIcon27x30.png",
 					title: "my location"
 				});
-				marker.setMap(map);
+				myMarker.setMap(map);
 
 				// map is initialized, set mapInit true
-				// mapInit = true;
+				mapInit = true;
 
-					getWildPokemon(position.coords);
+				getWildPokemon(position.coords);
 
 		} else {
 			// map is initialized
 
 		}
+		
 
 	}, function(error) {
 		// onError
@@ -50,6 +51,10 @@ $(document).on("pageshow", "#pokefetch", function() {
 		timeout: 5000,
 		enableHighAccuracy: true
 	});
+
+	
+
+
 });
 
 
@@ -62,9 +67,9 @@ function getWildPokemon(position) {
 	var wpl = Api.GetData(url);
 	wpl.success(function (request) {
 		$.each(request, function(index, value) {
-			console.log(value);
 			wild_pokemon.push(value);
-			console.log(value.name);
+			console.log(wild_pokemon);
+			// console.log(value.name);
 			value.name = value.name.toLowerCase();
 			var pos = $('.tiny' + value.name).css('backgroundPosition').match(/\d+/g);
 
@@ -85,8 +90,11 @@ function getWildPokemon(position) {
 					});
 					pokeMarker.setMap(map);
 		});
-		console.log(wild_pokemon);
-		return wild_pokemon;
+		// console.log("halloOhllah");
+		// console.log(wild_pokemon);
+		// return wild_pokemon;
+
+		checkDistance(position);
 	});
 	wpl.error(function (request, error) {
 		console.log(request);
@@ -94,35 +102,24 @@ function getWildPokemon(position) {
 	});
 }
 
+function checkDistance(position) {
+	$.each(wild_pokemon, function(index, value) {
+		if((Pos.Distance(position.latitude, position.longitude, value.lat, value.lng)) <= 10) {
+			navigator.vibrate(1000);
+			console.log("ik kan een pokemon vangen");
+		}
+		else {
+			console.log("nothing close");
+			navigator.vibrate(1000);
+			// $("#encounter .title").text("A wild " + value.name + " appeared!");
+			// $("#encounter .catchBut").bind("click", function*() {
+			// 	$(this).unbind("click");
+			// 	$("#encounter .fleeBut").unbind("click");
+			// });
+			// $("#encounter .fleeBut").bind("click", function*() {
 
-
-// catch eventueel token
-
-
-// at event
-$("#dialogbox").dialog({
-    autoOpen:false,
-    modal:true,
-    title: "",
-    width:300,
-    open: function( event, ui ) {
-        alert('battle');
-    }
-});
-
-$('#dialogbox').html('<h2>pokemon_name found</h2><button>catch</button><button>flee</button>');
-    $('#dialogbox').dialog('open');
-
-$( ".selector" ).on( "dialogopen", function( event, ui ) {} );
-
-$.mobile.changePage( "path/to/dialog.html", { role: "dialog" } );
-
-
-
-
-
-
-
-
-
-    
+			// });
+			$.mobile.changePage("#encounter");
+		}
+	});
+}
