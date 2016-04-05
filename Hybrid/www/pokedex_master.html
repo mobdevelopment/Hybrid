@@ -5,10 +5,7 @@
     </div>
 
     <div data-role="content" class="ui-content">
-        <!-- Search bar -->
-        <!-- <form class="ui-filterable">
-            <input id="myFilter" data-type="search" placeholder="Search pokemon...">
-        </form> -->
+        
         <!-- Pokemon list -->
         <div data-role="tabs" id="PokeTab">
             <div data-role="navbar">
@@ -18,15 +15,18 @@
                 </ul>
             </div>
 
-
+            <!-- Search bar -->
+            <form class="ui-filterable">
+                <input id="myFilter" data-type="search" placeholder="Search pokemon...">
+            </form>
 
             <div id="pokedexBig">
-                <ul id="pokedex" class="pokedexList" data-filter="true" data-filter-placeholder="Search Pokemon..." data-autodividers="true" data-inset="true">
+                <ul id="pokedex" class="pokedexList" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true">
 
                 </ul>
             </div>
             <div id="pokedexSmall">
-                <ul id="pokedexSprite" class="pokedexListSmall" data-filter="true" data-filter-placeholder="Search Pokemon..." data-autodividers="true" data-inset="true">
+                <ul id="pokedexSprite" class="pokedexListSmall" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true">
 
                 </ul>
             </div>

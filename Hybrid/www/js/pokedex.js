@@ -1,6 +1,9 @@
 // variables
 var pokedex_next = "";
-var currentDetail;
+var pokedex_all = [];
+var wild_pokemon = [];
+var battle_Rapport = [];
+
 // (pokedex_master)
 // get all pokemon
 // required: url
@@ -17,9 +20,11 @@ var getPokedexData = function(url) {
 	list.success(function (request) {
 		$.each(request.results, function(index, value) {
 			console.log(value.name);
+			pokedex_all.push(value.name);
 			fillPokedex(value);
 		});
 		pokedex_next = request.next;
+		console.log(pokedex_next);
 	});
 	list.error(function (request, error) {
 		console.log(request + "\n" + error + "\n");
@@ -32,7 +37,7 @@ var fillPokedex = function(data) {
 			// "<a class='pokemonItem' data-link='" + data.name + "'>" +
 			// "<a href='pokedex_detail.html' data-id='" + data.name + "' class='pokemonItem'>" +
 			"<a href='pokedex_detail.html?id=" + data.name + "' class='pokemonItem'>" +
-				"<span class='pokedexsprite " + data.name + "'></span>" +
+				"<span id='big" + data.name + "' class='pokedexsprite " + data.name + " isCatchedFalse'></span>" +
 				"<h1>" + data.name + "</h1>" +
 			"</a>" +
 		"</li>"
@@ -40,7 +45,7 @@ var fillPokedex = function(data) {
 	$("#pokedexSprite").append(
 		"<li id='"+ data.name + "'>" +
 			"<a href='pokedex_detail.html?id=" + data.name + "' class='pokemonItem'>" +
-				"<span class='pokemapsprite tiny" + data.name + "'></span>" +
+				"<span id='tiny" + data.name + "' class='pokemapsprite tiny" + data.name + " isCatchedFalse'></span>" +
 				"<h1>" + data.name + "</h1>" +
 			"</a>" +
 		"</li>"
@@ -51,12 +56,10 @@ var fillPokedex = function(data) {
 // get single pokemon by id
 // required: (url + pokemon_id)
 var getPokemonData = function(url, id) {
-	// console.log(window.localStorage.getItem(id + "Details"));
-	console.log(id);
-	console.log(window.localStorage.getItem(id + "Details"));
+
 	if(window.localStorage.getItem(id + "Details") == null) {
 
-		console.log("retrieving data");
+		// console.log("retrieving data");
 		url = url + id;
 		var pokemon = Api.GetData(url);
 		pokemon.success(function (request) {
@@ -67,7 +70,7 @@ var getPokemonData = function(url, id) {
 			console.log(request + "\n" + error + "\n");
 		});
 	} else {
-		console.log("hallo ik ben gecached");
+		// console.log("hallo ik ben gecached");
 		$("#pokemon_detail").append(window.localStorage.getItem(id + "Details"));
 	}
 }
@@ -115,7 +118,10 @@ var fillPokemonDetail = function(data) {
 
 	if (window.localStorage.getItem(data.name + "Details") == null) {
 		window.localStorage.setItem(data.name + "Details", detail);
+
+		// window.localStorage.setItem(data.name + "Details", JSON.stringify(data));
 	}
+	$.mobile.loading( 'hide' );
 }
 
 var abilities = function(data) {
@@ -136,24 +142,47 @@ var types = function(data) {
 	});
 	return a
 }
-// var moves = function(data) {
-// 	var a = "";
-// 	var b = "";
-// 	data.forEach(function(value) {
 
-// 	});
-// }
 
 
 // (pokeFetch)
 // save caught pokemon by id
 // required: (url + pokemon_id)
+function wildAftermath(wildPokemon, caughtFled) {
+	url = "";
+	if (caughtFled) {
+		if ($('#big'+ wildPokemon.name).hasClass('isCatchedFalse')) {
+			$("#big" + wildPokemon.name).removeClass("isCatchedFalse").addClass("isCatchedTrue");
+			$("#tiny" + wildPokemon.name).removeClass("isCatchedFalse").addClass("isCatchedTrue");
+		}
+		$.each(someArray, function(i){
+    		if(wild_pokemon[i].lat === wildPokemon.lat && wild_pokemon[i].lng === wildPokemon.lng) {
+        		someArray.splice(i,1);
+        		break;
+    		}
+		});
+	}
+	battle_Rapport.pokemon = wildPokemon;
+	battle_Rapport.caught = caughtFled;
 
+	//which variables.
+	Api.PostData(url, battle_Rapport);
+}
 
 // (pokeFetch)
 // generate random pokemon and assign a location
 // required: list of wild pokemon
+function getWildPokemon() {
+	url = '';
+	var wpl = Api.GetData(url);
+	wpl.succes(function (request) {
+		$.each(request, function(index, value) {
+			wild_pokemon.push(value);
+		});
+	});
+}
 
+/* could be removed */
 // (pokeFetch)
 // remove caught/fled pokemon from wild list
 // required: (pokemon id && coordinates)
@@ -161,6 +190,7 @@ var types = function(data) {
 $(document).on('pageshow', '#pokedexdetail', function() {
 	// PokeApi url = "http://pokeapi.co/api/v2/pokemon/"
 	// own api url = ""
+	$.mobile.loading( 'show', { theme: "b", text: "foo", textonly: true });
 	var api_url = "http://pokeapi.co/api/v2/pokemon/";
 	getPokemonData(api_url, getParameterByName("id"));
 });
@@ -170,3 +200,19 @@ function getParameterByName(name) {
         (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
     );
 }
+
+/* generation will be done by the api */
+/*function genWildPokemon() {
+
+	wPoke.name = pokedex_all[Math.floor(Math.random()*pokedex_all.length)];
+	wCoords = Pos.RandomLocation();
+	wPoke.lat = wCoords.latitude;
+	wPoke.lng = wCoords.longitude;
+
+	var markerPos = $('.tiny' + wPoke.name).css('backgroundPosition').split(" ");
+
+	wPoke.markerX = markerPos[0];
+	wPoke.markerY = markerPos[1];
+	wild_pokemon.append(wPoke);
+	return wPoke;
+}*/

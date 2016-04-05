@@ -205,6 +205,14 @@ h1 {
     /*border-color: #FFFFFF;*/
 }
 
+.isCatchedTrue {
+    opacity: 1;
+}
+
+.isCatchedFalse {
+    opacity: 0.3;
+}
+
 .pokedexListSmall >li {
     max-width: 40px;
     min-height: 30px;
