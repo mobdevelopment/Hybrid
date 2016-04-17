@@ -69,6 +69,8 @@
   <gap:splash src="www/res/screens/windows-phone/screen-portrait.ppg" gap:platform="winphone"/>
 
   <access origin="*"/>
+  <access origin="*.google.com"/>
+  <access origin="*.googleapis.com"/>
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
