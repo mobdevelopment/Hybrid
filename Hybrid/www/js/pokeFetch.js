@@ -104,7 +104,7 @@ function getWildPokemon(position) {
 
 function checkDistance(position) {
 	$.each(wild_pokemon, function(index, value) {
-		if((Pos.Distance(position.latitude, position.longitude, value.lat, value.lng)) <= 10) {
+		if((Pos.Distance(position.latitude, position.longitude, value.lat, value.lng)) <= 20) {
 			navigator.vibrate(1000);
 			console.log("ik kan een pokemon vangen");
 		}
