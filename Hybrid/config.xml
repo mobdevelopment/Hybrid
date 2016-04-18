@@ -84,10 +84,10 @@
     <allow-intent href="market:*"/>
     <plugin name="cordova-custom-config" version="*"/>
     <config-file target="AndroidManifest.xml" parent="/*">
-      <users-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-      <users-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-      <users-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-      <users-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+      <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+      <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     </config-file>
   </platform>
   <platform name="ios">
