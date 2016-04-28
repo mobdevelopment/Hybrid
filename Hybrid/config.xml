@@ -30,7 +30,7 @@
   <gap:plugin name="org.apache.cordova.dialogs"/>
   <gap:plugin name="org.apache.cordova.file"/>
   <gap:plugin name="org.apache.cordova.file-transfer"/>
-  <gap:plugin name="org.apache.cordova.geolocation"/>
+  <gap:plugin name="org.apache.cordova.geolocation" spec="0.3.10" source="pgb"/>
   <gap:plugin name="org.apache.cordova.globalization"/>
   <gap:plugin name="org.apache.cordova.inappbrowser"/>
   <gap:plugin name="org.apache.cordova.media"/>
@@ -69,8 +69,8 @@
   <gap:splash src="www/res/screens/windows-phone/screen-portrait.ppg" gap:platform="winphone"/>
 
   <access origin="*"/>
-  <access origin="*.google.com"/>
-    <access origin="*.googleapis.com"/>
+  <!-- <access origin="*.google.com"/> -->
+    <!-- <access origin="*.googleapis.com"/> -->
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
@@ -84,6 +84,7 @@
     <allow-intent href="market:*"/>
     <plugin name="cordova-custom-config" version="*"/>
     <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="" />
       <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
       <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
