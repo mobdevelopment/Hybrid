@@ -1,1 +1,0 @@
-open cmd 'http-server'
