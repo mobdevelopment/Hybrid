@@ -1,0 +1,105 @@
+/*
+
+	usage <span class="typesprite {~spritename~}"></span>
+
+	replace {~spritename~} with the sprite you like to use
+
+*/
+
+.typesprite {
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-image: url(../img/pokemon_type_sprite.png);
+}
+
+.normal {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -0px
+}
+.grass {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -25px
+}
+.fire {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -50px
+}
+.water {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -75px
+}
+.fighting {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -100px
+}
+.poison {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -125px
+}
+.flying {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -150px
+}
+.ground {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -175px
+}
+.rock {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -200px
+}
+.bug {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -225px
+}
+.ghost {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -250px
+}
+.electric {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -275px
+}
+.psychic {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -300px
+}
+.ice {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -325px
+}
+.dragon {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -350px
+}
+.dark {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -375px
+}
+.steel {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -400px
+}
+.fairy {
+	height: 20px;
+	width: 75px;
+	background-position: -0px -425px
+}

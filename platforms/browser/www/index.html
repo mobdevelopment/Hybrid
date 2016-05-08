@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, height=device-height, target-densitydpi=medium-dpi, user-scalable=0" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/poke_sprite_100x100.css" />
+        <link rel="stylesheet" type="text/css" href="css/poke_type_sprite.css" />
+        <link rel="stylesheet" type="text/css" href="css/poke_map_sprite_40x30.css" />
+
+        <!-- JQuety mobile -->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script async defer src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+        <!-- Google maps API -->
+        <script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDik8sdp8gfOOTB2iVzhGDAo_3e9FYQh2E"></script>
+        
+    </head>
+    <body>
+
+        <div data-role="page" id="home" data-title="Main">
+
+            <div id="settings" data-role="panel">
+                <ul data-role="listview">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="settings.html">Caching</a></li>
+                    <li><a data-rel="external" data-ajax="false" href="http://www.pokeapi.co" target="_blank">PokeApi Site</a></li>
+                </ul>
+            </div>
+
+            <div data-role="header" data-position="fixed">
+                <h1>Pokedex Main</h1>
+            </div>
+            <div date-role="main" class="ui-content">
+                <a href="pokedex_master.html" class="ui-btn ui-corner-all" data-transition="slidefade" data-prefetch>Pokedex</a>
+                <a href="pokeFetch.html" class="ui-btn ui-corner-all" data-transition="slidefade">Gotta fetch 'em all</a>
+                <a href="#settings" class="ui-btn ui-corner-all" data-transition="slidefade">Side settings</a>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Made by:</h1>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/pokedex.js"></script>
+        <script type="text/javascript" src="js/pokeFetch.js"></script>
+        <script type="text/javascript" src="js/user.js"></script>
+        
+        <script type="text/javascript" src="js/api.js"></script>
+        <script type="text/javascript" src="js/pos.js"></script>
+
+
+        <script type="text/javascript">
+            // app.initialize();
+            // $(document).on("swiperight",function(){
+            //     $("#settings").panel("open");
+            // });
+
+            $(document).ready(function() {
+                // $.mobile.loadPage("pokedex_master.html", {
+                //     type: false,
+                //     reloadPage: false,
+                //     type: 'get'
+                // });
+                //work around
+                // $.mobile.loadPage("pokedex_master.html", {prefetch:"true"});                
+            });
+
+            // $.mobile.page.prototype.options.domCache = true;
+
+        </script>
+    </body>
+</html>

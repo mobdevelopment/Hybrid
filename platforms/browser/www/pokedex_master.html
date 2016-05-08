@@ -1,0 +1,39 @@
+<div data-role="page" id="pokedexmaster" data-dom-cache="true">
+    <div data-role="header">
+        <a data-rel="back" data-direction="reverse" href="index.html">Back</a>
+        <h1>Master</h1>
+    </div>
+
+    <div data-role="content" class="ui-content">
+        
+        <!-- Pokemon list -->
+        <div data-role="tabs" id="PokeTab">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#pokedexBig">Big</a></li>
+                    <li><a href="#pokedexSmall">Small</a></li>
+                </ul>
+            </div>
+
+            <!-- Search bar -->
+            <form class="ui-filterable">
+                <input id="myFilter" data-type="search" placeholder="Search pokemon...">
+            </form>
+
+            <div id="pokedexBig">
+                <ul id="pokedex" class="pokedexList" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true">
+
+                </ul>
+            </div>
+            <div id="pokedexSmall">
+                <ul id="pokedexSprite" class="pokedexListSmall" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!--     <div data-role="footer" data-position="fixed">
+        <h1>Made by:</h1>
+    </div> -->
+</div>

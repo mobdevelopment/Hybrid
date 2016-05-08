@@ -1,0 +1,4168 @@
+.pokemapsprite {
+	display: inline-block;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-image: url(../img/pokemon_map_sprite_40x30.png);
+}
+
+	/* ROW 1*/
+.tinybulbasaur {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -0px;
+}
+.tinyivysaur {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -0px;
+}
+.tinyvenusaur {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -0px;
+}
+.tinyvenusaur-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -0px;
+}
+.tinycharmander {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -0px;
+}
+.tinycharmeleon {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -0px;
+}
+.tinycharizard {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -0px;
+}
+.tinycharizard-mega-x {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -0px;
+}
+.tinycharizard-mega-y {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -0px;
+}
+.tinysquirtle {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -0px;
+}
+.tinywartortle {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -0px;
+}
+.tinyblastoise {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -0px;
+}
+.tinyblastoise-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -0px;
+}
+.tinycaterpie {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -0px;
+}
+.tinymetapod {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -0px;
+}
+.tinybutterfree {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -0px;
+}
+.tinyweedle {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -0px;
+}
+.tinykakuna {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -0px;
+}
+.tinybeedrill {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -0px;
+}
+.tinybeedrill-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -0px;
+}
+.tinypidgey {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -0px;
+}
+.tinypidgeotto {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -0px;
+}
+.tinypidgeot {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -0px;
+}
+.tinypidgeot-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -0px;
+}
+.tinyrattata {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -0px;
+}
+.tinyraticate {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -0px;
+}
+.tinyspearow {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -0px;
+}
+.tinyfearow {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -0px;
+}
+.tinyekans {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -0px;
+}
+.tinyarbok {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -0px;
+}
+.tinypikachu {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -0px;
+}
+
+	/* ROW 2*/	
+.tinyraichu {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -30px;
+}
+.tinysandshrew {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -30px;
+}
+.tinysandslash {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -30px;
+}
+.tinynidoran-f {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -30px;
+}
+.tinynidorina {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -30px;
+}
+.tinynidoqueen {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -30px;
+}
+.tinynidoran-m {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -30px;
+}
+.tinynidorino {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -30px;
+}
+.tinynidoking {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -30px;
+}
+.tinyclefairy {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -30px;
+}
+.tinyclefable {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -30px;
+}
+.tinyvulpix {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -30px;
+}
+.tinyninetales {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -30px;
+}
+.tinyjigglypuff {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -30px;
+}
+.tinywigglytuff {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -30px;
+}
+.tinyzubat {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -30px;
+}
+.tinygolbat {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -30px;
+}
+.tinyoddish {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -30px;
+}
+.tinygloom {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -30px;
+}
+.tinyvileplume {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -30px;
+}
+.tinyparas {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -30px;
+}
+
+	/* ROW 3*/
+.tinyparasect {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -60px;
+}
+.tinyvenonat {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -60px;
+}
+.tinyvenomoth {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -60px;
+}
+.tinydiglett {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -60px;
+}
+.tinydugtrio {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -60px;
+}
+.tinymeowth {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -60px;
+}
+.tinypersian {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -60px;
+}
+.tinypsyduck {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -60px;
+}
+.tinygolduck {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -60px;
+}
+.tinymankey {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -60px;
+}
+.tinyprimeape {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -60px;
+}
+.tinygrowlithe {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -60px;
+}
+.tinyarcanine {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -60px;
+}
+.tinypoliwag {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -60px;
+}
+.tinypoliwhirl {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -60px;
+}
+.tinypoliwrath {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -60px;
+}
+.tinyabra {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -60px;
+}
+.tinykadabra {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -60px;
+}
+.tinyalakazam {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -60px;
+}
+.tinyalakazam-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -60px;
+}
+.tinymachop {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -60px;
+}
+.tinymachoke {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -60px;
+}
+.tinymachamp {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -60px;
+}
+.tinybellsprout {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -60px;
+}
+.tinyweepinbell {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -60px;
+}
+.tinyvictreebel {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -60px;
+}
+.tinytentacool {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -60px;
+}
+.tinytentacruel {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -60px;
+}
+.tinygeodude {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -60px;
+}
+.tinygraveler {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -60px;
+}
+
+	/* ROW 4*/
+.tinygolem {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -90px;
+}
+.tinyponyta {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -90px;
+}
+.tinyrapidash {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -90px;
+}
+.tinyslowpoke {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -90px;
+}
+.tinyslowbro {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -90px;
+}
+.tinyslowbro-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -90px;
+}
+.tinymagnemite {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -90px;
+}
+.tinymagneton {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -90px;
+}
+.tinyfarfetchd {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -90px;
+}
+.tinydoduo {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -90px;
+}
+.tinydodrio {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -90px;
+}
+.tinyseel {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -90px;
+}
+.tinydewgong {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -90px;
+}
+.tinygrimer {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -90px;
+}
+.tinymuk {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -90px;
+}
+.tinyshellder {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -90px;
+}
+.tinycloyster {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -90px;
+}
+.tinygastly {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -90px;
+}
+.tinyhaunter {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -90px;
+}
+.tinygengar {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -90px;
+}
+.tinygengar-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -90px;
+}
+.tinyonix {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -90px;
+}
+.tinydrowzee {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -90px;
+}
+.tinyhypno {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -90px;
+}
+.tinykrabby {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -90px;
+}
+.tinykingler {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -90px;
+}
+.tinyvoltorb {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -90px;
+}
+.tinyelectrode {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -90px;
+}
+.tinyexeggcute {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -90px;
+}
+.tinyexeggutor {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -90px;
+}
+.tinycubone {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -90px;
+}
+
+	/* ROW 5*/
+.tinymarowak {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -120px;
+}
+.tinyhitmonlee {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -120px;
+}
+.tinyhitmonchan {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -120px;
+}
+.tinylickitung {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -120px;
+}
+.tinykoffing {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -120px;
+}
+.tinyweezing {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -120px;
+}
+.tinyrhyhorn {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -120px;
+}
+.tinyrhydon {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -120px;
+}
+.tinychansey {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -120px;
+}
+.tinytangela {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -120px;
+}
+.tinykangaskhan {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -120px;
+}
+.tinykangaskhan-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -120px;
+}
+.tinyhorsea {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -120px;
+}
+.tinyseadra {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -120px;
+}
+.tinygoldeen {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -120px;
+}
+.tinyseaking {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -120px;
+}
+.tinystaryu {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -120px;
+}
+.tinystarmie {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -120px;
+}
+.tinymr-mime {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -120px;
+}
+.tinyscyther {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -120px;
+}
+.tinyjynx {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -120px;
+}
+.tinyelectabuzz {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -120px;
+}
+.tinymagmar {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -120px;
+}
+.tinypinsir {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -120px;
+}
+.tinypinsir-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -120px;
+}
+.tinytauros {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -120px;
+}
+.tinymagikarp {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -120px;
+}
+.tinygyarados {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -120px;
+}
+.tinygyarados-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -120px;
+}
+.tinylapras {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -120px;
+}
+.tinyditto {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -120px;
+}
+.tinyeevee {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -120px;
+}
+
+	/* ROW 6*/
+.tinyvaporeon {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -150px;
+}
+.tinyjolteon {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -150px;
+}
+.tinyflareon {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -150px;
+}
+.tinyporygon {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -150px;
+}
+.tinyomanyte {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -150px;
+}
+.tinyomastar {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -150px;
+}
+.tinykabuto {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -150px;
+}
+.tinykabutops {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -150px;
+}
+.tinyaerodactyl {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -150px;
+}
+.tinyaerodactyl-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -150px;
+}
+.tinysnorlax {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -150px;
+}
+.tinyarticuno {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -150px;
+}
+.tinyzapdos {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -150px;
+}
+.tinymoltres {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -150px;
+}
+.tinydratini {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -150px;
+}
+.tinydragonair {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -150px;
+}
+.tinydragonite {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -150px;
+}
+.tinymewtwo {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -150px;
+}
+.tinymewtwo-mega-x {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -150px;
+}
+.tinymewtwo-mega-y {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -150px;
+}
+.tinymew {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -150px;
+}
+.tinychikorita {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -150px;
+}
+.tinybayleef {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -150px;
+}
+.tinymeganium {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -150px;
+}
+.tinycyndaquil {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -150px;
+}
+.tinyquilava {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -150px;
+}
+.tinytyphlosion {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -150px;
+}
+.tinytotodile {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -150px;
+}
+.tinycroconaw {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -150px;
+}
+.tinyferaligatr {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -150px;
+}
+.tinysentret {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -150px;
+}
+
+	/* ROW 7*/
+.tinyfurret {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -180px;
+}
+.tinyhoothoot {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -180px;
+}
+.tinynoctowl {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -180px;
+}
+.tinyledyba {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -180px;
+}
+.tinyledian {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -180px;
+}
+.tinyspinarak {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -180px;
+}
+.tinyariados {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -180px;
+}
+.tinycrobat {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -180px;
+}
+.tinychinchou {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -180px;
+}
+.tinylanturn {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -180px;
+}
+.tinypichu {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -180px;
+}
+.tinycleffa {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -180px;
+}
+.tinyigglybuff {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -180px;
+}
+.tinytogepi {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -180px;
+}
+.tinytogetic {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -180px;
+}
+.tinynatu {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -180px;
+}
+.tinyxatu {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -180px;
+}
+.tinymareep {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -180px;
+}
+.tinyflaaffy {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -180px;
+}
+.tinyampharos {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -180px;
+}
+.tinyampharos-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -180px;
+}
+.tinybellossom {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -180px;
+}
+.tinymarill {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -180px;
+}
+.tinyazumarill {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -180px;
+}
+.tinysudowoodo {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -180px;
+}
+.tinypolitoed {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -180px;
+}
+.tinyhoppip {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -180px;
+}
+.tinyskiploom {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -180px;
+}
+.tinyjumpluff {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -180px;
+}
+
+	/* ROW 8*/
+.tinyaipom {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -210px;
+}
+.tinysunkern {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -210px;
+}
+.tinysunflora {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -210px;
+}
+.tinyyanma {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -210px;
+}
+.tinywooper {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -210px;
+}
+.tinyquagsire {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -210px;
+}
+.tinyespeon {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -210px;
+}
+.tinyumbreon {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -210px;
+}
+.tinymurkrow {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -210px;
+}
+.tinyslowking {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -210px;
+}
+.tinymisdreavus {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -210px;
+}
+.tinyunown {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -210px;
+}
+
+	/* ROW 9*/
+.tinywobbuffet {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -240px;
+}
+.tinygirafarig {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -240px;
+}
+.tinypineco {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -240px;
+}
+.tinyforretress {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -240px;
+}
+.tinydunsparce {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -240px;
+}
+
+	/* ROW 10*/
+.tinygligar {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -270px;
+}
+.tinysteelix {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -270px;
+}
+.tinysteelix-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -270px;
+}
+.tinysnubbull {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -270px;
+}
+.tinygranbull {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -270px;
+}
+.tinyqwilfish {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -270px;
+}
+.tinyscizor {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -270px;
+}
+.tinyscizor-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -270px;
+}
+.tinyshuckle {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -270px;
+}
+.tinyheracross {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -270px;
+}
+.tinyheracross-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -270px;
+}
+.tinysneasel {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -270px;
+}
+.tinyteddiursa {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -270px;
+}
+.tinyursaring {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -270px;
+}
+.tinyslugma {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -270px;
+}
+.tinymagcargo {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -270px;
+}
+.tinyswinub {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -270px;
+}
+.tinypiloswine {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -270px;
+}
+.tinycorsola {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -270px;
+}
+.tinyremoraid {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -270px;
+}
+.tinyoctillery {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -270px;
+}
+.tinydelibird {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -270px;
+}
+.tinymantine {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -270px;
+}
+.tinyskarmory {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -270px;
+}
+.tinyhoundour {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -270px;
+}
+.tinyhoundoom {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -270px;
+}
+.tinyhoundoom-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -270px;
+}
+.tinykingdra {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -270px;
+}
+.tinyphanpy {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -270px;
+}
+.tinydonphan {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -270px;
+}
+
+	/* ROW 11*/
+.tinyporygon2 {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -300px;
+}
+.tinystantler {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -300px;
+}
+.tinysmeargle {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -300px;
+}
+.tinytyrogue {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -300px;
+}
+.tinyhitmontop {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -300px;
+}
+.tinysmoochum {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -300px;
+}
+.tinyelekid {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -300px;
+}
+.tinymagby {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -300px;
+}
+.tinymiltank {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -300px;
+}
+.tinyblissey {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -300px;
+}
+.tinyraikou {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -300px;
+}
+.tinyentei {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -300px;
+}
+.tinysuicune {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -300px;
+}
+.tinylarvitar {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -300px;
+}
+.tinypupitar {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -300px;
+}
+.tinytyranitar {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -300px;
+}
+.tinytyranitar-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -300px;
+}
+.tinylugia {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -300px;
+}
+.tinyho-oh {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -300px;
+}
+.tinycelebi {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -300px;
+}
+.tinytreecko {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -300px;
+}
+.tinygrovyle {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -300px;
+}
+.tinysceptile {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -300px;
+}
+.tinysceptile-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -300px;
+}
+.tinytorchic {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -300px;
+}
+.tinycombusken {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -300px;
+}
+.tinyblaziken {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -300px;
+}
+.tinyblaziken-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -300px;
+}
+.tinymudkip {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -300px;
+}
+.tinymarshtomp {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -300px;
+}
+.tinyswampert {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -300px;
+}
+.tinyswampert-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -300px;
+}
+
+	/* ROW 12*/
+.tinypoochyena {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -330px;
+}
+.tinymightyena {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -330px;
+}
+.tinyzigzagoon {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -330px;
+}
+.tinylinoone {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -330px;
+}
+.tinywurmple {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -330px;
+}
+.tinysilcoon {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -330px;
+}
+.tinybeautifly {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -330px;
+}
+.tinycascoon {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -330px;
+}
+.tinydustox {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -330px;
+}
+.tinylotad {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -330px;
+}
+.tinylombre {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -330px;
+}
+.tinyludicolo {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -330px;
+}
+.tinyseedot {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -330px;
+}
+.tinynuzleaf {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -330px;
+}
+.tinyshiftry {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -330px;
+}
+.tinytaillow {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -330px;
+}
+.tinyswellow {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -330px;
+}
+.tinywingull {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -330px;
+}
+.tinypelipper {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -330px;
+}
+.tinyralts {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -330px;
+}
+.tinykirlia {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -330px;
+}
+.tinygardevoir {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -330px;
+}
+.tinygardevoir-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -330px;
+}
+.tinysurskit {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -330px;
+}
+.tinymasquerain {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -330px;
+}
+.tinyshroomish {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -330px;
+}
+.tinybreloom {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -330px;
+}
+.tinyslakoth {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -330px;
+}
+.tinyvigoroth {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -330px;
+}
+.tinyslaking {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -330px;
+}
+.tinynincada {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -330px;
+}
+.tinyninjask {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -330px;
+}
+
+	/* ROW 13*/
+.tinyshedinja {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -360px;
+}
+.tinywhismur {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -360px;
+}
+.tinyloudred {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -360px;
+}
+.tinyexploud {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -360px;
+}
+.tinymakuhita {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -360px;
+}
+.tinyhariyama {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -360px;
+}
+.tinyazurill {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -360px;
+}
+.tinynosepass {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -360px;
+}
+.tinyskitty {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -360px;
+}
+.tinydelcatty {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -360px;
+}
+.tinysableye {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -360px;
+}
+.tinysableye {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -360px;
+}
+.tinymawile {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -360px;
+}
+.tinymawile-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -360px;
+}
+.tinyaron {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -360px;
+}
+.tinylairon {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -360px;
+}
+.tinyaggron {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -360px;
+}
+.tinyaggron-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -360px;
+}
+.tinymeditite {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -360px;
+}
+.tinymedicham {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -360px;
+}
+.tinymedicham-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -360px;
+}
+.tinyelectrike {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -360px;
+}
+.tinymanectric {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -360px;
+}
+.tinymanectric-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -360px;
+}
+.tinyplusle {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -360px;
+}
+.tinyminun {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -360px;
+}
+.tinyvolbeat {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -360px;
+}
+.tinyillumise {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -360px;
+}
+.tinyroselia {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -360px;
+}
+.tinygulpin {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -360px;
+}
+.tinyswalot {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -360px;
+}
+
+	/* ROW 14*/
+.tinycarvanha {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -390px;
+}
+.tinysharpedo {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -390px;
+}
+.tinysharpedo-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -390px;
+}
+.tinywailmer {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -390px;
+}
+.tinywailord {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -390px;
+}
+.tinynumel {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -390px;
+}
+.tinycamerupt {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -390px;
+}
+.tinycamerupt-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -390px;
+}
+.tinytorkoal {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -390px;
+}
+.tinyspoink {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -390px;
+}
+.tinygrumpig {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -390px;
+}
+.tinyspinda {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -390px;
+}
+.tinytrapinch {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -390px;
+}
+.tinyvibrava {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -390px;
+}
+.tinyflygon {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -390px;
+}
+.tinycacnea {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -390px;
+}
+.tinycacturne {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -390px;
+}
+.tinyswablu {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -390px;
+}
+.tinyaltaria {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -390px;
+}
+.tinyaltaria-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -390px;
+}
+.tinyzangoose {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -390px;
+}
+.tinyseviper {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -390px;
+}
+.tinylunatone {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -390px;
+}
+.tinysolrock {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -390px;
+}
+.tinybarboach {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -390px;
+}
+.tinywhiscash {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -390px;
+}
+.tinycorphish {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -390px;
+}
+.tinycrawdaunt {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -390px;
+}
+.tinybaltoy {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -390px;
+}
+.tinyclaydol {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -390px;
+}
+
+	/* ROW 15*/
+.tinylileep {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -420px;
+}
+.tinycradily {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -420px;
+}
+.tinyanorith {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -420px;
+}
+.tinyarmaldo {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -420px;
+}
+.tinyfeebas {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -420px;
+}
+.tinymilotic {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -420px;
+}
+.tinycastform {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -420px;
+}
+.tinycastform-rain {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -420px;
+}
+.tinycastform-snowy {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -420px;
+}
+.tinycastform-sunny {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -420px;
+}
+.tinykecleon {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -420px;
+}
+.tinyshuppet {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -420px;
+}
+.tinybanette {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -420px;
+}
+.tinybanette-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -420px;
+}
+.tinyduskull {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -420px;
+}
+.tinydusclops {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -420px;
+}
+.tinytropius {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -420px;
+}
+.tinychimecho {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -420px;
+}
+.tinyabsol {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -420px;
+}
+.tinyabsol-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -420px;
+}
+.tinywynaut {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -420px;
+}
+.tinysnorunt {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -420px;
+}
+.tinyglalie {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -420px;
+}
+.tinyglalie-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -420px;
+}
+.tinyspheal {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -420px;
+}
+.tinysealeo {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -420px;
+}
+.tinywalrein {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -420px;
+}
+.tinyclamperl {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -420px;
+}
+.tinyhuntail {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -420px;
+}
+
+	/* ROW 16*/
+.tinygorebyss {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -450px;
+}
+.tinyrelicanth {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -450px;
+}
+.tinyluvdisc {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -450px;
+}
+.tinybagon {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -450px;
+}
+.tinyshelgon {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -450px;
+}
+.tinysalamence {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -450px;
+}
+.tinysalamence-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -450px;
+}
+.tinybeldum {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -450px;
+}
+.tinymetang {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -450px;
+}
+.tinymetagross {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -450px;
+}
+.tinymetagross-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -450px;
+}
+.tinyregirock {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -450px;
+}
+.tinyregice {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -450px;
+}
+.tinyregisteel {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -450px;
+}
+.tinylatias {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -450px;
+}
+.tinylatias-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -450px;
+}
+.tinylatios {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -450px;
+}
+.tinylatios-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -450px;
+}
+.tinykyogre {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -450px;
+}
+.tinykyogre-primal {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -450px;
+}
+.tinygroudon {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -450px;
+}
+.tinygroudon-primal {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -450px;
+}
+.tinyrayquaza {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -450px;
+}
+.tinyrayquaza-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -450px;
+}
+.tinyjirachi {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -450px;
+}
+.tinydeoxys {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -450px;
+}
+.tinydeoxys-normal {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -450px;
+}
+.tinydeoxys-attack {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -450px;
+}
+.tinydeoxys-defense {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -450px;
+}
+.tinydeoxys-speed {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -450px;
+}
+.tinyturtwig {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -450px;
+}
+.tinygrotle {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -450px;
+}
+
+	/* ROW 17*/
+.tinytorterra {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -480px;
+}
+.tinychimchar {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -480px;
+}
+.tinymonferno {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -480px;
+}
+.tinyinfernape {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -480px;
+}
+.tinypiplup {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -480px;
+}
+.tinyprinplup {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -480px;
+}
+.tinyempoleon {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -480px;
+}
+.tinystarly {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -480px;
+}
+.tinystaravia {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -480px;
+}
+.tinystaraptor {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -480px;
+}
+.tinybidoof {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -480px;
+}
+.tinybibarel {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -480px;
+}
+.tinykricketot {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -480px;
+}
+.tinykricketune {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -480px;
+}
+.tinyshinx {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -480px;
+}
+.tinyluxio {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -480px;
+}
+.tinyluxray {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -480px;
+}
+.tinybudew {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -480px;
+}
+.tinyroserade {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -480px;
+}
+.tinycranidos {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -480px;
+}
+.tinyrampardos {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -480px;
+}
+.tinyshieldon {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -480px;
+}
+.tinybastiodon {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -480px;
+}
+.tinyburmy {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -480px;
+}
+.tinywormadam {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -480px;
+}
+.tinywormadam-plant {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -480px;
+}
+.tinywormadam-sandy {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -480px;
+}
+.tinywormadam-trash {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -480px;
+}
+
+	/* ROW 18*/
+.tinymothim {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -510px;
+}
+.tinycombee {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -510px;
+}
+.tinyvespiquen {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -510px;
+}
+.tinypachirisu {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -510px;
+}
+.tinybuizel {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -510px;
+}
+.tinyfloatzel {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -510px;
+}
+.tinycherubi {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -510px;
+}
+.tinycherrim {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -510px;
+}
+.tinyshellos {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -510px;
+}
+.tinygastrodon {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -510px;
+}
+.tinyambipom {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -510px;
+}
+.tinydrifloon {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -510px;
+}
+.tinydrifblim {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -510px;
+}
+.tinybuneary {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -510px;
+}
+.tinylopunny {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -510px;
+}
+.tinylopunny-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -510px;
+}
+.tinymismagius {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -510px;
+}
+.tinyhonchkrow {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -510px;
+}
+.tinyglameow {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -510px;
+}
+.tinypurugly {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -510px;
+}
+.tinychingling {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -510px;
+}
+.tinystunky {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -510px;
+}
+.tinyskuntank {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -510px;
+}
+.tinybronzor {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -510px;
+}
+.tinybronzong {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -510px;
+}
+.tinybonsly {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -510px;
+}
+.tinymime-jr {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -510px;
+}
+.tinyhappiny {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -510px;
+}
+.tinychatot {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -510px;
+}
+
+	/* ROW 19*/
+.tinyspiritomb {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -540px;
+}
+.tinygible {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -540px;
+}
+.tinygabite {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -540px;
+}
+.tinygarchomp {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -540px;
+}
+.tinygarchomp-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -540px;
+}
+.tinymunchlax {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -540px;
+}
+.tinyriolu {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -540px;
+}
+.tinylucario {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -540px;
+}
+.tinylucario-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -540px;
+}
+.tinyhippopotas {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -540px;
+}
+.tinyhippowdon {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -540px;
+}
+.tinyskorupi {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -540px;
+}
+.tinydrapion {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -540px;
+}
+.tinycroagunk {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -540px;
+}
+.tinytoxicroak {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -540px;
+}
+.tinycarnivine {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -540px;
+}
+.tinyfinneon {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -540px;
+}
+.tinylumineon {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -540px;
+}
+.tinymantyke {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -540px;
+}
+.tinysnover {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -540px;
+}
+.tinyabomasnow {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -540px;
+}
+.tinyabomasnow-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -540px;
+}
+.tinyweavile {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -540px;
+}
+.tinymagnezone {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -540px;
+}
+.tinylickilicky {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -540px;
+}
+.tinyrhyperior {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -540px;
+}
+.tinytangrowth {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -540px;
+}
+.tinyelectivire {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -540px;
+}
+.tinymagmortar {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -540px;
+}
+.tinytogekiss {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -540px;
+}
+
+	/* ROW 20*/
+.tinyyanmega {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -570px;
+}
+.tinyleafeon {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -570px;
+}
+.tinyglaceon {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -570px;
+}
+.tinygliscor {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -570px;
+}
+.tinymamoswine {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -570px;
+}
+.tinyporygon-z {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -570px;
+}
+.tinygallade {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -570px;
+}
+.tinygallade-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -570px;
+}
+.tinyprobopass {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -570px;
+}
+.tinydusknoir {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -570px;
+}
+.tinyfroslass {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -570px;
+}
+.tinyrotom {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -570px;
+}
+.tinyrotom-fan {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -570px;
+}
+.tinyrotom-frost {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -570px;
+}
+.tinyrotom-heat {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -570px;
+}
+.tinyrotom-mow {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -570px;
+}
+.tinyrotom-wash {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -570px;
+}
+.tinyuxie {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -570px;
+}
+.tinymesprit {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -570px;
+}
+.tinyazelf {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -570px;
+}
+.tinydialga {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -570px;
+}
+.tinypalkia {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -570px;
+}
+.tinyheatran {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -570px;
+}
+.tinyregigigas {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -570px;
+}
+.tinygiratina {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -570px;
+}
+.tinygiratina-altered {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -570px;
+}
+.tinygiratina-origin {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -570px;
+}
+.tinycresselia {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -570px;
+}
+.tinyphione {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -570px;
+}
+.tinymanaphy {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -570px;
+}
+.tinydarkrai {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -570px;
+}
+.tinyshaymin {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -570px;
+}
+.tinyshaymin-land {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -570px;
+}
+
+	/* ROW 21*/
+.tinyshaymin-sky {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -600px;
+}
+.tinyarceus {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -600px;
+}
+.tinyvictini {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -600px;
+}
+.tinysnivy {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -600px;
+}
+.tinyservine {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -600px;
+}
+.tinyserperior {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -600px;
+}
+.tinytepig {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -600px;
+}
+.tinypignite {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -600px;
+}
+.tinyemboar {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -600px;
+}
+.tinyoshawott {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -600px;
+}
+.tinydewott {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -600px;
+}
+.tinysamurott {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -600px;
+}
+.tinypatrat {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -600px;
+}
+.tinywatchog {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -600px;
+}
+.tinylillipup {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -600px;
+}
+.tinyherdier {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -600px;
+}
+.tinystoutland {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -600px;
+}
+.tinypurrloin {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -600px;
+}
+.tinyliepard {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -600px;
+}
+.tinypansage {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -600px;
+}
+.tinysimisage {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -600px;
+}
+.tinypansear {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -600px;
+}
+.tinysimisear {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -600px;
+}
+.tinypanpour {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -600px;
+}
+.tinysimipour {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -600px;
+}
+.tinymunna {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -600px;
+}
+.tinymusharna {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -600px;
+}
+.tinypidove {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -600px;
+}
+
+	/* ROW 22*/
+.tinytranquill {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -630px;
+}
+.tinyunfezant {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -630px;
+}
+.tinyblitzle {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -630px;
+}
+.tinyzebstrika {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -630px;
+}
+.tinyroggenrola {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -630px;
+}
+.tinyboldore {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -630px;
+}
+.tinygigalith {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -630px;
+}
+.tinywoobat {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -630px;
+}
+.tinyswoobat {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -630px;
+}
+.tinydrilbur {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -630px;
+}
+.tinyexcadrill {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -630px;
+}
+.tinyaudino {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -630px;
+}
+.tinyaudino-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -630px;
+}
+.tinytimburr {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -630px;
+}
+.tinygurdurr {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -630px;
+}
+.tinyconkeldurr {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -630px;
+}
+.tinytympole {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -630px;
+}
+.tinypalpitoad {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -630px;
+}
+.tinyseismitoad {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -630px;
+}
+.tinythroh {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -630px;
+}
+.tinysawk {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -630px;
+}
+.tinysewaddle {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -630px;
+}
+.tinyswadloon {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -630px;
+}
+.tinyleavanny {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -630px;
+}
+.tinyvenipede {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -630px;
+}
+.tinywhirlipede {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -630px;
+}
+.tinyscolipede {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -630px;
+}
+.tinycottonee {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -630px;
+}
+
+	/* ROW 23*/
+.tinywhimsicott {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -660px;
+}
+.tinypetilil {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -660px;
+}
+.tinylilligant {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -660px;
+}
+.tinybasculin {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -660px;
+}
+.tinybasculin-red-striped {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -660px;
+}
+.tinybasculin-blue-striped {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -660px;
+}
+.tinysandile {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -660px;
+}
+.tinykrokorok {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -660px;
+}
+.tinykrookodile {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -660px;
+}
+.tinydarumaka {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -660px;
+}
+.tinydarmanitan {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -660px;
+}
+.tinydarmanitan-standard {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -660px;
+}
+.tinydarmanitan-zen {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -660px;
+}
+.tinymaractus {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -660px;
+}
+.tinydwebble {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -660px;
+}
+.tinycrustle {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -660px;
+}
+.tinyscraggy {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -660px;
+}
+.tinyscrafty {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -660px;
+}
+.tinysigilyph {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -660px;
+}
+.tinyyamask {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -660px;
+}
+.tinycofagrigus {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -660px;
+}
+.tinytirtouga {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -660px;
+}
+.tinycarracosta {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -660px;
+}
+.tinyarchen {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -660px;
+}
+.tinyarcheops {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -660px;
+}
+.tinytrubbish {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -660px;
+}
+.tinygarbodor {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -660px;
+}
+.tinyzorua {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -660px;
+}
+.tinyzoroark {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -660px;
+}
+.tinyminccino {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -660px;
+}
+.tinycinccino {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -660px;
+}
+.tinygothita {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -660px;
+}
+
+	/* ROW 24*/
+.tinygothorita {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -690px;
+}
+.tinygothitelle {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -690px;
+}
+.tinysolosis {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -690px;
+}
+.tinyduosion {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -690px;
+}
+.tinyreuniclus {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -690px;
+}
+.tinyducklett {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -690px;
+}
+.tinyswanna {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -690px;
+}
+.tinyvanillite {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -690px;
+}
+.tinyvanillish {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -690px;
+}
+.tinyvanilluxe {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -690px;
+}
+.tinydeerling {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -690px;
+}
+.tinysawsbuck {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -690px;
+}
+.tinyemolga {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -690px;
+}
+.tinykarrablast {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -690px;
+}
+.tinyescavalier {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -690px;
+}
+.tinyfoongus {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -690px;
+}
+.tinyamoonguss {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -690px;
+}
+.tinyfrillish {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -690px;
+}
+.tinyjellicent {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -690px;
+}
+.tinyalomomola {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -690px;
+}
+.tinyjoltik {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -690px;
+}
+
+	/* ROW 25*/
+.tinygalvantula {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -720px;
+}
+.tinyferroseed {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -720px;
+}
+.tinyferrothorn {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -720px;
+}
+.tinyklink {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -720px;
+}
+.tinyklang {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -720px;
+}
+.tinyklinklang {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -720px;
+}
+.tinytynamo {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -720px;
+}
+.tinyeelektrik {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -720px;
+}
+.tinyeelektross {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -720px;
+}
+.tinyelgyem {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -720px;
+}
+.tinybeheeyem {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -720px;
+}
+.tinylitwick {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -720px;
+}
+.tinylampent {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -720px;
+}
+.tinychandelure {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -720px;
+}
+.tinyaxew {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -720px;
+}
+.tinyfraxure {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -720px;
+}
+.tinyhaxorus {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -720px;
+}
+.tinycubchoo {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -720px;
+}
+.tinybeartic {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -720px;
+}
+.tinycryogonal {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -720px;
+}
+.tinyshelmet {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -720px;
+}
+.tinyaccelgor {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -720px;
+}
+.tinystunfisk {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -720px;
+}
+.tinymienfoo {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -720px;
+}
+.tinymienshao {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -720px;
+}
+.tinydruddigon {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -720px;
+}
+.tinygolett {
+	width: 40px;
+	height: 30px;
+	background-position: -1200px -720px;
+}
+
+	/* ROW 26*/
+.tinygolurk {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -750px;
+}
+.tinypawniard {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -750px;
+}
+.tinybisharp {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -750px;
+}
+.tinybouffalant {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -750px;
+}
+.tinyrufflet {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -750px;
+}
+.tinybraviary {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -750px;
+}
+.tinyvullaby {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -750px;
+}
+.tinymandibuzz {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -750px;
+}
+.tinyheatmor {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -750px;
+}
+.tinydurant {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -750px;
+}
+.tinydeino {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -750px;
+}
+.tinyzweilous {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -750px;
+}
+.tinyhydreigon {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -750px;
+}
+.tinylarvesta {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -750px;
+}
+.tinyvolcarona {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -750px;
+}
+.tinycobalion {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -750px;
+}
+.tinyterrakion {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -750px;
+}
+.tinyvirizion {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -750px;
+}
+.tinytornadus {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -750px;
+}
+.tinytornadus-incarnate {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -750px;
+}
+.tinytornadus-therian {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -750px;
+}
+.tinythundurus {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -750px;
+}
+.tinythundurus-incarnate {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -750px;
+}
+.tinythundurus-therian {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -750px;
+}
+.tinyreshiram {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -750px;
+}
+.tinyzekrom {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -750px;
+}
+.tinylandorus {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -750px;
+}
+.tinylandorus-incarnate {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -750px;
+}
+.tinylandorus-therian {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -750px;
+}
+.tinykyurem {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -750px;
+} 
+.tinykyurem-black {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -750px;
+}
+.tinykyurem-white {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -750px;
+}
+
+	/* ROW 27*/
+.tinykeldeo {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -780px;
+}
+.tinykeldeo-ordinary {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -780px;
+}
+.tinykeldeo-resolute {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -780px;
+}
+.tinymeloetta {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -780px;
+} 
+.tinymeloetta-aria {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -780px;
+} 
+.tinymeloetta-pirouette {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -780px;
+} 
+.tinygenesect {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -780px;
+} 
+.tinychespin {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -780px;
+} 
+.tinyquilladin {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -780px;
+} 
+.tinychesnaught {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -780px;
+} 
+.tinyfennekin {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -780px;
+} 
+.tinybraixen {
+	width: 40px;
+	height: 30px;
+	background-position: -480px -780px;
+} 
+.tinydelphox {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -780px;
+} 
+.tinyfroakie {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -780px;
+} 
+.tinyfrogadier {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -780px;
+} 
+.tinygreninja {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -780px;
+} 
+.tinybunnelby {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -780px;
+} 
+.tinydiggersby {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -780px;
+}
+.tinyfletchling {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -780px;
+}
+.tinyfletchinder {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -780px;
+}
+.tinytalonflame {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -780px;
+}
+.tinyscatterbug {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -780px;
+}
+.tinyspewpa {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -780px;
+}
+.tinyvivillon {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -780px;
+}
+
+	/* ROW 28*/
+.tinylitleo {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -810px;
+}
+.tinypyroar {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -810px;
+}
+.tinyflabebe {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -810px;
+}
+.tinyfloette {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -810px;
+}
+.tinyfloette-eternal {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -810px;
+}
+.tinyflorges {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -810px;
+}
+
+	/* ROW 29*/
+.tinyskiddo {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -840px;
+}
+.tinygogoat {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -840px;
+}
+.tinypancham {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -840px;
+}
+.tinypangoro {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -840px;
+}
+.tinyfurfrou {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -840px;
+}
+.tinyespurr {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -840px;
+}
+.tinymeowstic {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -840px;
+}
+.tinymeowstic-male {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -840px;
+}
+.tinymeowstic-female {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -840px;
+}
+.tinyhonedge {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -840px;
+}
+.tinydoublade {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -840px;
+}
+.tinyaegislash {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -840px;
+}
+.tinyaegislash-shield {
+	width: 40px;
+	height: 30px;
+	background-position: -800px -840px;
+}
+.tinyaegislash-blade {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -840px;
+}
+.tinyspritzee {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -840px;
+}
+.tinyaromatisse {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -840px;
+}
+.tinyswirlix {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -840px;
+}
+.tinyslurpuff {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -840px;
+}
+.tinyinkay {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -840px;
+}
+.tinymalamar {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -840px;
+}
+.tinybinacle {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -840px;
+}
+.tinybarbaracle {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -840px;
+}
+.tinyskrelp {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -840px;
+}
+
+	/* ROW 30*/	
+.tinydragalge {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -870px;
+}
+.tinyclauncher {
+	width: 40px;
+	height: 30px;
+	background-position: -40px -870px;
+}
+.tinyclawitzer {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -870px;
+}
+.tinyhelioptile {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -870px;
+}
+.tinyheliolisk {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -870px;
+}
+.tinytyrunt {
+	width: 40px;
+	height: 30px;
+	background-position: -280px -870px;
+}
+.tinytyrantrum {
+	width: 40px;
+	height: 30px;
+	background-position: -320px -870px;
+}
+.tinyamaura {
+	width: 40px;
+	height: 30px;
+	background-position: -360px -870px;
+}
+.tinyaurorus {
+	width: 40px;
+	height: 30px;
+	background-position: -400px -870px;
+}
+.tinysylveon {
+	width: 40px;
+	height: 30px;
+	background-position: -440px -870px;
+}
+.tinyhawlucha {
+	width: 40px;
+	height: 30px;
+	background-position: -520px -870px;
+}
+.tinydedenne {
+	width: 40px;
+	height: 30px;
+	background-position: -560px -870px;
+}
+.tinycarbink {
+	width: 40px;
+	height: 30px;
+	background-position: -600px -870px;
+}
+.tinygoomy {
+	width: 40px;
+	height: 30px;
+	background-position: -640px -870px;
+}
+.tinysliggoo {
+	width: 40px;
+	height: 30px;
+	background-position: -680px -870px;
+}
+.tinygoodra {
+	width: 40px;
+	height: 30px;
+	background-position: -720px -870px;
+}
+.tinyklefki {
+	width: 40px;
+	height: 30px;
+	background-position: -760px -870px;
+}
+.tinyphantump {
+	width: 40px;
+	height: 30px;
+	background-position: -840px -870px;
+}
+.tinytrevenant {
+	width: 40px;
+	height: 30px;
+	background-position: -880px -870px;
+}
+.tinypumpkaboo {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -870px;
+}
+.tinypumpkaboo-small {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -870px;
+}
+.tinypumpkaboo-average {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -870px;
+}
+.tinypumpkaboo-large {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -870px;
+}
+.tinypumpkaboo-super {
+	width: 40px;
+	height: 30px;
+	background-position: -920px -870px;
+}
+.tinygourgeist {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -870px;
+}
+.tinygourgeist-small {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -870px;
+}
+.tinygourgeist-average {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -870px;
+}
+.tinygourgeist-large {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -870px;
+}
+.tinygourgeist-super {
+	width: 40px;
+	height: 30px;
+	background-position: -960px -870px;
+}
+.tinybergmite {
+	width: 40px;
+	height: 30px;
+	background-position: -1000px -870px;
+}
+.tinyavalugg {
+	width: 40px;
+	height: 30px;
+	background-position: -1040px -870px;
+}
+.tinynoibat {
+	width: 40px;
+	height: 30px;
+	background-position: -1080px -870px;
+}
+.tinynoivern {
+	width: 40px;
+	height: 30px;
+	background-position: -1120px -870px;
+}
+.tinyxerneas {
+	width: 40px;
+	height: 30px;
+	background-position: -1160px -870px;
+}
+.tinyyveltal {
+	width: 40px;
+	height: 30px;
+	background-position: -1240px -870px;
+}
+
+	/* ROW 31*/
+.tinyzygarde {
+	width: 40px;
+	height: 30px;
+	background-position: -0px -900px;
+}
+.tinydiancie {
+	width: 40px;
+	height: 30px;
+	background-position: -80px -900px;
+}
+.tinydiancie-mega {
+	width: 40px;
+	height: 30px;
+	background-position: -120px -900px;
+}
+.tinyhoopa {
+	width: 40px;
+	height: 30px;
+	background-position: -160px -900px;
+}
+.tinyhoopa-unbound {
+	width: 40px;
+	height: 30px;
+	background-position: -200px -900px;
+}
+/*.tinyvolcanion {
+	width: 40px;
+	height: 30px;
+	background-position: -240px -900px;
+}*/
