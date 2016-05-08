@@ -2,6 +2,7 @@
 var pokedex_next = "";
 var pokedex_all = [];
 var battle_Rapport = [];
+var pokedexLoaded = false;
 
 // (pokedex_master)
 // get all pokemon
@@ -13,9 +14,16 @@ $(document).on('pageinit', '#pokedexmaster', function() {
 	getPokedexData(api_url);
 });
 
+$(document).on('pageshow', '#pokedexmaster', function() {
+	if (!pokedexLoaded) {
+		$.mobile.loading("show");
+	}
+});	
+
+
 var getPokedexData = function(url) {
 	var i = 1;
-	$.mobile.loading("show");
+
 
 	var list = Api.GetData(url);
 	list.success(function (request) {
@@ -25,15 +33,16 @@ var getPokedexData = function(url) {
 			fillPokedex(value);
 			i++;
 		});
-		pokedex_next = request.next;
+		$.mobile.loading("hide"); 
+		pokedexLoaded = true;
+		// pokedex_next = request.next;
 		// console.log(pokedex_next);
 	});
 	list.error(function (request, error) {
 		console.log(request);
 		console.log(error);
 	});
-	$.mobile.loading("hide");
-
+	
 }
 
 var fillPokedex = function(data) {
@@ -112,7 +121,6 @@ var fillPokemonDetail = function(data) {
 				"<div class='pokeDetailBottom' id='pokeDetailBottom'>" +
 				"</div>";
 	$("#pokemon_detail").append(detail);
-	$.mobile.loading("hide");
 
 	// $("#pokeDetailTitle").append("<h1>" + data.name + "</h1>" + "<h1>#" + data.id + "</h1>");
 	// $("#pokeDetailImage").append("<span class='pokedexsprite " + data.name + "'></span>");
@@ -185,7 +193,6 @@ function wildAftermath(wildPokemon, caughtFled) {
 $(document).on('pageshow', '#pokedexdetail', function() {
 	// PokeApi url = "http://pokeapi.co/api/v2/pokemon/"
 	// own api url = ""
-	$.mobile.loading( 'show', { theme: "b", text: "foo", textonly: true });
 	var api_url = "http://pokeapi.co/api/v2/pokemon/";
 	getPokemonData(api_url, getParameterByName("id"));
 });

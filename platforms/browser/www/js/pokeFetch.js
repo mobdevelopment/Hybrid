@@ -57,18 +57,18 @@ $(document).on("pageshow", "#pokefetch", function() {
 
 
 });
-function getRealContentHeight() {
-            var header = $.mobile.activePage.find("div[data-role='header']:visible");
-            var footer = $.mobile.activePage.find("div[data-role='footer']:visible");
-            var content = $.mobile.activePage.find("div[data-role='content']:visible:visible");
-            var viewport_height = $(window).height();
- 
-            var content_height = viewport_height - header.outerHeight() - footer.outerHeight();
-            if((content.outerHeight() - header.outerHeight() - footer.outerHeight()) <= viewport_height) {
-                content_height -= (content.outerHeight() - content.height());
-            } 
-            return content_height;
-        }
+// function getRealContentHeight() {
+// 	var header = $.mobile.activePage.find("div[data-role='header']:visible");
+// 	var footer = $.mobile.activePage.find("div[data-role='footer']:visible");
+// 	var content = $.mobile.activePage.find("div[data-role='content']:visible:visible");
+// 	var viewport_height = $(window).height();
+	
+// 	var content_height = viewport_height - header.outerHeight() - footer.outerHeight();
+// 	if((content.outerHeight() - header.outerHeight() - footer.outerHeight()) <= viewport_height) {
+// 	    content_height -= (content.outerHeight() - content.height());
+// 	} 
+// 	return content_height;
+// }
 
 // (pokeFetch)
 // generate random pokemon and assign a location
@@ -102,9 +102,6 @@ function getWildPokemon(position) {
 					});
 					pokeMarker.setMap(map);
 		});
-		// console.log("halloOhllah");
-		// console.log(wild_pokemon);
-		// return wild_pokemon;
 
 		checkDistance(position);
 	});
@@ -119,10 +116,16 @@ function checkDistance(position) {
 		if((Pos.Distance(position.latitude, position.longitude, value.lat, value.lng)) <= 20) {
 			navigator.vibrate(1000);
 			console.log("ik kan een pokemon vangen");
+			// $("#encounter")
+			$.mobile.changePage( "path/to/encounter.html", { role: "dialog" } );
 		}
 		else {
 			console.log("nothing close");
-			navigator.vibrate(1000);
+			navigator.vibrate(500);
+			navigator.vibrate(500);
+			// navigator.vibrate(1000);
+
+
 			// $("#encounter .title").text("A wild " + value.name + " appeared!");
 			// $("#encounter .catchBut").bind("click", function*() {
 			// 	$(this).unbind("click");
