@@ -46,16 +46,13 @@ $(document).on("pageshow", "#pokefetch", function() {
 		// onError
 		console.log("code: " + error.code + "\n" +
 					"message: " + error.message + "\n");
+		// $.mobile.changePage("dialogGPS.html", { role: "dialog" } );
 	}, {
 		// options
 		maximumAge: 3000,
 		timeout: 5000,
 		enableHighAccuracy: true
 	});
-
-	
-
-
 });
 // function getRealContentHeight() {
 // 	var header = $.mobile.activePage.find("div[data-role='header']:visible");
@@ -85,22 +82,22 @@ function getWildPokemon(position) {
 			value.name = value.name.toLowerCase();
 			var pos = $('.tiny' + value.name).css('backgroundPosition').match(/\d+/g);
 
-					var pokeMarker = new google.maps.Marker({
-						position: {
-							lat: value.lat, // position.lat
-							lng: value.lng,	//position.lng
-						},
-						map: map,
-						icon: new google.maps.MarkerImage(
-							"./img/pokemon_map_sprite_40x30.png",
-							new google.maps.Size(40, 30),
-  							new google.maps.Point(pos[0], pos[1])	
-						),
-						// icon: { "./img/pokemon_map_sprite_40x30.png",
-								// ,},
-						title: value.name
-					});
-					pokeMarker.setMap(map);
+			var pokeMarker = new google.maps.Marker({
+				position: {
+					lat: value.lat, // position.lat
+					lng: value.lng,	//position.lng
+				},
+				map: map,
+				icon: new google.maps.MarkerImage(
+					"./img/pokemon_map_sprite_40x30.png",
+					new google.maps.Size(40, 30),
+  					new google.maps.Point(pos[0], pos[1])	
+				),
+				// icon: { "./img/pokemon_map_sprite_40x30.png",
+						// ,},
+				title: value.name
+			});
+			pokeMarker.setMap(map);
 		});
 
 		checkDistance(position);
@@ -116,15 +113,16 @@ function checkDistance(position) {
 		if((Pos.Distance(position.latitude, position.longitude, value.lat, value.lng)) <= 20) {
 			navigator.vibrate(1000);
 			console.log("ik kan een pokemon vangen");
-			// $("#encounter")
-			$.mobile.changePage( "path/to/encounter.html", { role: "dialog" } );
+			// $.mobile.changePage("dialogEncounter.html", { role: "dialog" } );
 		}
 		else {
+			console.log(value.name);
 			console.log("nothing close");
-			navigator.vibrate(500);
-			navigator.vibrate(500);
-			// navigator.vibrate(1000);
+			console.log("----")
+			// navigator.vibrate(500);
+			$.mobile.changePage("dialogEncounter.html", { role: "dialog", } );
 
+			// navigator.vibrate(1000);
 
 			// $("#encounter .title").text("A wild " + value.name + " appeared!");
 			// $("#encounter .catchBut").bind("click", function*() {
@@ -134,7 +132,19 @@ function checkDistance(position) {
 			// $("#encounter .fleeBut").bind("click", function*() {
 
 			// });
-			$.mobile.changePage("#encounter");
+			// $.mobile.changePage("#encounter");
 		}
 	});
 }
+
+$(document).on("click", "#catchBut", function() {
+	console.log("caught a pokemon");
+});
+
+$(document).on("click", "#fleeBut", function() {
+	console.log("fled from a pokemon");
+});
+
+$(document).on('pagebeforeshow', "#pokemonEncounter",function () {
+	$("#wildPokeName").text(window.localstorage.getItem("wildpokemon"));
+});
