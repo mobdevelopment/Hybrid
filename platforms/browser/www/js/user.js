@@ -2,8 +2,8 @@ var login_token = ""
 
 $(document).on('pageshow', '#login', function() {
 	$("#loginSubmit").click( function() {
-		var loginName = document.getElementById("loginName").value;
-		var loginPass = document.getElementById("loginPassword").value;
+		var loginName = document.getElementById("loginName").value.toLowerCase();
+		var loginPass = document.getElementById("loginPassword").value.toLowerCase();
 		console.log(loginName + "  " + loginPass);
 
 		var url = "http://mobdevelopment.herokuapp.com/users/login"
@@ -26,8 +26,8 @@ $(document).on('pageshow', '#login', function() {
 
 $(document).on('pageshow', '#register', function() {
 	$("#registerSubmit").click( function() {
-		var regisName = document.getElementById("registerName").value;
-		var regisPass = document.getElementById("registerPassword").value;
+		var regisName = document.getElementById("registerName").value.toLowerCase();
+		var regisPass = document.getElementById("registerPassword").value.toLowerCase();
 		console.log(regisName + "  " + regisPass);
 
 		var url = "http://mobdevelopment.herokuapp.com/users/signup"

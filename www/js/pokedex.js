@@ -1,5 +1,5 @@
 // variables
-var pokedex_next = "";
+// var pokedex_next = "";
 var pokedex_all = [];
 var battle_Rapport = [];
 var pokedexLoaded = false;
@@ -8,10 +8,11 @@ var pokedexLoaded = false;
 // get all pokemon
 // required: url
 $(document).on('pageinit', '#pokedexmaster', function() {
-	// PokeApi url = "http://pokeapi.co/api/v2/pokemon/?limit=20&offset=0"
+	var PokeApi_url = "http://pokeapi.co/api/v2/pokemon/?limit=20&offset=0"
 	// own api url = "http://mobdevelopment.herokuapp.com/pokemon"
 	var api_url = "http://mobdevelopment.herokuapp.com/pokemon";
 	getPokedexData(api_url);
+	// getPokedexData(PokeApi_url);
 });
 
 $(document).on('pageshow', '#pokedexmaster', function() {
@@ -22,27 +23,28 @@ $(document).on('pageshow', '#pokedexmaster', function() {
 
 
 var getPokedexData = function(url) {
-	var i = 1;
+	if(!pokedexLoaded) {
 
-
-	var list = Api.GetData(url);
-	list.success(function (request) {
-		$.each(request.results, function(index, value) {
-			console.log(value.name);
-			// pokedex_all.push(value.name);
-			fillPokedex(value);
-			i++;
-		});
-		$.mobile.loading("hide"); 
-		pokedexLoaded = true;
-		// pokedex_next = request.next;
-		// console.log(pokedex_next);
-	});
-	list.error(function (request, error) {
-		console.log(request);
-		console.log(error);
-	});
+		var i = 1;
 	
+		var list = Api.GetData(url);
+		list.success(function (request) {
+			$.each(request.results, function(index, value) {
+				// console.log(value.name);
+				fillPokedex(value);
+				i++;
+			});
+			$.mobile.loading("hide"); 
+			console.log("LOADED:: pokedex")
+			pokedexLoaded = true;
+			// pokedex_next = request.next;
+		});
+		list.error(function (request, error) {
+			// console.log(request);
+			// console.log(error);
+			console.log("FAILED:: RETRIEVING POKEMON DATA");
+		});
+	}
 }
 
 var fillPokedex = function(data) {
@@ -90,7 +92,6 @@ var getPokemonData = function(url, id) {
 }
 
 var fillPokemonDetail = function(data) {
-	console.log("filling pokemon detail");
 	var type = types(data.types);
 	var abil = abilities(data.abilities);
 	
@@ -128,7 +129,7 @@ var fillPokemonDetail = function(data) {
 	// $("#pokeDetailInfoListGeneral").append("<li>Height: " + data.height + "</li>" +	"<li>Weight: " + data.weight + "</li>");
 	// $("#pokeDetailInfoListAbility").append(abilities(data.abilities));
 	//  // $("#pokeDetailMoves").append(moves(data.moves));
-	console.log("append done");
+	console.log("LOADED:: detail");
 
 	if (window.localStorage.getItem(data.name + "Details") == null) {
 		window.localStorage.setItem(data.name + "Details", detail);
@@ -192,7 +193,7 @@ function wildAftermath(wildPokemon, caughtFled) {
 
 $(document).on('pageshow', '#pokedexdetail', function() {
 	// PokeApi url = "http://pokeapi.co/api/v2/pokemon/"
-	// own api url = ""
+	// own api url = "http://mobdevelopment.herokuapp.com/pokemon"
 	var api_url = "http://pokeapi.co/api/v2/pokemon/";
 	getPokemonData(api_url, getParameterByName("id"));
 });
