@@ -120,12 +120,12 @@ function getWildPokemon(position) {
 }
 
 function checkDistance(position) {
-	console.log("checkDistance:: kom ik hier");
+	// console.log("checkDistance:: kom ik hier");
 	$.each(wild_pokemon, function(index, value) {
 		var wild_name = value.name;
 		var poke_distance = (Pos.Distance(position.latitude, position.longitude, value.lat, value.lng));
 		
-		if(poke_distance <= 100) {
+		if(poke_distance <= 10) {
 			navigator.vibrate(500);
 			console.log("DISTANCE:: " + poke_distance + " VANGEN:: " + wild_name);
 			window.localStorage.setItem("wildpokemon", wild_name);
